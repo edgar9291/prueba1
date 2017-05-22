@@ -1,0 +1,622 @@
+var intro = new Audio('Sounds/intro.mp3');
+var auvacaint = new Audio('Sounds/introvaca.mp3');
+var auconejoint = new Audio('Sounds/introconejo.mp3');
+var auvaca = new Audio('Sounds/vaca.mp3');
+var auconejo = new Audio('Sounds/conejo.mp3');
+var aunino = new Audio('Sounds/niño.mp3');
+var aupapa = new Audio('Sounds/papa.mp3');
+var auedu = new Audio('Sounds/edu.mp3');
+var buena = new Audio('Sounds/correcto.mp3');
+var malo =	new Audio ('Sounds/malo.mp3');
+var vacap3 = new Audio ('Sounds/vacap3.mp3');
+var conejop3 = new Audio ('Sounds/Conejop3.mp3');
+var conejop31 = new Audio ('Sounds/Conejop3-1.mp3');
+var conejop32 = new Audio ('Sounds/Conejop3-2.mp3');
+var conejop33 = new Audio ('Sounds/Conejop3-3.mp3');
+var conejop34 = new Audio ('Sounds/Conejop3-4.mp3');
+var conejop35 = new Audio ('Sounds/Conejop3-5.mp3');
+var conejop36 = new Audio ('Sounds/Conejop3-6.mp3');
+var todosjuntos = new Audio ('Sounds/todosjuntos.mp3');
+var todosjuntos2 = new Audio ('Sounds/todosjuntos2.mp3');
+var fin = new Audio('Sounds/fin.mp3');
+var flag=0;
+var correct = 0;
+var total = 3;
+
+
+
+
+/*pantalla1*/
+function show1() {
+	todosjuntos2.pause();
+	todosjuntos2.currentTime=0;	
+	fin.pause();
+	fin.currentTime=0;
+	var ocultap3=["#conejo","#vaca","#fondo3","#home","#flechaizqp3","#bocina2",
+	"#notamus2","#Lejos","#Mama","#Mama2","#Papa","#Nino","#Educa","#Mamab","#Mama2b",
+	"#Ninob","#Educadorab","#Papab"]	
+    for (var i = 0; i <= ocultap3.length; i++) {
+		$(ocultap3[i]).fadeOut();
+  		}	
+	var ocultap2=["#conejo","#vaca","#fondo2","#bocina","#EducadoraCorrecto","#NinoCorrecto",
+	"#PapaCorrecto","#papag","#educag","#ninog","#homep2","#flechaizq","#flecha1","#barra"]	
+    for (var i = 0; i <= ocultap2.length; i++) {
+		$(ocultap2[i]).fadeOut();
+  		}
+		inicio();
+	}
+function playfondo (){
+	intro.play ();
+}
+function playvacaint() {
+	$("#notamus").unbind("click"); 
+    auvacaint.play();
+	auvacaint.onended = playconejoint; 
+}
+function playconejoint() { 
+    auconejoint.play();
+	auconejoint.onended= fle1;
+}
+
+function playtjuntos (){
+	$("#notamus").unbind("click");
+	todosjuntos.play ();
+}
+
+/*pantalla2*/
+function show2() {
+	todosjuntos2.pause();
+	todosjuntos2.currentTime=0;	
+	fin.pause();
+	fin.currentTime=0;
+	playfondo();
+	var ocultap3=["#conejo","#vaca","#fondo3","#home","#flechaizqp3","#bocina2",
+	"#notamus2","#Lejos","#Mama","#Mama2","#Papa","#Nino","#Educa","#Mamab","#Mama2b",
+	"#Ninob","#Educadorab","#Papab"]
+		
+    for (var i = 0; i <= ocultap3.length; i++) {
+		$(ocultap3[i]).fadeOut();
+  		}	
+	var ocultap1=["#conejo","#vaca","#fondo1","#bocina1","#flecha","#notamus"]	
+  	for (var i = 0; i <= ocultap1.length; i++) {
+	$(ocultap1[i]).fadeOut();}
+	
+	var mostrar=["#fondo2","#bocina","#EducadoraCorrecto","#NinoCorrecto","#PapaCorrecto"]	
+  	for (var i = 0; i <= mostrar.length; i++) {
+	$(mostrar[i]).fadeIn();}		
+	
+		pantalla2();
+	}
+	
+function pantalla2(){	
+	correct = 0;
+	$("#papa").removeAttr('style');
+	$("#papa").addClass("papa");
+	$("#edu").removeAttr('style');
+	$("#edu").addClass("edu");
+	$("#nino").removeAttr('style');
+	$("#nino").addClass("nino");
+	
+    $( "#papa" ).draggable(regresa());
+	$( "#edu" ).draggable(regresa());
+	$( "#nino" ).draggable(regresa());
+    
+	$( "#NinoCorrecto" ).droppable({
+		accept: "#nino",
+		drop: playnino
+	});
+	$( "#EducadoraCorrecto" ).droppable({		    
+	accept: "#edu",
+	drop: playedu
+	});	
+	$( "#PapaCorrecto" ).droppable({
+		accept: "#papa",
+		drop: playpapa
+	});		
+	$("#bocina").bind("click", p2);	
+	
+}
+	
+	
+function bloqueardrag(){
+
+	if(aunino.onplay = 'true'){
+		$("#papa").draggable('disable' );
+	    $("#edu").draggable('disable' );
+		}
+	 if(aupapa.onplay = 'true'){
+		$("#nino").draggable('disable' );
+	    $("#edu").draggable('disable' );
+		}
+    if(auedu.onplay = 'true'){
+		$("#nino").draggable('disable' );
+	    $("#papa").draggable('disable' );
+		
+		}
+}
+function habilitardrag(){
+	
+	onCorrectDrop();
+
+	if(aunino.onended ='true'){
+		
+		$("#edu").draggable('enable' );
+		$("#papa").draggable('enable' );
+		
+		}
+	if(aupapa.onended ='true'){
+		
+		$("#edu").draggable('enable' );
+		$("#nino").draggable('enable' );
+		}
+	if(auedu.onended ='true'){
+		
+		$("#nino").draggable('enable' );
+		$("#papa").draggable('enable' );
+		}
+}
+function playnino() { 
+    aunino.play(); 
+	$("#ninog").fadeIn(1200);
+	$("#nino").hide();
+	aunino.onplay=bloqueardrag;
+	aunino.onended=habilitardrag;
+}
+function playedu() { 
+    auedu.play(); 
+	$("#educag").fadeIn(1200);
+	$("#edu").hide();
+	auedu.onplay=bloqueardrag;
+	auedu.onended=habilitardrag;
+}
+function playpapa() { 
+   aupapa.play(); 
+   $("#papag").fadeIn(1200);
+   $("#papa").hide();
+   aupapa.onplay=bloqueardrag;
+   aupapa.onended=habilitardrag;
+}
+function playconejo() { 
+    auconejo.play();
+	auconejo.onended = function(){
+		habilitardrag();
+	$("#barra").fadeIn(1200);
+	}; 
+}
+
+function playvaca() { 
+    auvaca.play();
+	auvaca.onplay = bloqueardrag;
+	auvaca.onended = playconejo; 
+}
+
+function regresa(){
+	return{
+  		revert: "invalid",
+  		opacity: 0.7
+		};
+  	}
+function onCorrectDrop(){
+	correct++;
+	if( correct > total){
+		fin.play();
+		fle2();
+	}
+}
+/*Pantalla3*/
+function show3() {	
+	fin.pause();
+	fin.currentTime=0;
+	flag=0;
+	var ocultap2=["#conejo","#vaca","#fondo2","#bocina","#EducadoraCorrecto","#NinoCorrecto",
+	"#PapaCorrecto","#papag","#educag","#ninog","#homep2","#flechaizq","#flecha1","#barra"]	
+  	for (var i = 0; i <= ocultap2.length; i++) {
+	$(ocultap2[i]).fadeOut()}
+	
+	$("#fondo3").fadeIn();
+	$("#bocina2").fadeIn();
+	playfondo();
+	$("#bocina2").bind("click", p3);
+	
+	}
+function playvacap3() { 
+    vacap3.play();
+	vacap3.onended = playconejop3; 
+}
+function playconejop3() { 
+	
+    conejop3.play();
+	conejop3.onended = playconejop31;
+	
+	}
+function playconejop31() { 
+    conejop31.play();
+	conejop31.onended = clicker1();	
+	}
+function playconejop32() { 
+    conejop32.play();
+	conejop32.onended = clicker2;	
+	}
+function playconejop33() { 
+    conejop33.play();
+	conejop33.onended = clicker3;	
+	}
+function playconejop34() { 
+    conejop34.play();
+	conejop34.onended = clicker4;	
+	}
+function playconejop35() { 
+    conejop35.play();
+	conejop35.onended = clicker5;	
+	}
+function playconejop36() { 
+    conejop36.play();
+	conejop36.onended = clicker6;	
+	}
+	
+function disablemouse(){
+	$("#Mama").unbind("mouseover");
+	$("#Papa").unbind("mouseover");
+	$("#Educa").unbind("mouseover");
+	$("#Mama2").unbind("mouseover");
+	$("#Nino").unbind("mouseover");	
+	$("#Lejos").unbind("mouseover");
+	}	
+function enablemouse(){
+	$("#Mama").bind("mouseover");
+	$("#Papa").bind("mouseover");
+	$("#Educa").bind("mouseover");
+	$("#Mama2").bind("mouseover");
+	$("#Nino").bind("mouseover");	
+	$("#Lejos").bind("mouseover");
+	}	
+	
+function mouseo()
+{
+	$("#Mama").on("mouseover",function(){
+			$("#Mamab").fadeIn();
+				});
+	$("#Mama").on("mouseout",function(){
+			$("#Mamab").fadeOut();
+				});
+				
+	$("#Papa").on("mouseover",function(){
+			$("#Papab").fadeIn();
+				});
+	$("#Papa").on("mouseout",function(){
+			$("#Papab").fadeOut();
+				});							
+	$("#Nino").on("mouseover",function(){
+			$("#Ninob").fadeIn();
+				});
+	$("#Nino").on("mouseout",function(){
+			$("#Ninob").fadeOut();
+				});
+	$("#Educa").on("mouseover",function(){
+			$("#Educadorab").fadeIn();
+				});
+	$("#Educa").on("mouseout",function(){
+			$("#Educadorab").fadeOut();
+				});
+	$("#Mama2").on("mouseover",function(){
+			$("#Mama2b").fadeIn();
+				});
+	$("#Mama2").on("mouseout",function(){
+			$("#Mama2b").fadeOut();
+				});			
+	$("#Lejos").on("mouseover",function(){
+			$("#Ninob").fadeIn();
+			$("#Mamab").fadeIn();
+				});
+	$("#Lejos").on("mouseout",function(){
+			$("#Ninob").fadeOut();
+			$("#Mamab").fadeOut();
+				});	
+	}
+function unbinclick(){
+	$("#Mama").unbind("click");
+	$("#Papa").unbind("click");
+	$("#Educa").unbind("click");
+	$("#Mama2").unbind("click");
+	$("#Nino").unbind("click");	
+	$("#Lejos").unbind("click");
+	}
+function clicker1(){
+	$("#Mama").show();
+	$("#Papa").show();
+	$("#Educa").show();
+	$("#Mama2").show();
+	$("#Nino").show();
+		unbinclick();		
+		mouseo();						
+	$("#Mama").bind("click",function(){
+	onCorrectClick();
+	$("#Mama").unbind("click");
+	});
+	$("#Mama2").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	$("#Nino").bind("click",function(){
+	onIncorrectClick();
+	$("#Nino").unbind("click");
+	});
+	$("#Papa").bind("click",function(){
+	onIncorrectClick();
+	$("#Papa").unbind("click");
+	});
+setTimeout("checar()", 10000);
+}
+function clicker2(){	
+		unbinclick();
+		mouseo();	
+	$("#Papa").bind("click",function(){
+	onCorrectClick();
+	$("#Papa").unbind("click");
+	});
+	$("#Mama").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama").unbind("click");
+	});
+	$("#Mama2").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Nino").bind("click",function(){
+	onIncorrectClick();
+	$("#Nino").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	setTimeout("checar()", 10000);	
+}
+function clicker3(){
+		unbinclick();
+		mouseo();
+
+	$("#Nino").bind("click",function(){
+	onCorrectClick();
+	$("#Nino").unbind("click");
+	});
+	$("#Mama").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama").unbind("click");
+		});
+	$("#Papa").bind("click",function(){
+	onIncorrectClick();
+	$("#Papa").unbind("click");
+	});
+	$("#Mama2").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	setTimeout("checar()", 10000);		
+
+}
+function clicker4(){
+		unbinclick();
+		mouseo();
+	$("#Papa").bind("click",function(){
+	onCorrectClick();
+	$("#Papa").unbind("click");
+	});
+	$("#Mama").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama").unbind("click");
+		});
+	$("#Mama2").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Nino").bind("click",function(){
+	onIncorrectClick();
+	$("#Nino").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	setTimeout("checar()", 10000);
+}
+function clicker5(){
+		unbinclick();
+		mouseo();
+	$("#Papa").unbind("mouseover");
+	$("#Mama2").bind("click",function(){
+	onCorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Mama").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama").unbind("click");
+		});
+	$("#Nino").bind("click",function(){
+	onIncorrectClick();
+	$("#Nino").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	setTimeout("checar()", 10000);
+}
+function clicker6(){
+		unbinclick();
+		mouseo();
+	$("#Mama").hide();
+	$("#Nino").hide();
+	$("#Lejos").show();
+	$("#Papa").unbind("mouseover");
+	$("#Lejos").bind("click",function(){
+	onCorrectClick();
+	$("#Lejos").unbind("click");
+		});
+	$("#Mama2").bind("click",function(){
+	onIncorrectClick();
+	$("#Mama2").unbind("click");
+	});
+	$("#Educa").bind("click",function(){
+	onIncorrectClick();
+	$("#Educa").unbind("click");
+	});
+	setTimeout("checar()", 10000);
+}
+function checar()
+{
+	switch (flag){
+	case 0:playconejop31();
+	break;
+	case 1:playconejop32();
+	break;
+	case 2:playconejop33();
+	break;
+	case 3:playconejop34();
+	break;
+	case 4:playconejop35();
+	break;
+	case 5:playconejop36();
+	break;
+	case 6:final();
+	break;
+	default: final();
+	}
+}
+function onIncorrectClick(){
+	malo.pause();
+	malo.currentTime=0;
+	malo.play();
+	malo.onplay=function(){
+		disablemouse();
+		}
+	malo.onended =function(){
+	mouseo();
+	enablemouse();
+	}
+}
+
+function onCorrectClick(){
+	flag ++;
+	buena.play();
+}
+function playtjuntos2 (){
+	fin.pause();
+	fin.currentTime=0;
+	$("#notamus").unbind("click");
+	todosjuntos2.play ();
+}
+function final(){
+		fin.play();
+		Home();
+	}	
+
+/*funciones de generales*/
+function p1(){
+	intro.pause();
+	intro.currentTime = 0;
+	if(todosjuntos.onplay = 'true'){
+		todosjuntos.pause();
+		todosjuntos.currentTime=0;
+		}
+$("#bocina1").unbind("click");
+$("#vaca").fadeIn(1200);
+$("#conejo").fadeIn(1200);
+playvacaint();
+}
+function p2(){
+	intro.pause();
+	intro.currentTime = 0;
+$("#bocina").unbind("click");
+$("#vaca").fadeIn(1200);
+$("#conejo").fadeIn(1200);
+playvaca();
+}
+function p3(){
+	intro.pause();
+	intro.currentTime = 0;
+$("#bocina2").unbind("click");
+$("#vaca").fadeIn(1200);
+$("#conejo").fadeIn(1200);
+playvacap3();
+}
+
+function fle1(){
+	$("#notamus").bind("click",playtjuntos);
+    $("#flecha").fadeIn(1200);	
+	$("#flecha").bind("click", function(){
+	todosjuntos.pause();
+	todosjuntos.currentTime=0;
+	show2();
+	});
+	}
+function fle2(){
+	$("#barra").hide();
+	$("#homep2").fadeIn(1200);
+	$("#homep2").bind("click",show1);
+	$("#flechaizq").fadeIn(1200);
+	$("#flechaizq").bind("click",show1);
+    $("#flecha1").fadeIn(1200);	
+	$("#flecha1").bind("click", show3);
+	
+	}	
+function Home(){
+	$("#notamus2").fadeIn(1000);
+	$("#notamus2").bind("click",playtjuntos2);
+    $("#flechaizqp3").fadeIn(1200);
+	$("#flechaizqp3").bind("click",show2);
+	$("#home").fadeIn(1200);	
+	$("#home").bind("click",show1);
+	}
+			  /*ajuste*/
+function resizeScreen(){
+var width, height, left, todofin, screenWidth;
+todofin = document.getElementById('todo');
+screenWidth = window.innerWidth;
+height = window.innerHeight;
+width  = (height*963)/720; 
+if(width > screenWidth){
+left = 0;
+}else{
+left = (screenWidth - width) / 2;
+}
+todofin.setAttribute("style", "width: "+width+"px; height: "+height+"px;left: "+left+"px;");
+}
+
+	
+	
+$(document).ready(inicio());
+
+function inicio(){	
+  $(function () {
+/*pantalla1*/	
+	$(document).ready(function(){
+	resizeScreen();
+	
+	window.onresize = function(){
+	resizeScreen();
+	}
+	$("#fondo1").fadeIn();	
+	playfondo();
+	
+	$("#notamus").fadeIn(1500);
+	increase("#notamus",20);
+	$("#notamus").bind("click",function(){playtjuntos();
+	intro.pause();
+	intro.currentTime=0;
+	});
+	$("#bocina1").fadeIn(1500);
+    $("#bocina1").bind("click", p1);
+	
+
+});
+});
+}

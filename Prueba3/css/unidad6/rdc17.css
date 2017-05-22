@@ -1,0 +1,679 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.U6_RDC17_P0{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    
+}
+
+.U6_RDC17_Fondo{
+	background-image: url(../../img/unidad6/fondoRDC17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.U6_RDC17_ACT0_P0_Titulo{
+    position: absolute;
+    width: 133vh;
+    height: 5vh;
+    left: 0vh;
+    top: 2vh;
+    font-size: 3.2vh;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.U6_RDC17_ACT0_P0_Titulo_Span{
+    position: absolute;
+    text-align: left;
+    font-family: 'comfortaa';
+    width: 37vh;
+    left: 1vh;
+    top: -1vh;
+    font-size: 5vh;
+	color: #FFF;
+}
+
+.U6_RDC17_ACT0_P0_SubTitulo_Span{
+    position: absolute;
+    text-align: left;
+    font-family: 'comfortaa';
+    width: 81vh;
+    left: 40vh;
+    top: 0.2vh;
+    font-size: 2.4vh;
+	color: #FFF;
+}
+
+.U6_RDC17_ACT0_P0{
+	position:absolute;
+	width:100%;
+	height: 100%;
+}
+
+.U6_RDC17_ACT0_P0_Bocina{
+	position: absolute;
+    width: 14vh;
+    height: 14vh;
+    top: 31%;
+    left: 117vh;
+    background-image: url(../../img/unidad6/bocina.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.U6_RDC17_ACT0_P0_Btn_Home{
+	position: absolute;
+    width: 10vh;
+    height: 10vh;
+    top: 4vh;
+    left: 134vh;
+    background-image: url(../../img/unidad6/home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.U6_RDC17_ACT0_P0_Btn_Avanza{
+	position: absolute;
+	width: 10vh;
+    height: 9vh;
+    top: 89vh;
+    left: 82vh;
+	background-image:url(../../img/unidad6/next.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.U6_RDC17_ACT0_P0_Btn_Regresa{
+	position: absolute;
+    width: 10vh;
+    height: 9vh;
+    top: 89vh;;
+    left: 52vh;
+	background-image:url(../../img/unidad6/back.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.U6_RDC17_ACT0_P0_Telefono{
+	position: absolute;
+    width: 57vh;
+    height: 73vh;
+    top: 24%;
+    left: 0vh;
+    background-image: url(../../img/unidad6/manoBtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.U6_RDC17_ACT0_P0_Mensaje{
+	position: absolute;
+    width: 85vh;
+    height: 26vh;
+    top: 17%;
+    left: 44vh;
+    background-image: url(../../img/unidad6/cuadroDialogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.U6_RDC17_ACT0_P0_Texto_Mensaje_Uno{
+	    position: absolute;
+    text-align: justify;
+    font-family: 'MyriadPro-Regular';
+    width: 72vh;
+    font-size: 3vh;
+    left: 8vh;
+    top: 2vh;
+    color: black;
+}
+
+.U6_RDC17_ACT0_P0_Actividad_Uno{
+    position: absolute;
+    background-image: url(../../img/unidad6/cuadroAct1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32vh;
+    height: 19vh;
+    left: 72%;
+    top: 45vh;
+}
+
+.U6_RDC17_ACT0_P0_Texto_Actividad_Uno{
+    position: absolute;
+    top: 2.6vh;
+    left: 3.4vh;
+    width: 26vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    color: #FFF;
+}
+
+.U6_RDC17_ACT0_P0_Actividad_Dos{
+	position: absolute;
+    background-image: url(../../img/unidad6/cuadroAct1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32vh;
+    height: 19vh;
+    left: 72%;
+    top: 68vh;
+	z-index: 1;
+}
+
+.U6_RDC17_ACT0_P0_Texto_Actividad_Dos{
+	position: absolute;
+    top: 2.1vh;
+    left: 3.4vh;
+    width: 26vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6vh;
+    color: #FFF;
+}
+
+.U6_RDC17_ACT1_P2_NoticiaUno{
+    position: absolute;
+    top: 8vh;
+    left: 17vh;
+    width: 102vh;
+    height: 80vh;
+    background-image: url(../../img/unidad6/diarioFondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.U6_RDC17_ACT1_P2_NoticiaUno_Encabezado{
+	position: absolute;
+    top: 22vh;
+    left: 8vh;
+    width: 89vh;
+    height: 11vh;
+    text-align: left;
+    font-family: 'comfortaa'; /* LIGHT */
+    font-size: 3vh;
+    line-height: 4vh;
+    color: #FFF;
+}
+
+.U6_RDC17_ACT1_P2_NoticiaUno_TextoNoticia{
+	position: absolute;
+    top: 35vh;
+    left: 6vh;
+    width: 87vh;
+    height: 37vh;
+    padding-right: 2%;
+    overflow: auto;
+    text-align: justify;
+    font-family: 'MyriadPro-Regular';
+    line-height: 3vh;
+    color: #000;
+}
+
+.U6_RDC17_Resaltar{
+	color:#3FA9F5;
+	cursor:pointer;
+}
+
+.U6_RDC17_Resaltar_Subrayando{
+	color:#3FA9F5;
+	text-decoration:underline;
+}
+
+.U6_RDC17_Elemento_PopUp{
+    position: absolute;
+    width: 126vh;
+    height: 80vh;
+    top: 5vh;
+    left: -13vh;
+    background-image: url(../../img/unidad6/popUpNoticia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.U6_RDC17_ImgDato{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    top: 28vh;
+    left: 21vh;;
+    transform: rotate(-5deg);
+}
+
+.U6_RDC17_TextoPopUP{
+	position: absolute;
+	text-align:center;
+	font-family: 'MyriadPro-Regular';
+    width: 35vh;
+    height: 30vh;
+    top: 25vh;
+    left: 76vh;
+    transform: rotate(7deg);
+}
+
+.U6_RDC17_Face{
+	background-image:url(../../img/unidad6/Facebook.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.U6_RDC17_Acent{
+	background-image:url(../../img/unidad6/Acentuar.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.U6_RDC17_Sindr{
+	background-image:url(../../img/unidad6/sindromeDeAbstinencia.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.U6_RDC17_Concien{
+	background-image:url(../../img/unidad6/Concienciar.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.U6_RDC17_Narci{
+	background-image:url(../../img/unidad6/Narcisismo.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.U6_RDC17_Paten{
+	background-image:url(../../img/unidad6/Patente.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.U6_RDC17_Esta{
+	background-image:url(../../img/unidad6/Estatus.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.U6_RDC17_BotonCerrarPopUp{
+	position: absolute;
+    background-image: url(../../img/unidad6/btnCerrarPopUp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	cursor:pointer;
+    width: 8vh;
+    height: 8vh;
+    top: 3vh;
+    left: 114vh;
+}
+
+.U6_RDC17_ACT2_P2_MensajeGigante{
+	position: absolute;
+    width: 136vh;
+    height: 39vh;
+    top: 31vh;
+    left: 0vh;
+    background-image: url(../../img/unidad6/cuadroDialogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.U6_RDC17_ACT2_P2_MensajeGigante span{
+    color: black;
+}
+
+.U6_RDC17_ACT0_P0_Texto_Mensaje_Gigante{
+	position: absolute;
+    text-align: justify;
+    font-family: 'MyriadPro-Regular';
+    width: 115vh;
+    left: 12vh;
+    top: 4vh;
+	font-size: 2.6vh;
+}
+
+.U6_RDC17_ACT2_P3_CuadroInstrucciones{
+    position: absolute;
+    top: 43vh;
+    left: 52vh;
+    width: 70vh;
+    height: 26vh;
+    background-color: white;
+    border: solid;
+    border-radius: 1em;
+    border-width: .5em;
+    border-color: #A40311;
+}
+.U6_RDC17_ACT2_P3_CuadroInstrucciones span{
+    color: black;
+}
+.U6_RDC17_ACT2_P3_Instrucciones{
+	position: absolute;
+    text-align: justify;
+    font-family: 'MyriadPro-Regular';
+    width: 95%;
+    left: 2vh;
+    top: 2vh;
+    font-size: 2.5vh;
+    color: black;
+}
+#U6_RDC17_ACT2_P3_Mensaje_id span{
+    top: 7vh;
+}
+#U6_RDC18_P0_instruction_id p{
+    top: 9%;
+}
+
+#U6_RDC18_P0_ButtonACT2_id p{
+    top: 17%;
+}
+#U6_RDC18_P0_ButtonACT1_id p {
+    top: 17%;
+}
+#U6_RDC18_P0_ButtonACT1_id img{
+    /*width: 330% !important;*/
+}
+#U6_RDC18_P0_ButtonACT1_id p{
+    left: 29%;
+}
+#U6_RDC18_ACT1_P3_instruction_id p{
+    left: 15%;
+}
+#U6_RDC18_ACT1_P5_incorrecto_id p{
+        top: 23%;
+    left: 5%;
+}
+#U6_RDC18_ACT1_P7_incorrecto_id p{
+    top: 23%;
+    left: 5%;
+}
+.U6_RDC17_ACT2_P3_BtnCrearTweet{
+	position: absolute;
+    top: 73vh;
+    left: 97vh;
+    width: 29vh;
+    height: 6vh;
+    background-image: url(../../img/unidad6/btnCrearTweet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    font-family: 'MyriadPro-Regular';
+    line-height: 3vh;
+    padding: 1%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.U6_RDC17_ACT2_P4_CajaMensajeTweet{
+	position: absolute;
+    top: 20vh;
+    left: 12vh;
+    width: 110vh;
+    height: 58vh;
+    background-image: url(../../img/unidad6/cuadroTwitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.U6_RDC17_ACT2_P4_CajaTexto{
+	position: absolute;
+    top: 17.8vh;
+    left: 5.3vh;
+    width: 98.8vh;
+    height: 29.1vh;
+	font-family: 'MyriadPro-Regular';
+	font-size: 2.3vh;
+    overflow: auto;
+}
+
+.U6_RDC17_ACT2_P4_CargarImagen{
+    position: absolute;
+    top: 46vh;
+    left: 2vh;
+    width: 17vh;
+    height: 13vh;
+    background-image: url(../../img/unidad6/btnAgregarFoto.png);
+    background-repeat: no-repeat;
+    background-size: contain;	
+	cursor:pointer;
+}
+
+.U6_RDC17_ACT2_P4_NumeroCaracteres{
+	position: absolute;
+    top: 50vh;
+    left: 76vh;
+    width: 10vh;
+    height: 4vh;
+    text-align: center;
+    line-height: 4vh;
+	color:#C1C1C1;
+	font-family: 'MyriadPro-Regular';
+}
+
+.U6_RDC17_ACT2_P4_PopUPCarga{
+	position: absolute;
+    width: 49vh;
+    height: 27vh;
+    background-image: url(../../img/unidad6/cajaInstrucciones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 12vh;
+    left: 30vh;
+}
+
+.U6_RDC17_ACT2_P4_BtnCerrar{
+	position: absolute;
+    top: -13%;
+    left: 87%;
+    width: 10vh;
+    height: 10vh;
+    background-image: url(../../img/unidad6/btnCerrarPopUp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	cursor: pointer;
+}
+
+.U6_U6_RDC17_ACT2_P4_InputFile{
+	position:absolute;
+	top: 45%;
+	left: 12%;
+}
+
+.U6_RDC17_Imagen{
+	width: 28% !important;
+    height: 47% !important;
+	display:none;
+}
+
+.U6_RDC17_ACT2_P4_BtnTweetear{
+	position: absolute;
+    top: 47vh;
+    left: 88vh;
+    width: 17vh;
+    height: 9vh;
+    text-align: center;
+    line-height: 4vh;
+    color: #C1C1C1;
+    background-image: url(../../img/unidad6/btnTwittear.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'MyriadPro-Regular';
+    cursor: pointer;
+	
+}
+.U6_RDC17_ACT1_P4_ContenedorJuego{
+	position: absolute;
+    top: 12vh;
+    left: 9vh;
+    width: 86%;
+    height: 78%;
+}
+
+
+
+.U6_RDC17_ACT1_P4_Burbuja_0{
+	position:absolute;
+	top: 17vh;
+    left: 1vh;
+	width: 31vh;
+	height: 23vh;
+	background-image:url(../../img/unidad6/RDC17/BURBUJA.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	line-height: 4vh;	
+    padding-top: 8%;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'MyriadPro-Regular';
+}
+
+.U6_RDC17_ACT1_P4_Burbuja_1{
+	position: absolute;
+    top: 45vh;
+    left: 1vh;
+    width: 31vh;
+    height: 23vh;
+    background-image: url(../../img/unidad6/RDC17/BURBUJA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	line-height: 4vh;	
+    padding-top: 8%;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'MyriadPro-Regular';
+}
+
+.U6_RDC17_ACT1_P4_Burbuja_2{
+	position: absolute;
+    top: 17vh;
+    left: 39vh;
+    width: 31vh;
+    height: 23vh;
+    background-image: url(../../img/unidad6/RDC17/BURBUJA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    line-height: 4vh;	
+    padding-top: 8%;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'MyriadPro-Regular';
+}
+#U6_RDC17_ACT2_P3_CuadroInstrucciones_id{
+
+}
+.U6_RDC17_ACT1_P4_Burbuja_3{
+	position:absolute;
+	top: 45vh;
+    left: 39vh;
+	width: 31vh;
+	height: 23vh;	
+	line-height: 4vh;	
+    padding-top: 8%;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'MyriadPro-Regular';
+	background-image:url(../../img/unidad6/RDC17/BURBUJA.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.U6_RDC17_ACT1_P4_CasillaPregunta{
+	position: absolute;
+    top: 0vh;
+    left: -1vh;
+    width: 98%;
+    height: 18%;
+    background-image: url(../../img/unidad6/RDC17/BRIANSOLIS.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 3.2vh;
+    padding-top: 5vh;
+    font-size: 3vh;
+    color: #FFF;
+    font-family: 'MyriadPro-Regular';
+}
+
+.U6_RDC17_ACT1_P4_CasillaRecepcion{
+	position: absolute;
+    top: 12vh;
+    left: 76vh;
+    width: 39vh;
+    height: 37vh;
+    background-image: url(../../img/unidad6/RDC17/CASILLA.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.U6_RDC17_ACT1_P4_Comprobar{
+	position: absolute;
+    top: 48vh;
+    left: 81vh;
+    width: 30vh;
+    height: 11vh;
+    background-image: url(../../img/unidad6/RDC17/COMPROBAR.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'MyriadPro-Regular';
+    font-size: 3vh;
+    line-height: 11vh;
+    text-align: center;
+    color: #FFF;
+}
+
+.U6_InstruccionesDos{
+	position: absolute;
+    top: 18vh;
+    left: 54vh;
+    width: 67vh;
+    height: 44vh;
+    background-color: white;
+    border: solid;
+    border-width: .5em;
+    border-radius: 1em;
+    padding: 1%;
+    border-color: #A40311;
+}
+.U6_InstruccionesDos span{
+    color: black;
+}
+.U6_RDC18_P0_titlePosition{
+    top: 2%;
+}
+#U6_RDC18_ACT1_P7_checkButton_id p{
+    top: 29% !important;
+    left: 34% !important;
+}
+#U6_RDC18_ACT1_P8_checkButton_id p{
+    top: 29% !important;
+    left: 34% !important;
+}
+#U6_RDC18_ACT1_P8_incorrecto_id p{
+        left: 5%;
+    top: 25%;
+}
+#U6_RDC18_ACT1_P3_instruction_id p{
+    width: 131% !important;
+}
+.U6_RDC17_PopUpCorrecto_Burbujas{
+    position: absolute;
+    width: 67%;
+    height: 34%;
+    text-align: center;
+    top: 71%;
+    z-index: 1;
+    font-family: 'MyriadPro-Regular';
+    font-size: 3vh;
+    left: -4%;
+}
+
+.U6_RDC17_ACT1_P4_TextoBurbuja{
+    position: absolute;
+    top: 44%;
+    width: 81%;
+    left: 10%;
+}

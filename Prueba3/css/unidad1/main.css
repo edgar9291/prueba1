@@ -1,0 +1,49 @@
+body
+{
+	margin: 0;
+}
+.main-container
+{
+    position: relative;
+    height: 100vh;
+}
+.btn_home
+{
+	position: absolute;
+	width: 5%;
+	height: 7%;
+	top: 6%;
+	left: 93%;
+	z-index: 1;
+}
+.btn_back
+{
+	position: absolute;
+	width: 5%;
+	height: 7%;
+	top: 90%;
+	left: 47%;
+	z-index: 1;
+}
+.btn_forward
+{
+	position: absolute;
+	width: 5%;
+	height: 7%;
+	top: 90%;
+	left: 55%;
+	z-index: 1;
+}
+/* para rdc1act1p2
+top: 5%;
+left: 6%; */
+.btn_bocina
+{
+	position: absolute;
+	width: 5%;
+	height: 7%;
+	top: 33%;
+	left: 50%;	
+	z-index: 1;
+	display: none;
+}

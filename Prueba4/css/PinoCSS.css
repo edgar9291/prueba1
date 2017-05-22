@@ -1,0 +1,527 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Occidental";
+	src: url("font/OCCIDENT.TTF");
+}
+@font-face {
+	font-family: "Nexa Light";
+	src: url("font/Nexa%20Light.otf");
+}
+@font-face {
+	font-family: "Dax-Regular";
+	src: url("font/ufonts.com_dax-regular.ttf");
+}
+#principal{
+	    position:fixed;
+		width:1070px;
+		height:720px;
+        top:0px;
+		bottom:0;
+
+}
+#base{
+	background-image:url(../img/pantalla2/fondo_figuras.jpg);
+	background-repeat:no-repeat;
+	background-position:center;	background-size:100% 100%;
+	position:absolute ;
+	background-size:100% 100%;
+    width:100%;
+	height:100%;
+	top:0;
+	bottom:0;
+	margin:0 auto;
+	left: 50%;
+	z-index: -1;
+}
+#encabezado{
+	background-image:url(../img/pantalla2/encabezado.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:15%;
+	position:absolute;
+	top:0;
+	z-index: 1;
+}
+#pie1
+{
+	background-image: url(../img/pantalla4/bannerabajo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	top: 88%;
+	z-index: 1;
+}
+#pie2
+{
+	background-image:url(../img/pantalla2/bannerpiramire.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:90%;
+	position:absolute;
+	left:0%;
+	top:5%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#pie3
+{
+	background-image:url(../img/pantalla2/bannercubo.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:105%;
+	position:absolute;
+	left:0%;
+	top:-10%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#pie4
+{
+	background-image:url(../img/pantalla2/bannercilindro.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:110%;
+	position:absolute;
+	left:0%;
+	top:-20%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#cono
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:18%;
+	height:42%;
+	position:relative;
+	left:72%;
+	top:1%;
+	z-index: 1;
+	cursor: hand;
+	cursor: pointer;
+}
+.conoDestello
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:34.4%;
+	height:53%;
+	position:absolute;
+	left:64.9%;
+	top:-2%;
+	z-index: 20;
+	visibility:hidden;
+	background-image: url(../img/pantalla2/cono_destello.png);
+}
+#piramide
+{
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:19%;
+	height:43%;
+	position:absolute;
+	left:80.5%;
+	top:44%;
+	z-index: 1;
+	cursor: hand;
+	cursor: pointer;
+}
+.piramideDestello
+{
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:19%;
+	height:43%;
+	position:absolute;
+	left:80.5%;
+	top:44%;
+	z-index: 20;
+	visibility:hidden;
+	background-image: url(../img/pantalla2/piramire_destello.png);
+}
+#cubo
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:18%;
+	height:17%;
+	position:absolute;
+	left:62%;
+	top:66.5%;
+	z-index: 1;
+	cursor: hand;
+	cursor: pointer;
+}
+.cuboDestello
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:31%;
+	height:29%;
+	position:absolute;
+	left:54%;
+	top:60%;
+	z-index: 20;
+	visibility:hidden;
+	background-image: url(../img/pantalla2/cubo_destello.png);
+}
+#cilindro
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:22%;
+	height:25%;
+	position:absolute;
+	left:39%;
+	top:50%;
+	z-index: 1;
+	cursor: pointer;
+	cursor: hand;
+}
+.cilindroDestello
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:31%;
+	height:34.2%;
+	position:absolute;
+	left:34%;
+	top:44.3%;
+	z-index: 20;
+	visibility:hidden;
+	background-image: url(../img/pantalla2/cilindro_destello.png);
+}
+#arbol
+{
+	background-image:url(../img/pantalla2/cono_destello.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:32%;
+	height:45%;
+	position:absolute;
+	left:66%;
+	top:12%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#tienda
+{
+	background-image:url(../img/pantalla2/piramire_destello.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:19%;
+	height:36%;
+	position:absolute;
+	left:81%;
+	top:53%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#maseta
+{
+	background-image:url(../img/pantalla2/cubo_destello.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:27%;
+	height:26%;
+	position:absolute;
+	left:56%;
+	top:65.5%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#banca
+{
+	background-image:url(../img/pantalla2/cilindro_destello.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:28.5%;
+	height:28%;
+	position:absolute;
+	left:35%;
+	top:51.8%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#respuesta11
+{
+	background-image:url(../img/pantalla2/patroncono.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:25%;
+	top:20%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#respuesta21
+{
+	background-image:url(../img/pantalla2/patronpiramire.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:75%;
+	height:90%;
+	position:absolute;
+	left:7.5%;
+	top:8%;
+	z-index: 2;	
+	visibility:hidden;	
+}
+#cerrar
+{
+	/*background-image:url(../img/pantalla2/close.png);*/
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:8%;
+	height:8%;
+	position:absolute;
+	left:55%;
+	top:20%;
+	z-index: 2;	
+	visibility:hidden;	
+}
+#respuesta31
+{
+	/*background-image:url(../img/pantalla2/patroncubo.png)*/
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:0%;
+	top:15%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#respuesta41
+{
+	background-image:url(../img/pantalla2/patroncilindro.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:0%;
+	top:15%;
+	z-index: 2;	
+	visibility:hidden;
+}
+#cerrar2
+{
+	/*background-image:url(../img/pantalla2/close2.png);*/
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:8%;
+	height:8%;
+	position:absolute;
+	left:30%;
+	top:20%;
+	z-index: 2;	
+	visibility:hidden;	
+}
+
+#intenta
+{
+	background-image: url(../img/pantalla4/IntentaloDeNuez.png);
+	width: 30%;
+	height: 10%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 9%;
+	left: 66.8%;
+	z-index: 1;
+	visibility: hidden;
+}
+
+#imagenes
+{
+	background-image:url(../img/pantalla2/respuetafinal.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:40%;
+	height:20%;
+	position:absolute;
+	left:0%;
+	top:70%;
+	z-index: 3;	
+	visibility:hidden;
+}
+.pregunta1 {
+	width: 120%;
+	height: 50%;
+	font-family: "Dax-Regular";
+	font-size: 7vh;
+	font-style: normal;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: -10%;
+	z-index: 2;
+}
+.mostrarCilindro{
+	background-image: url(../img/pantalla2/patroncilindro.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:44%;
+	height:48%;
+	position:absolute;
+	left:2%;
+	top:5%;
+	visibility: hidden;
+	z-index: 20;
+}
+.mostrarCono{
+	background-image: url(../img/pantalla2/patroncono.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:42%;
+	height:52%;
+	position:absolute;
+	left:12%;
+	top:10%;
+	visibility: hidden;
+	z-index: 20;
+}
+.mostrarCubo{
+	background-image: url(../img/pantalla2/patroncubo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:40%;
+	height:50%;
+	position:absolute;
+	left:15%;
+	top:13%;
+	visibility: hidden;
+	z-index: 20;
+}
+.mostrarPiramide{
+	background-image: url(../img/pantalla2/patronpiramire.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:38%;
+	height:49%;
+	position:absolute;
+	left:19%;
+	top:15%;
+	visibility: hidden;
+	z-index: 20;
+}
+.closeButon{
+	background-image: url(../img/pantalla3/close.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:10%;
+	height:10%;
+	position:absolute;
+	left:83%;
+	top:5%;
+	cursor: hand;
+	cursor: pointer;
+	z-index: 20;
+}
+.closeButon1{
+	background-image: url(../img/pantalla3/close.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:10%;
+	height:10%;
+	position:absolute;
+	left:78%;
+	top:5%;
+	cursor: hand;
+	cursor: pointer;
+	z-index: 20;
+}
+.intentaNuevamente1
+{
+	background-image: url(../img/pantalla4/IntentaloDeNuez.png);
+	width: 30%;
+	height: 10%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	left: 6%;
+	z-index: 1;
+	visibility: hidden;
+}
+.respuestaCorrecta5
+{
+	background-image: url(../img/pantalla4/respuetacorrecta.png);
+	width: 30%;
+	height: 12%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	left: 6%;
+	z-index: 20;
+	visibility: hidden;
+}

@@ -1,0 +1,286 @@
+.U1_P9_RDC2_DialogImage
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_DialogActivities.png");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    position: absolute;
+    top: 87%;
+    left: -11%;
+    width: 20%;
+    height: 50%;
+}
+
+
+
+#example-link a { 
+  padding-left: 15px; 
+  background: url(" azul.png") ;
+} 
+
+.U1_RDC2_ACT_2_P9_Activities
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Fondo.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_RDC2_ACT_1_P6
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Fondo.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_P9_RDC2_ACT_2_Personaje1
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Personaje1.png");
+    position: absolute;
+    top: 31%;
+    left: 4%;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.U1_RDC2_ACT_2_P1
+{
+    background-color: #e9e6e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_RDC2_ACT_2_P2
+{
+    background-color: #e9e6e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_RDC2_ACT_2_P3
+{
+    background-color: #e9e6e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_RDC2_ACT_2_P4
+{
+    background-color: #e9e6e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.U1_P2_RDC2_ACT_2_TextAudioActivity{
+    background-color: #aaaaaa;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 80%;
+    height: 30%;
+    color: black;
+    font-size: 3.1vh;
+}
+.U1_P2_RDC2_ACT_2_TextAudioActivity P{
+    padding: 0% 10% 0% 10%; /*top, right, bottom, left*/
+}
+
+.U1_P3_RDC2_ACT_2_TextActivity{
+    background-color: #aaaaaa;
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    width: 80%;
+    height: 17%;
+    color: black;
+    font-size: 3.1vh;
+}
+.U1_P3_RDC2_ACT_2_TextActivity P{
+    padding: 0% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.U1_P3_RDC2_ACT_2_Text1Activity{
+    background-color: #388423;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    width: 80%;
+    height: 45%;
+    color: black;
+    font-size: 2.8vh;
+    text-align: left;
+}
+.U1_P3_RDC2_ACT_2_Text1Activity P{
+    padding: 0% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.U1_P4_RDC2_ACT_2_TextAudioEnd{
+    background-color: #aaaaaa;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 67%;
+    height: 17%;
+    color: black;
+    font-size: 3vh;
+}
+.U1_P4_RDC2_ACT_2_TextAudioEnd P{
+    padding: 0% 10% 0% 10%; /*top, right, bottom, left*/
+}
+
+.U1_P9_RDC2_ACT_2_ButtonActivity1{
+    background-color: #388423;
+    border: 1vh solid white;
+    border-radius: 2vh;
+    position: absolute;
+    top:45%;
+    left: 80%;
+    width: 17%;
+    height: 12%;
+    color: white;
+    font-size: 3.5vh;
+    cursor: pointer;
+    cursor: hand;
+    font-family: "Myriad Pro";
+}
+#esperaimgs{
+    margin-top: 19% !important;
+}
+#contenedorimgs{
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0% !important;
+    top: -6% !important;
+}
+.U1_P9_RDC2_ACT_2_ButtonActivity1 P{
+    padding: 15% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.U1_P10_RDC2_ACT_2_ActivityHeader p{
+    padding-top: 4%;
+}
+.U1_P7_RDC2_TextAudioActivities{
+    background-color: #ffffcc;
+    border: 1vh solid #388423;
+    border-radius: 1.4vh;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+    width: 59%;
+    height: 64%;
+    color: black;
+    font-size: 2.8vh;
+    font-family: "Myriad Pro";
+    text-align: justify;  
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.U1_P9_RDC2_TextAudioActivities{
+    background-color: white;
+    border: 1vh solid #388423;
+    border-radius: 2vh;
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    width: 39%;
+    height: 29%;
+    color: black;
+    font-size: 2.8vh;
+    font-family: "Myriad Pro";  
+}
+
+
+.U1_P9_RDC2_TextAudioActivities P{
+    padding: 4% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.U1_P9_RDC2_ACT_2_Text1{
+    background-color: #388423;
+    position: absolute;
+    top: 0%;
+    left: 00%;
+    width: 100%;
+    height: 7%;
+    color: white;
+    font-size: 2.5vh;
+    font-family: "Comfortaa";       
+    text-align: center;
+}
+
+
+.U1_P9_RDC2_ButtonAudio{
+    background-image: url("../../../img/unidad1/RDC2/Audio.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 58%;
+    left: 53%;
+    width: 6.2%;
+    height: 8%;
+    color: black;
+    font-size: 3vh;
+    cursor: pointer;
+    cursor: hand;
+    z-index: 1;
+}
+
+.U1_P2_RDC2_ACT_2_Text{
+    position: absolute;
+    background-color: #8b8489;
+    top: 40%;
+    right: 7%;
+    width: 50%;
+    height: 28%;
+    color: white;
+    font-size: 2.5vh;
+    z-index: 1;
+}
+.U1_P2_RDC2_ACT_2_Text P{
+    text-align: left;
+    padding: 0% 5% 0% 5%; /*top, right, bottom, left*/
+}
+.U1_P4_RDC2_ACT_2_Text{
+    position: absolute;
+    background-color: #8b8489;
+    top: 40%;
+    left: 12%;
+    width: 75%;
+    height: 35%;
+    color: white;
+    font-size: 3.3vh;
+    text-align: left;
+}
+.U1_P4_RDC2_ACT_2_Text P{
+    padding: 0% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.click-effect:hover{
+    margin-top: -.3% !important;
+}
+.click-effect:active{
+    margin-top: .3% !important;
+}

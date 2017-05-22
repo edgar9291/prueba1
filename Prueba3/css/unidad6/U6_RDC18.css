@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+/*General*/
+
+body {
+	margin:0px;
+	font-size: 2.5vh;
+}
+.U6_RDC18_RDC18CSS{
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	font-family: 'MyriadPro-Regular' !important;
+	}
+.U6_RDC18_button{
+	position: absolute !important;
+	cursor: pointer;
+	width: 10%;
+	z-index: 100;
+	}
+.U6_RDC18_button:active {
+	transform: translateY(4px);
+	}
+.U6_RDC18_button:hover {
+  	margin-top: -2px;
+	}
+
+.U6_RDC18_Fondo{
+	position:absolute;
+	width: 100%;
+	z-index: -100;
+	}
+.U6_RDC18_positionButtonHorn{
+	top: 40%;
+	left: 83%;
+	}
+.U6_RDC18_positionButtonHome{
+	top: 3%;
+	left: 88%;
+	}
+.U6_RDC18_P0_positionButtonHorn{
+	top: 37%;
+	left: 73%;
+	}
+.U6_RDC18_positionButtonBack{
+	top: 90%;
+	left: 45%;
+	}
+.U6_RDC18_positionButtonAhead{
+	top: 90%;
+	left: 55%;
+	}
+	/*P0*/
+.U6_RDC18_P0_positionButtonAct1{
+	top: 55%;
+	left: 70%;
+	}
+.U6_RDC18_P0_positionButtonAct2{
+	top: 55%;
+	left: 40%;
+	}
+.U6_RDC18_P0_titlePosition{
+	position: absolute;
+    top: 2%;
+    left: %;
+    color: #FFF;
+    font-size: 4vh;
+    font-family: 'MyriadPro-Regular';
+	}
+.U6_RDC18_P0_InstructionPosition{
+	position:absolute;
+	width: 20%;
+	top: 18%;
+	left: 30%;
+	}
+.U6_RDC18_P0_buttonTextACT1{
+	position:absolute;
+	top: 5%;
+	left: 20%;
+	color:#FFF;
+	font-size:2.5vh;
+	font-family: 'MyriadPro-Regular';
+	width:58%;
+	height:100%;
+	}
+.U6_RDC18_P0_buttonTextACT2{
+	position:absolute;
+	top: 5%;
+	left: 20%;
+	color:#FFF;
+	font-size:2.5vh;
+	font-family: 'MyriadPro-Regular';
+	width:75%;
+	height:100%;
+	}
+.U6_RDC18_P0_instructionText{
+	position:absolute;
+	top: 6%;
+	left: 25%;
+	width:200%;
+	height:100%;
+	font-size:3vh;
+	}
+.U6_RDC18_buttonImage{
+	width: 100%;
+	}
+.U6_RDC18_P0_activityImage{
+	width: 100%;
+	}
+.U6_RDC18_P0_instrucionImage{
+	width: 250%;
+	}
+/*ACT 1 P1*/
+.U6_RDC18_ACT1_P1_titlePosition{
+	    position: absolute;
+    top: 2.5%;
+    left: 30%;
+    color: #FFF;
+    font-size: 3vh;
+    font-family: 'MyriadPro-Regular';
+	}
+.U6_RDC18_ACT1_P1_instructionPosition{
+	position:absolute;
+	width: 30%;
+	top: 16%;
+    left: 30%;
+	}
+.U6_RDC18_ACT1_P3_instructionPosition{
+	position:absolute;
+	width: 30%;
+	top: 16%;
+	left: 30%;
+	}
+.U6_RDC18_ACT1_P1_instructionText{
+	position:absolute;
+	top: 10%;
+	left: 25%;
+	width:260%;
+	height:100%;
+	font-size:2.8vh;
+	}
+	/*act 1 p2*/
+.U6_RDC18_ACT1_P2_video{
+    margin-top: 13%;
+    margin-left: 1%;
+    width: 98%;
+	}
+.U6_RDC18_ACT1_P2_notepad{
+	position:absolute;
+	top: 3%;
+	left: 77%;
+	}
+.U6_RDC18_positionCheckButton{
+	position:absolute;
+	left: 65%;
+	top:30%;
+}
+.U6_RDC18_ACT1_P10_questionContainer{
+	position:absolute;
+	width: 40%;
+	top: 20%;
+	left: 35%;
+	border-radius:8px;
+	border-color:#000;
+	background-color:#FCC;
+	}
+.U6_RDC18_ACT1_P11_questionContainer{
+	position:absolute;
+	width: 49%;
+	top: 55%;
+	left: 40%;
+	border-radius:8px;
+	border-color:#000;
+	background-color:#FCC;
+	}
+.U6_RDC18_positionVideo{
+	top: 8%;
+	left: 15%;
+	}
+.U6_RDC18_positionNotePad{
+	top: 9%;
+	left: 5%;
+	}
+.U6_RDC18_ACT1_imagenCarpeta{
+	background-repeat:no-repeat; 
+	background-size:contain; 
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	z-index:200;
+	font-size:2.5vh;
+	color:black;
+	font-family:"Comic Sans MS", cursive;
+	}
+.U6_RDC18_ACT1_P10_questionContainer{
+	padding: 1%;
+    border: solid;
+    border-color: #A40311;
+    border-width: .5em;
+    border-radius: 1em;
+}
+.U6_RDC18_ACT1_P11_questionContainer{
+	padding: 1%;
+    border: solid;
+    border-color: #A40311;
+    border-width: .5em;
+    border-radius: 1em;
+}
+	#U6_RDC18_ACT1_P9_instruction_id p{
+		    width: 137% !important;
+    left: 20% !important;
+    top: 16% !important;
+	}
+.U6_RDC18_ACT1_carpetaCorrecta{
+	background-image:url(../../img/unidad6/carpeta.png);
+    width: 18%;
+    height: 25%;
+    top: 40%;
+    left: 62%;
+	}
+.U6_RDC18_ACT1_P4_carpeta1{
+	background-image:url(../../img/unidad6/carpeta.png); 
+	width: 18%;
+    height: 25%;
+    top: 32%;
+    left: 5%;
+	}
+.U6_RDC18_ACT1_P4_carpeta2{
+	background-image:url(../../img/unidad6/carpeta.png); 
+	width: 18%;
+    height: 25%;
+    top: 32%;
+    left: 24%;
+	}
+.U6_RDC18_ACT1_P4_carpeta3{
+	background-image:url(../../img/unidad6/carpeta.png); 
+    width: 18%;
+    height: 25%;
+    top: 58%;
+    left: 5%;
+	}
+.U6_RDC18_ACT1_P4_carpeta4{
+	background-image:url(../../img/unidad6/carpeta.png); 
+	width: 18%;
+    height: 25%;
+    top: 58%;
+    left: 24%;
+	}
+.U6_RDC18_ACT2_P2_opera{
+	position:absolute; width:8%; height:10%; top:68%; left:30%; background-image:url(../../img/unidad6/opera.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_wiki{
+	position:absolute; 
+	width:8%; height:10%;
+ 	top:68%; left:39%; 
+	background-image:url(../../img/unidad6/wiki.png); 
+	background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_fire{position:absolute; width:7%; height:10%; top:68%; left:59%; background-image:url(../../img/unidad6/fire1.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_twitter{position:absolute; width:8%; height:10%; top:68%; left:67%; background-image:url(../../img/unidad6/twitter.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_fecebook{position:absolute; width:8%; height:10%; top:77%; left:56%; background-image:url(../../img/unidad6/Facebook1.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_crome{position:absolute; width:8%; height:10%; top:76.5%; left:65%; background-image:url(../../img/unidad6/crome.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_explorer{position:absolute; width:7%; height:10%; top:77%; left:35%; background-image:url(../../img/unidad6/explorer.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_outlook{position:absolute; width:8%; height:10%; top:76%; left:45%; background-image:url(../../img/unidad6/outlook.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_gmail{position:absolute; width:8%; height:10%; top:68%; left:49%; background-image:url(../../img/unidad6/gmail.png); background-repeat:no-repeat;}
+
+.U6_RDC18_ACT2_P2_google{position:absolute; width:6%; height:10%; top:77%; left:26%; background-image:url(../../img/unidad6/google.png); background-repeat:no-repeat;}
+.U6_RDC18_ACT1_textDivCSS{
+	width: 27%;
+    height: 39%;
+    left: 71%;
+    background-color: #fff;
+    top: 11%;
+    position: absolute;
+	z-index: 1;
+}
+.U6_RDC18_ACT2_textDivCSS{
+	width: 64%;
+    height: 36%;
+    left: 16%;
+    top: 22%;
+    background-color: #fff;
+    overflow: auto;
+    position: absolute;
+    z-index: 3;
+}
+	.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 80%;
+        height: 80%;
+        padding: 16px;
+        border: 16px solid red;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+    #U6_RDC18_ACT1_P1_instruction_id{
+    	width: 23%;
+    }
+	#U6_RDC18_ACT1_P4 p{
+
+	}
+#U6_RDC18_ACT1_P4_checkButton_id p{
+	top: 26% !important;
+}
+#U6_RDC18_ACT1_P4_correcto_id p{
+	top: 25%;
+}
+#U6_RDC18_ACT1_P11_instruction_id p{
+	width: 133% !important;
+    left: 15%;
+}
+#U6_RDC18_ACT2_P1 p{
+
+}
+#U6_RDC18_ACT2_P1_hornButton_id{
+	    left: 72% !important;
+    top: 35% !important;
+}
+#U6_RDC17_ACT1_P6_TextoBurbuja{
+	top: 27%;
+    width: 74%;
+}

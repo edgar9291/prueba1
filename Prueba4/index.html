@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/Main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/FigurasSencillasCSS.css" rel="stylesheet" type="text/css"/>
+    <link href="css/PinoCSS.css" rel="stylesheet" type="text/css"/>
+    <link href="css/LibrosCSS.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <!--conexion a los css-->
+    <link href="jquery-ui-1.11.4/jquery-ui.structure.min.css" rel="stylesheet"/>
+    <!--conexion a jquery-->
+    <script src="jquery-ui-1.11.4/external/jquery/jquery.js" type="text/javascript"></script>
+    <!--conexion a jquery UI-->
+    <script src="jquery-ui-1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="javaScript/MainJS.js"></script>
+    <script src="javaScript/PinoJS.js"></script>
+    <script src="javaScript/ScreenJS.js"></script>
+    <script src="javaScript/FigurasSencillasJS.js"></script>
+    <script src="javaScript/LibrosJS.js"></script>
+    <title>Posiciones</title>
+</head>
+<body id="basura">
+<div id="divMain" class="frameMain">
+
+    <div id="divMainIndex" class="frameMainIndex">
+        <div id="geometriaEjercicio" class="ClickGeometria click-effect" onclick="goFigurasCasa()"></div>
+        <div id="posicionesEjercicio" class="ClickPosiciones click-effect" onclick="goPerros()"></div>
+    </div>
+
+    <div id="divMainPosiciones2" class="frameMainPosiciones2"> <!-- Libros -->
+        <div id="frameTransparent3" class="frameTransparent"></div>
+        <div id="letras" class="texto5"></div>
+        <div id="figure1" onClick="logica(1)"></div>
+        <div id="figure2" onClick="logica(2)"></div>
+        <div id="figure3" onClick="logica(3)"></div>
+        <div id="figure4" onClick="logica(4)"></div>
+        <div id="figure5" onClick="logica(5)"></div>
+        <div id="start" onclick="iniciar2()"></div>
+        <div id="siguen" class="siguienteButon3 click-effect" onclick="inicioIndex()"></div>
+        <div id="cierto"></div>
+        <div id="dime"></div>
+        <div id="ResponseCorrect" class="respuestaCorrecta1"></div>
+        <div id="logica1"></div>
+        <div id="logica2"></div>
+        <div id="logica3"></div>
+        <div id="logica4"></div>
+    </div>
+
+    <div id="divMainGeometria2" class="frameMainGeometria1"> <!-- PAISAJE -->
+        <div id="frameTransparent2" class="frameTransparent"></div>
+        <div id="mostrarCilindro" class="mostrarCilindro"><div class="closeButon click-effect" onclick="cerrarCuadroDialogo()"></div></div>
+        <div id="mostrarCono" class="mostrarCono"><div class="closeButon click-effect" onclick="cerrarCuadroDialogo()"></div></div>
+        <div id="mostrarCubo" class="mostrarCubo"><div class="closeButon click-effect" onclick="cerrarCuadroDialogo()"></div></div>
+        <div id="mostrarPiramide" class="mostrarPiramide"> <div class="closeButon click-effect" onclick="cerrarCuadroDialogo()"></div></div>
+        <div id="pregunta1" class="pregunta1"></div>
+        <div id="pie1"></div>
+        <div id="cono" onclick="validarFiguras(1)"></div>
+        <div id="piramide" onclick="validarFiguras(2)"></div>
+        <div id="cubo" onclick="validarFiguras(3)"></div>
+        <div id="cilindro" onclick="validarFiguras(4)"></div>
+        <div id="arbol"></div>
+        <div id="tienda"></div>
+        <div id="maseta"></div>
+        <div id="banca"></div>
+        <div id="respuesta11"></div>
+        <div id="respuesta21"></div>
+        <div id="cerrar"></div>
+        <div id="respuesta31"></div>
+        <div id="respuesta41"></div>
+        <div id="cerrar2"></div>
+        <div id="imagenes"></div>
+        <div id="piramideDestello" class="piramideDestello"></div>
+        <div id="cuboDestello" class="cuboDestello"></div>
+        <div id="cilindroDestello" class="cilindroDestello"></div>
+        <div id="conooDestello" class="conoDestello"></div>
+        <div id="siguiente12" class="siguienteButon click-effect" onclick="goPosicionesFiguras()"></div>
+        <div id="intentaNuevamente1" class="intentaNuevamente1"></div>
+        <div id="respuestaCorrecta" class="respuestaCorrecta5"></div>
+        <div id="siguienteButt" class="siguienteButon click-effect" onclick="goPosicionesFiguras()"></div>
+    </div>
+
+    <div id="divMainGeometria" class="frameMainGeometria"> <!-- Figuras sencillas -->
+        <div id="frameTransparent1" class="frameTransparent"></div>
+        <div id="texto" class="texto"></div>
+        <div id="respuesta1"><div class="closeButon1 click-effect" onclick="closeInformation()"></div></div>
+        <div id="respuesta2"><div class="closeButon1 click-effect" onclick="closeInformation()"></div></div>
+        <div id="respuesta3"><div class="closeButon1 click-effect" onclick="closeInformation()"></div></div>
+        <div id="respuesta4"><div class="closeButon1 click-effect" onclick="closeInformation()"></div></div>
+        <div id="cerrar1" onclick="cerrar()"></div>
+        <div id="iniciar" onclick="iniciar()" class="click-effect"></div>
+        <div id="figura1" onclick="respuesta(1)" class="click-effect"></div>
+        <div id="figura2" onclick="respuesta(2)" class="click-effect"></div>
+        <div id="figura3" onclick="respuesta(3)" class="click-effect"></div>
+        <div id="figura4" onclick="respuesta(4)" class="click-effect"></div>
+        <div id="figura5" onclick="respuesta(5)" class="click-effect"></div>
+        <div id="figura6" onclick="respuesta(6)" class="click-effect"></div>
+        <div id="intenta1"></div>
+        <div id="intenta2"></div>
+        <div id="correct2" class="respuestaCorrecta7"></div>
+        <div id="siguiente1" class="click-effect" onclick="inicioIndex()"></div>
+    </div>
+
+    <div id="divMainPosiciones" class="frameMainPosiciones1"> <!-- Perro -->
+        <div id="intenta" class="intenta1" style="visibility:hidden"></div>
+        <div id="muybien" style="visibility:hidden"></div>
+        <div id="pregunta" class="pregunta"></div>
+        <div id="sueltame"></div>
+        <div id="sueltame2"></div>
+        <div id="sueltame3"></div>
+        <div id="sueltame4"></div>
+        <div id="pelota"></div>
+        <div id="perro"></div>
+        <div id="faro"></div>
+        <div id="roca"></div>
+        <div id="pie"></div>
+        <div id="correct" class="respuestaCorrecta2"></div>
+        <div id="siguiente" style="visibility:hidden" class="click-effect" onclick="goPosicionesMesa()"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

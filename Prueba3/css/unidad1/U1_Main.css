@@ -1,0 +1,54 @@
+/*
+* Estilos Unidad 7, pagina 8
+*/
+.dario_lo_da
+{
+    position: fixed;
+    top: 0%;
+    left: 10%;
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_B7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.U1_B7_RDC2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_B7_RDC8
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_B7_RDC9
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+

@@ -1,0 +1,1707 @@
+
+#body{
+	margin: 0px;
+	overflow-y:hidden 
+}
+#parent {
+	position: relative;
+	width:1067px;
+	height:800px;
+}
+#index{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.arrow{
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	z-index: 2;
+	
+}
+.forward{
+    position: absolute;
+    width: 6%;
+    left: 50%;
+    top: 86%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+.back{
+    position: absolute;
+    width: 6%;
+    left: 42%;
+    top: 86%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+.home{
+    position: absolute;
+    width: 5.5%;
+    left: 87.5%;
+    top: 4%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+
+
+#U2_RDC5_P0{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+.U2_RDC5_P0_background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.U2_RDC5_P0_speaker{
+    position: absolute;
+    width: 4.5%;
+    left: 46%;
+    top: 31.6%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+#U2_RDC5_P0_text{
+    position: absolute;
+    width: 32%;
+    left: 30%;
+    top: 9%;
+    z-index: 3;
+}
+#U2_RDC5_P02_text{
+    position: absolute;
+    width: 32%;
+    left: 30%;
+    top: 9%;
+    z-index: 3;
+}
+#U2_RDC5_P0_spantext{
+    position: absolute;
+    font-family: "MyriadPro-Regular";
+    left: 14%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P02_spantext{
+    position: absolute;
+    font-family: "MyriadPro-Regular";
+    width: 75%;
+    left: 20%;
+    top: 7%;
+    font-size: 2.7vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 139%;
+}
+#U2_RDC5_P0_act1text{
+    position: absolute;
+    width: 95%;
+    font-family: "MyriadPro-Semibold";
+    left: 2%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P0_act2text{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    width: 93%;
+    left: 4%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+.U2_RDC5_P0_title{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 4.3vh;
+    left: 2%;
+    top: 1.5%;
+    z-index: 4;
+}
+.U2_RDC5_P0_principito{
+    position: absolute;
+    width: 46.3%;
+    left: -3%;
+    top: 18.1%;
+    z-index: 2;
+}
+#U2_RDC5_P0_buttonA1{
+    position: absolute;
+    cursor: pointer;
+    width: 25%;
+    left: 59%;
+    top: 40%;
+    z-index: 2;
+}
+#U2_RDC5_P0_buttonA2{
+    position: absolute;
+    cursor: pointer;
+    width: 25%;
+    left: 59%;
+    top: 63%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P1_title{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 4.3vh;
+    left: 2%;
+    top: 1.5%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P1_title2{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2.1vh;
+    left: 29%;
+    top: 2.5%;
+    z-index: 4;
+}
+#U2_RDC5_ACT1_P1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+#U2_RDC5_P1_text{
+    position: absolute;
+    width: 50%;
+    left: 31%;
+    top: 30%;
+    z-index: 3;
+}
+#U2_RDC5_P1_spantext{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 32.6%;
+    top: 11%;
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+
+.U2_RDC5_ACT1_P1_background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+}
+.U2_RDC5_ACT1_P1_principito{
+    position: absolute;
+    width: 45.3%;
+    left: -3%;
+    top: 17.1%;
+    z-index: 2;
+
+}
+.U2_RDC5_P1_speaker{
+    position: absolute;
+    width: 6%;
+    left: 60%;
+    top: 55%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+#U2_RDC5_ACT1_P2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+.U2_RDC5_ACT1_P2_title{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 4.3vh;
+    left: 2%;
+    top: 1.5%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_title2{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2.5vh;
+    left: 0%;
+    top: 25%;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+#U2_RDC5_ACT1_P2_title2{
+    position: absolute;
+    width: 76%;
+    height: 7%;
+    left: 13%;
+    top: 10%;
+    z-index: 3;
+}
+.U2_RDC5_ACT1_P2_background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+}
+.U2_RDC5_ACT1_P2_Drop_Container{
+    position: absolute;
+    width: 100%;
+    height: 46%;
+    left: 0.5%;
+    top: 17%;
+    z-index: 2;
+
+}
+.U2_RDC5_ACT1_P2_Drop1{
+    position: absolute;
+    width: 19%;
+    height: 28%;
+    left: 1.2%;
+    top: 15%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P2_Drop2{
+    position: absolute;
+    width: 19%;
+    height: 28%;
+    left: 20%;
+    top: 15%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P2_Drop3{
+    position: absolute;
+    width: 19%;
+    height: 28%;
+    left: 39.9%;
+    top: 12%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P2_Drop4{
+    position: absolute;
+    width: 19%;
+    height: 28%;
+    left: 59.2%;
+    top: 15%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P2_Drop5{
+    position: absolute;
+    width: 19%;
+    height: 22%;
+    left: 78.5%;
+    top: 19%;
+    z-index: 2;
+}
+.U2_RDC5_ACT1_P2_Dropp1{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    left: 2.3%;
+    top: 62%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_Dropp2{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    left: 21.5%;
+    top: 62%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_Dropp3{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    left: 40.8%;
+    top: 62%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_Dropp4{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    left: 60%;
+    top: 62%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_Dropp5{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    left: 79.5%;
+    top: 62%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_P2_ContainerDrag{
+    position: absolute;
+    width: 96%;
+    height: 18%;
+    z-index: 4;
+    left: 1.6%;
+    top: 67%;
+}
+.U2_RDC5_ACT1_P2_Drag1{
+    position: absolute;
+    width: 15%;
+    left: 2%;
+    top: 20%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P2_Drag2{
+    position: absolute;
+    width: 15%;
+    left: 22%;
+    top: 20%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P2_Drag3{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top: 20%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P2_Drag4{
+    position: absolute;
+    width: 15%;
+    left: 62%;
+    top: 20%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P2_Drag5{
+    position: absolute;
+    width: 15%;
+    left: 82%;
+    top: 20%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P2_POP{
+    position: absolute;
+    width: 50%;
+    left: 24.7%;
+    top: 22.5%;
+    z-index: 4;
+    cursor: pointer;
+    display: none;
+}
+#U2_RDC5_P2_textD0{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    left: 0%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P2_textD1{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    left: 0%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P2_textD2{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    left: 0%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P2_textD3{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    left: 0%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+#U2_RDC5_P2_textD4{
+    position: absolute;
+    font-family: "MyriadPro-Semibold";
+    left: 0%;
+    top: 12%;
+    font-size: 2.4vh;
+    color: black;
+    text-align: center;
+    z-index: 3;
+    line-height: 128%;
+}
+.U2_RDC5_ACT1_P2_check{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    left: 46%;
+    top: 69%;
+    z-index: 4;
+    cursor: pointer;
+    display: none;
+}
+#U2_RDC5_ACT1_P2_checktext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 25%;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT1_P3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.U2_RDC5_ACT1_P3_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#U2_RDC5_P3_spantext{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 29.6%;
+    top: 18%;
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT1_P3_principito{
+    position: absolute;
+    width: 45.3%;
+    left: -3%;
+    top: 15.1%;
+    z-index: 2;
+}
+.U2_RDC5_P3_speaker{
+    position: absolute;
+    width: 5%;
+    left: 46%;
+    top: 28%;
+    z-index: 4;
+    cursor: pointer;
+}
+#U2_RDC5_P3_text{
+    position: absolute;
+    width: 28%;
+    height: 19%;
+    left: 31%;
+    top: 13%;
+    z-index: 3;
+}
+.U2_RDC5_ACT1_P3_playvideo{
+    position: absolute;
+    width: 36%;
+    left: 45%;
+    top: 44%;
+    z-index: 3;
+    cursor: pointer;
+}
+.U2_RDC5_ACT1_P4_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+.U2_RDC5_ACT1_p4_video{
+    position: absolute;
+    width: 87%;
+    height: 100%;
+    left: 4.5%;
+    top: 13%;
+    z-index: 4;
+}
+.U2_RDC5_ACT1_p4_video_S{
+    position: absolute;
+    width: 96%;
+    height: 72.5%;
+    top: -2.5%;
+    left: 2%;
+    z-index: 4;
+
+
+}
+#U2_RDC5_ACT1_P4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.U2_RDC5_ACT2_P1_title{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 4.3vh;
+    left: 2%;
+    top: 1.5%;
+    z-index: 4;
+}
+.U2_RDC5_ACT2_P1_title2{
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2.1vh;
+    left: 29%;
+    top: 2.1%;
+    z-index: 4;
+}
+#U2_RDC5_ACT2_P1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_ACT2_P1_1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_ACT2_P1_text{
+    position: absolute;
+    width: 50%;
+    left: 31%;
+    top: 30%;
+    z-index: 3;
+}
+#U2_RDC5_act2_P1_spantext{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 32.6%;
+    top: 12%;
+    font-size: 2.7vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 130%;
+}
+.U2_RDC5_act2_P1_speaker{
+    position: absolute;
+    width: 6%;
+    left: 60%;
+    top: 55%;
+    z-index: 4;
+    cursor: pointer;
+}
+.U2_RDC5_act2_P1_play{
+    position: absolute;
+    width: 9%;
+    left: 58%;
+    top: 69%;
+    z-index: 4;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_ACT2_P2_title2{
+    position: absolute;
+    width: 70%;
+    height: 7%;
+    left: 14%;
+    top: 12%;
+    z-index: 3;
+}
+.U2_RDC5_ACT2_P2_title2 {
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2vh;
+    left: 0%;
+    top: 32%;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+#U2_RDC5_ACT2_P2_circule{
+    position: absolute;
+    width: 22%;
+    height: 19%;
+    left: 9%;
+    top: 47%;
+    z-index: 3;
+}
+.U2_RDC5_ACT2_P2_text1{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 22%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext1{
+    position: absolute;
+    width: 96%;
+    font-family: "MyriadPro-Regular";
+    left: 1.6%;
+    top: 24%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P2_text2{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 32%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext2{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P2_text3{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 42%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext3{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P2_text4{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 52%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext4{
+    position: absolute;
+    width: 80%;
+    font-family: "MyriadPro-Regular";
+    left: 10.6%;
+    top: 37%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P2_text5{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 62%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext5{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P2_text6{
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 56%;
+    top: 72%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P2_spantext6{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 22%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P2_spantext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 25%;
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P2_check{
+    position: absolute;
+    width: 13%;
+    height: 5%;
+    left: 13%;
+    top: 28%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P2_checktext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 20%;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_P1_play
+{
+    position: absolute;
+    width: 6%;
+    left: 60%;
+    top: 55%;
+    z-index: 4;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P2_correct{
+position: absolute;
+    width: 38%;
+    height: 12%;
+    left: 5%;
+    top: 72.5%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P2_correcttext{
+    position: absolute;
+    width: 89%;
+    font-family: "MyriadPro-Regular";
+    left: 3%;
+    top: 26%;
+    font-size: 1.9vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P2_incorrect{
+    position: absolute;
+    width: 38%;
+    height: 12%;
+    left: 5%;
+    top: 72.5%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P2_incorrecttext{
+    position: absolute;
+    width: 89%;
+    font-family: "MyriadPro-Regular";
+    left: 3%;
+    top: 25%;
+    font-size: 1.9vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.U2_RDC5_ACT2_P3_title2 {
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2.7vh;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+.U2_RDC5_ACT2_P3_text1{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 9%;
+    top: 41%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext1{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_text2{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 9%;
+    top: 51%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext2{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 30%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_text3{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 9%;
+    top: 61%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext3{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_text4{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 57%;
+    top: 41%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext4{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 32%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_text5{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 57%;
+    top: 51%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext5{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 15%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_text6{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 57%;
+    top: 61%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P3_spantext6{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 12%;
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P3_drop{
+    position: absolute;
+    width: 53%;
+    height: 9%;
+    left: 22%;
+    top: 23%;
+    z-index: 3;
+}
+.buttonRDC5{
+     cursor: pointer;
+}
+.buttonRDC5.click-effect:hover {
+    margin-top: -1px !important;
+}
+.buttonRDC5.click-effect:active {
+    margin-top: 1px !important;
+}
+
+#U2_RDC5_ACT2_P4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.U2_RDC5_ACT2_P4_title2 {
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 2.7vh;
+    left: 0%;
+    top: 22%;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+.U2_RDC5_ACT2_P4_text1{
+    position: absolute;
+    width: 21%;
+    height: 16%;
+    left: 23%;
+    top: 26%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P4_spantext1{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 22%;
+    font-size: 2.2vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P3_correct{
+    position: absolute;
+    width: 38%;
+    height: 10%;
+    left: 29%;
+    top: 72%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P3_correcttext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 19%;
+    font-size: 2vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P3_incorrect{
+    position: absolute;
+    width: 38%;
+    height: 10%;
+    left: 29%;
+    top: 72%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P3_incorrecttext{
+    position: absolute;
+    width: 94%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 13%;
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P4_text2{
+    position: absolute;
+    width: 21%;
+    height: 16%;
+    left: 56%;
+    top: 26%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P4_spantext2{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 22%;
+    font-size: 2.2vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P4_text3{
+    position: absolute;
+    width: 21%;
+    height: 16%;
+    left: 23%;
+    top: 49%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P4_spantext3{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 22%;
+    font-size: 2.2vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P4_text4{
+    position: absolute;
+    width: 20%;
+    height: 16%;
+    left: 56%;
+    top: 49%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P4_spantext4{
+    position: absolute;
+    width: 63.9%;
+    font-family: "MyriadPro-Regular";
+    left: 17.6%;
+    top: 22%;
+    font-size: 2.2vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P4_correct{
+    position: absolute;
+    width: 38%;
+    height: 16%;
+    left: 29%;
+    top: 67%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P4_correcttext{
+    position: absolute;
+    width: 97%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 17%;
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P4_incorrect{
+    position: absolute;
+    width: 38%;
+    height: 16%;
+    left: 29%;
+    top: 67%;
+    z-index: 3;
+    display: none;
+}
+#U2_RDC5_ACT2_P4_incorrecttext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 39%;
+    font-size: 2.1vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P4_check{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    left: 79%;
+    top: 83%;
+    z-index: 4;
+    cursor: pointer;
+    display: none;
+}
+#U2_RDC5_ACT2_P4_checktext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 27%;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P5_title2 {
+    position: absolute;
+    font-family: "comfortaa";
+    color: white;
+    font-size: 3vh;
+    left: 0%;
+    top: 12%;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+#U2_RDC5_ACT2_P5_title2{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 14%;
+    top: 12%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.U2_RDC5_ACT2_P5_text{
+    position: absolute;
+    width: 63%;
+    height: 35%;
+    left: 18%;
+    top: 30%;
+    z-index: 3;
+}
+.U2_RDC5_ACT2_P5_fin{
+    position: absolute;
+    width: 14%;
+    height: 7%;
+    left: 69%;
+    top: 77%;
+    z-index: 3;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P5_fintext{
+    position: absolute;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+    left: 0%;
+    top: 32%;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P5_pop{
+    position: absolute;
+    width: 63%;
+    height: 35%;
+    left: 18%;
+    top: 30%;
+    z-index: 3;
+    display: none;
+}
+.U2_RDC5_ACT2_P5_closepop{
+    position: absolute;
+    width: 9%;
+    height: 35%;
+    left: 93%;
+    top: -10%;
+    z-index: 3;
+    cursor: pointer;
+}
+.U2_RDC5_ACT2_P5_pop2{
+    position: absolute;
+    width: 61%;
+    height: 25%;
+    left: 20%;
+    top: 38%;
+    z-index: 3;
+    display: none;
+}
+.U2_RDC5_ACT2_P5_closepop2{
+    position: absolute;
+    width: 9%;
+    height: 35%;
+    left: 90%;
+    top: -2%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#U2_RDC5_ACT2_P5_yes{
+    position: absolute;
+    width: 3%;
+    left: 77.7%;
+    height: 7%;
+    top: 44%;
+    z-index: 3;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P5_yes2{
+    position: absolute;
+    width: 3%;
+    left: 77.5%;
+    height: 7%;
+    top: 72.8%;
+    z-index: 3;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P5_no{
+position: absolute;
+    width: 3%;
+    left: 88.8%;
+    height: 7%;
+    top: 44%;
+    z-index: 3;
+    cursor: pointer;
+}
+.colorred{
+    border: solid;
+    border-radius: 100%;
+    border-color: rgb(204,51,51);
+    background: rgb(204,51,51);
+}
+.colorwhite{
+    border: solid;
+    border-radius: 100%;
+    border-color: white;
+    background: white;
+
+}
+#U2_RDC5_ACT2_P5_no2{
+    position: absolute;
+    width: 3%;
+    left: 88.5%;
+    height: 7%;
+    top: 73%;
+    z-index: 3;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P5_popno{
+    position: absolute;
+    width: 81%;
+    font-family: "MyriadPro-Regular";
+    left: 8%;
+    top: 21%;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P5_poptext1{
+    position: absolute;
+    width: 81%;
+    font-family: "MyriadPro-Regular";
+    left: -23%;
+    top: 9%;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P5_poptext2{
+    position: absolute;
+    width: 73%;
+    font-family: "MyriadPro-Regular";
+    left: 2%;
+    top: 39%;
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P5_poptext3{
+    position: absolute;
+    width: 66%;
+    font-family: "MyriadPro-Regular";
+    left: 6%;
+    top: 68%;
+    font-size: 2vh;
+    color: white;
+    text-align: justify;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_act2_P6_spantext{
+    position: absolute;
+    width: 59.9%;
+    font-family: "MyriadPro-Regular";
+    left: 34.6%;
+    top: 10%;
+    font-size: 3.7vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 130%;
+}
+#U2_RDC5_ACT2_P7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_act2_P7_spantext{
+    position: absolute;
+    width: 90.9%;
+    font-family: "MyriadPro-Regular";
+    left: 4.6%;
+    top: 6%;
+    font-size: 2.7vh;
+    color: black;
+    text-align: justify;
+    z-index: 4;
+    line-height: 130%;
+}
+#U2_RDC5_ACT2_P7_text{
+    position: absolute;
+    width: 56%;
+    left: 35%;
+    top: 24%;
+    z-index: 3;
+}
+#U2_RDC5_ACT2_P8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+#U2_RDC5_ACT2_P8_text{
+    position: absolute;
+    width: 43%;
+    left: 28%;
+    top: 9%;
+    z-index: 3;
+}
+#U2_RDC5_act2_P8_spantext{
+    position: absolute;
+    width: 57.9%;
+    font-family: "MyriadPro-Regular";
+    left: 33.6%;
+    top: 8%;
+    font-size: 2.7vh;
+    color: black;
+    text-align: center;
+    z-index: 4;
+    line-height: 130%;
+}
+#U2_RDC5_ACT2_P8box{
+    position: absolute;
+    width: 53%;
+    height: 30%;
+    left: 41%;
+    top: 47%;
+    z-index: 3;
+}
+#U2_RDC5_act2_P8box_spantext{
+    position: absolute;
+    width: 90.9%;
+    font-family: "MyriadPro-Regular";
+    left: 4.6%;
+    top: 8%;
+    font-size: 3vh;
+    color: black;
+    text-align: justify;
+    z-index: 4;
+    line-height: 165%;
+}
+.U2_RDC5_act2_P8_speaker {
+    position: absolute;
+    width: 6%;
+    left: 52%;
+    top: 33%;
+    z-index: 4;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P5_textedit{
+    position: absolute;
+    width: 91%;
+    height: 64%;
+    font-family: "MyriadPro-Regular";
+    left: 4%;
+    top: 11%;
+    font-size: 3vh;
+    color: black;
+    text-align: justify;
+    z-index: 4;
+    line-height: 128%;
+}
+#U2_RDC5_ACT2_P5_last{
+    position: absolute;
+    width: 7%;
+    height: 11%;
+    font-family: "MyriadPro-Regular";
+    left: 89%;
+    top: 81%;
+    font-size: 3vh;
+    color: black;
+    text-align: justify;
+    z-index: 4;
+    line-height: 128%;
+}
+.U2_RDC5_ACT2_P7_pop{
+    position: absolute;
+    width: 61%;
+    height: 25%;
+    left: 20%;
+    top: 38%;
+    z-index: 3;
+    display: none;
+}
+.U2_RDC5_ACT2_P7_closepop{
+    position: absolute;
+    width: 9%;
+    height: 35%;
+    left: 94%;
+    top: -14%;
+    z-index: 3;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P7_pop{
+    position: absolute;
+    width: 91%;
+    height: 64%;
+    font-family: "MyriadPro-Regular";
+    left: 4%;
+    top: 11%;
+    font-size: 3vh;
+    color: black;
+    text-align: justify;
+    z-index: 4;
+    line-height: 128%;
+    word-wrap:break-word;
+}
+#U2_RDC5_ACT2_P2_arrow2{
+    position: absolute;
+    width: 24.5%;
+    height: 21.5%;
+    left: 30%;
+    top: 48%;
+    z-index: 2;
+    display: none;
+    transform: rotate(-10deg);
+}
+#U2_RDC5_ACT2_P2_arrow{
+position: absolute;
+    width: 3%;
+    height: 6%;
+    left: 31%;
+    top: 51%;
+    z-index: 4;
+    cursor: pointer;
+}
+#U2_RDC5_ACT2_P2_arrow3{
+position: absolute;
+    width: 28.5%;
+    height: 19.5%;
+    left: 25.5%;
+    top: 45%;
+    z-index: 2;
+    display: none;
+    transform: rotate(25deg);
+}
+#U2_RDC5_ACT2_P2_arrow4{
+    position: absolute;
+    width: 26.5%;
+    height: 29.5%;
+    left: 30%;
+    top: 37%;
+    z-index: 2;
+     display: none;
+}
+#U2_RDC5_ACT2_P2_arrow5{
+    position: absolute;
+    width: 31.5%;
+    height: 27.5%;
+    left: 27%;
+    top: 34%;
+    z-index: 2;
+    transform: rotate(-20deg);
+     display: none;
+}
+#U2_RDC5_ACT2_P2_arrow6{
+    position: absolute;
+    width: 32%;
+    height: 24.5%;
+    left: 25%;
+    top: 29%;
+    z-index: 2;
+    transform: rotate(-7deg);
+}
+#U2_RDC5_ACT2_P2_arrow1{
+position: absolute;
+    width: 29.5%;
+    height: 26.5%;
+    left: 27%;
+    top: 49%;
+    z-index: 2;
+    display: none;
+}
+
+#U2_RDC5_ACT2_P3_drop div.U2_RDC5_ACT2_P3_butons p.U2_RDC5_ACT2_P3_sorttext {
+    position: relative;
+    font-family: "MyriadPro-Regular";
+    font-size: 2.1vh;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    top: 30%;
+    left: 0%;
+    line-height: 100%;
+    width: 100%;
+}
+
+
+#U2_RDC5_ACT2_P3_drop div.U2_RDC5_ACT2_P3_buttons img {
+    position: absolute;
+}
+#U2_RDC5_ACT2_P3_drop div.U2_RDC5_ACT2_P3_butons{
+    position: relative;
+    width: 40%;
+    height: 61%;
+    z-index: 3;
+    float: left;
+    top: 0%;
+    left: 0%;
+    margin-left: 6.5%;
+    margin-top: 2.6%;
+}
+#U2_RDC5_ACT2_P3_drop div.U2_RDC5_ACT2_P3_butons p.U2_RDC5_ACT2_P3_sorttext_twol{
+    top:18%;
+}
+.U2_RDC5_ACT2_P2_Clone{
+    width: 1%
+}

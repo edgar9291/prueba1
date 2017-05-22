@@ -1,0 +1,30 @@
+/**
+ * BUTTON STYLE
+ */
+.forward{
+    position: absolute;
+    width: 6%;
+    left: 50%;
+    top: 86%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+.back{
+    position: absolute;
+    width: 6%;
+    left: 42%;
+    top: 86%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}
+.home{
+    position: absolute;
+    width: 5.5%;
+    left: 87.5%;
+    top: 4%;
+    z-index: 3;
+    display: none;
+    cursor: pointer;
+}

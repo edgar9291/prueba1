@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
+    <meta name="viewport" content="user-scalable=no, width=1024" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/style_scrollbar.css">
+    <title>El mundo grecorromano</title>
+</head>
+<body>
+    <div id="divMain" class="frameMain">
+       <div id="divMainIndex" class="frameMainIndex">
+
+            <!--INDEX MAP-->
+            <div id="divMap" class="frameMap">
+                <p id=idClickFollowing" class="ClickFollowing click-effect" onclick="goExercise()"></p>
+                <p id=idClickPrevious" class="ClickPrevious click-effect" onclick="goDescription()"></p>
+                <div id="idEnterDivRoma" class="ClickRoma click-effect" onclick="goInformation(1)"></div>
+                <div id="idEnterDivGrecia" class="ClickGrecia click-effect" onclick="goInformation(2)"></div>
+                <div id="idEnterDivMediterraneo" class="ClickMediterraneo click-effect"  onclick="goInformation(3)"></div>
+                <div id="idEnterDivRomaSelected" class="frameRomaSelected"></div>
+                <div id="idEnterDivGreciaSelected" class="frameGreciasSelected"></div>
+                <div id="idEnterDivMediterraneoSelected" class="frameMediterraneoSelected"></div>
+            </div>
+
+            <!--INDEX INFORMATION-->
+            <div id="idDivInformation" class="frameInformation">
+                <div id="divCloseInformation" class="ClickCloseInformation click-effect" onclick="closeInformation()"></div>
+                <p id="idInformationTitle" class="InformationTitle" ></p>
+                <p id="idInformation" class="Information" ></p>
+                <div  id="idDivSladerImagesInformation" class="frameSliderImages">
+                    <div  class="divNextImageSlide" onclick="NextImageSlide()"></div>
+                    <div  class="divPrevImageSlide" onclick="PreviouImageSlide()"></div>
+                    <ul id="idDivSladerImages" class="bxslider">
+                        <li class="liImageSlide"><img id="imageInformation1" src=""/></li>
+                        <li class="liImageSlide"><img id="imageInformation2" src=""/></li>
+                        <li class="liImageSlide"><img id="imageInformation3" src=""/></li>
+                    </ul>
+                </div>
+                <div  id="idDivDialogImagesInformation" class="frameDialogImages">
+                    <div  id="idDivDialogInformation" class="frameInformationImages">
+                        <p id="idInformationImage" class="InformationImage"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--INDEX EXERCISE-->
+            <div id="idDivExercise" class="frameExercise">
+                <p class="h1Exercise"><br>¡EJERCITA TUS CONOCIMIENTOS!</p>
+                <p class="h1ExerciseDescription">Selecciona, lee u observa las fuentes relacionadas y responde las preguntas:</p>
+                <div class="DivRomaExercise">
+                    <div id="idDER1" class="ClickRomaExerciseFont1 click-effect2" onclick="goIntroductionExercise(1)"></div>
+                    <div id="idDER2" class="ClickRomaExerciseFont2 click-effect2" onclick="goIntroductionExercise(2)"></div>
+                </div>
+                <div class="DivGreciaExercise">
+                    <div id="idDEG1" class="ClickGreciaExerciseFont1 click-effect1" onclick="goIntroductionExercise(3)"></div>
+                    <div id="idDEG2" class="ClickGreciaExerciseFont2 click-effect1" onclick="goIntroductionExercise(4)"></div>
+                </div>
+
+                <div class="DivMediterraneoExercise">
+                    <div id="idDEM1" class="ClickMediterraneoExerciseFont1 click-effect3" onclick="goIntroductionExercise(5)"></div>
+                    <div id="idDEM2" class="ClickMediterraneoExerciseFont2 click-effect3" onclick="goIntroductionExercise(6)"></div>
+                </div>
+            </div>
+
+            <!--INDEX EXERCISE STUDENT-->
+            <div id="idDivExerciseStudent" class="frameMainExercise">
+                <p id=idClickFollowingES" class="ClickFollowing2 click-effect" onclick="goFollowingExerciseStudent()"></p>
+                <p id=idClickHome" class="ClickHome click-effect" onclick="goMap()"></p>
+                <p id=idClickPreviousES" class="ClickPrevious1 click-effect" onclick="goExercise()"></p>
+                <div class="scrollbar" id="style-1">
+                    <div class="force-overflow"></div>
+                </div>
+                <div id="idClickSpaceExercise" class="ClickSpaceExercise click-effect" onclick="goExerciseStudent(1)">
+                </div>
+
+                <div id="idClickTimeExercise" class="ClickTimeExercise click-effect" onclick="goExerciseStudent(2)">
+                </div>
+
+                <div id="idClickUnderstending1" class="ClickUnderstending1Exercise click-effect" onclick="goExerciseStudent(3)">
+                </div>
+
+                <div id="idClickUnderstending2" class="ClickUnderstending2Exercise click-effect" onclick="goExerciseStudent(4)">
+                </div>
+
+                <div  id="divTransparentExercise1" class="frameTransparentExercise1"> </div>
+                <div id="idDivInformationStudentAsk" class="frameInformationStudentAsk">
+                    <div id="divCloseInformationES" class="ClickCloseInformation1" onclick="closeExerciseStudent()"></div>
+                    <div id="idInformationStudentAsk" class="InformationStudentAsk"></div>
+                </div>
+                <div id="idDivExerciseSpaceMap" class="DivExerciseSpaceMap"> </div>
+                <div id="idDivExerciseMediterraneo1" class="divExerciseSpace">
+                    <div id="idem11" class="circleSelectExerciseMap" style="left: 47.8%; top: 54.3%" onclick="validateResponse(0,2)"></div>
+                    <div id="idem12" class="circleSelectExerciseMap" style="left: 62.1%; top: 66.2%" onclick="validateResponse(0,3)"></div>
+                    <div id="idem13" class="circleSelectExerciseMap" style="left: 52.1%; top: 72.2%" onclick="validateResponse(0,0)"></div>
+                </div>
+                <div id="idDivExerciseMediterraneo2" class="divExerciseSpace">
+                    <div id="idem21" class="circleSelectExerciseMap1" style="left: 42.8%; top: 54.9%" onclick="validateResponse(0,0)"></div><!--Micenas -->
+                    <div id="idem22" class="circleSelectExerciseMap1" style="left: 53.8%; top: 53.7%" onclick="validateResponse(0,0)"></div><!--Atenas -->
+                    <div id="idem23" class="circleSelectExerciseMap1" style="left: 42.2%; top: 59.7%" onclick="validateResponse(0,0)"></div><!--Corinta -->
+                    <div id="idem24" class="circleSelectExerciseMap1" style="left: 43.5%; top: 47%" onclick="validateResponse(0,1)"></div><!--Tebas -->
+                    <div id="idem25" class="circleSelectExerciseMap1" style="left: 42.2%; top: 52.3%" onclick="validateResponse(0,0)"></div><!--Argos -->
+                    <div id="idem26" class="circleSelectExerciseMap1" style="left: 37.2%; top: 65.3%" onclick="validateResponse(0,0)"></div><!--Esparta -->
+                    <div id="idem27" class="circleSelectExerciseMap1" style="left: 69%; top: 85.3%" onclick="validateResponse(0,0)"></div><!--Cronos -->
+                    <div id="idem28" class="circleSelectExerciseMap1" style="left: 94%; top: 55%" onclick="validateResponse(0,0)"></div><!--Mleto -->
+                    <div id="idem29" class="circleSelectExerciseMap1" style="left: 86.7%; top: 40.7%" onclick="validateResponse(0,0)"></div><!--Efeso -->
+                    <div id="idem210" class="circleSelectExerciseMap1" style="left: 80.8%; top: 25.2%" onclick="validateResponse(0,0)"></div><!--Troya -->
+                </div>
+                <div id="idDivExerciseGrecia1" class="divExerciseSpace">
+                    <div id="ideg11" class="circleSelectExerciseMap1" style="left: 42.8%; top: 54.9%" onclick="validateResponse(0,0)"></div><!--Micenas -->
+                    <div id="ideg12" class="circleSelectExerciseMap1" style="left: 53.8%; top: 53.7%" onclick="validateResponse(0,1)"></div><!--Atenas -->
+                    <div id="ideg13" class="circleSelectExerciseMap1" style="left: 42.2%; top: 59.7%" onclick="validateResponse(0,0)"></div><!--Corinta -->
+                    <div id="ideg14" class="circleSelectExerciseMap1" style="left: 43.5%; top: 47%" onclick="validateResponse(0,0)"></div><!--Tebas -->
+                    <div id="ideg15" class="circleSelectExerciseMap1" style="left: 42.2%; top: 52.3%" onclick="validateResponse(0,0)"></div><!--Argos -->
+                    <div id="ideg16" class="circleSelectExerciseMap1" style="left: 37.2%; top: 65.3%" onclick="validateResponse(0,0)"></div><!--Esparta -->
+                    <div id="ideg17" class="circleSelectExerciseMap1" style="left: 69%; top: 85.3%" onclick="validateResponse(0,0)"></div><!--Cronos -->
+                    <div id="ideg18" class="circleSelectExerciseMap1" style="left: 94%; top: 55%" onclick="validateResponse(0,0)"></div><!--Mleto -->
+                    <div id="ideg19" class="circleSelectExerciseMap1" style="left: 86.7%; top: 40.7%" onclick="validateResponse(0,0)"></div><!--Efeso -->
+                    <div id="ideg110" class="circleSelectExerciseMap1" style="left: 80.8%; top: 25.2%" onclick="validateResponse(0,0)"></div><!--Troya -->
+                </div>
+                <div id="idDivExerciseGrecia2" class="divExerciseSpace">
+                    <div id="ideg21" class="circleSelectExerciseMap2" style="left: 0%; top: 0%; height: 100%; width: 100%" onclick="validateResponse(0,0)"></div><!--Todo -->
+                    <div id="ideg22" class="circleSelectExerciseMap2" style="left: 40%; top: 42%; height: 20%; width: 20%" onclick="validateResponse(0,1)"></div><!--Atenas -->
+                </div>
+                <div id="idDivExerciseRoma1" class="divExerciseSpace">
+                    <div id="ider11" class="circleSelectExerciseMap2" style="left: 0%; top: 0%; height: 100%; width: 100%" onclick="validateResponse(0,0)"></div><!--Todo -->
+                    <div id="ider12" class="circleSelectExerciseMap3" style="left: 44%; top: 39%; height: 30%; width: 8%;" onclick="validateResponse(0,1)"></div><!--Italia -->
+                </div>
+                <div id="idDivExerciseRoma2" class="divExerciseSpace">
+                    <div id="ider21" class="circleSelectExerciseMap" style="left: 44.8%; top: 50.3%" onclick="validateResponse(0,0)"></div> <!--Roma-->
+                    <div id="ider22" class="circleSelectExerciseMap" style="left: 89.1%; top: 72.5%" onclick="validateResponse(0,1)"></div> <!--Judea-->
+                    <div id="ider23" class="circleSelectExerciseMap" style="left: 79.1%; top: 86.5%" onclick="validateResponse(0,0)"></div> <!--Egipto-->
+                    <div id="ider24" class="circleSelectExerciseMap" style="left: 12.6%; top: 51.4%" onclick="validateResponse(0,0)"></div> <!--Hispania-->
+                    <div id="ider25" class="circleSelectExerciseMap" style="left: 28.8%; top: 30.5%" onclick="validateResponse(0,0)"></div> <!--Galia-->
+                    <div id="ider26" class="circleSelectExerciseMap" style="left: 25.9%; top: 16.5%" onclick="validateResponse(0,0)"></div> <!--Britania-->
+                </div>
+            </div>
+            <div id="idInformationStudentAsk1" class="InformationStudentAsk1"></div>
+
+           <!--INDEX END EXERCISES-->
+           <div id="idDivEnd" class="frameExercise">
+               <p id=idClickFollowing1" class="ClickHome1 click-effect" onclick="goDescription()"></p>
+               <p id=idClickPrevious1" class="ClickPrevious2 click-effect" onclick="goMap()"></p>
+               <p class="h1ExerciseDescription1">¡Muy bien! Ahora sabes más sobre el Mediterráneo, la Grecia y la Roma de la Antigüedad.</p>
+               <div class="DivRomaExercise">
+               </div>
+               <div class="DivGreciaExercise">
+               </div>
+               <div class="DivMediterraneoExercise">
+               </div>
+           </div>
+
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/MainJS.js"></script>
+    <script src="js/MapJS.js"></script>
+    <script src="js/InformationJS.js"></script>
+    <script src="js/ScreenJS.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+</body>
+
+</html>

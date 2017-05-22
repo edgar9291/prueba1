@@ -1,0 +1,307 @@
+@font-face {
+    font-family: "Occidental";
+    src: url("font/OCCIDENT.TTF");
+}
+
+@font-face {
+    font-family: "Nexa Light";
+    src: url("font/Nexa%20Light.otf");
+}
+
+@font-face {
+    font-family: "Dax-Regular";
+    src: url("font/ufonts.com_dax-regular.ttf");
+}
+
+@charset "utf-8";
+/* CSS Document */
+#unico {
+    position: fixed;
+    width: 1070px;
+    height: 720px;
+    top: 0px;
+    bottom: 0;
+
+}
+
+#backfond {
+    background-image: url(../img/pantalla5/Pantalla_fondo5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    left: 50%;
+    z-index: -1;
+    display: block;
+}
+
+#bolder {
+    background-image: url(../img/pantalla5/encabezado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#figure1 {
+    border-color: #54DE5D;
+    width: 6.2%;
+    height: 4.5%;
+    position: absolute;
+    left: 78%;
+    top: 51%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+    visibility: visible;
+}
+
+#figure2 {
+    width: 2.5%;
+    height: 20%;
+    position: absolute;
+    left: 87%;
+    top: 37%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#figure3 {
+    width: 3%;
+    height: 20%;
+    position: absolute;
+    left: 52.5%;
+    top: 38%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#figure4 {
+    width: 1.5%;
+    height: 20%;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#figure5 {
+    width: 40%;
+    height: 24%;
+    position: absolute;
+    left: 52%;
+    top: 35%;
+    z-index: 1;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#start {
+    background-image: url(../img/pantalla5/botoninicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 17.5%;
+    height: 13%;
+    position: absolute;
+    left: 5%;
+    top: 17%;
+    z-index: 3;
+    cursor: pointer;
+    cursor: hand;
+
+}
+
+#start:hover {
+    margin-top: -3px;
+
+}
+
+.siguen {
+    background-image:url(../img/pantalla5/botonsiguiente.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 18%;
+    position: absolute;
+    left: 4%;
+    top: 42.5%;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#siguen:hover {
+    margin-top: -3px;
+
+}
+
+#cierto {
+    background-image: url(../img/pantalla4/muybien.png);
+    width: 30%;
+    height: 12%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 66.8%;
+    z-index: 11;
+    visibility: hidden;
+}
+
+#incierto {
+    background-image: url(../img/pantalla5/respuestaincorrecta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 39.5%;
+    height: 20.5%;
+    position: absolute;
+    left: 4.5%;
+    top: 27.5%;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#dime {
+    background-image: url(../img/pantalla4/IntentaloDeNuez.png);
+    width: 30%;
+    height: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#logica2 {
+    background-image:url(../img/pantalla5/mesa2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 58.8%;
+    position: absolute;
+    left: 48%;
+    top: 35%;
+    z-index: 4;
+    visibility: hidden;
+}
+
+#logica1 {
+    background-image: url(../img/pantalla5/mesa1.1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 51.5%;
+    height: 58%;
+    position: absolute;
+    left: 47.2%;
+    top: 34.1%;
+    z-index: 4;
+    visibility: hidden;
+}
+
+#logica3 {
+    background-image:url(../img/pantalla5/mesa3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 59.5%;
+    position: absolute;
+    left: 48%;
+    top: 34%;
+    z-index: 4;
+    visibility: hidden;
+
+}
+
+#logica4 {
+    background-image:url(../img/pantalla5/mesa4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50.8%;
+    height: 60%;
+    position: absolute;
+    left: 47.5%;
+    top: 33%;
+    z-index: 4;
+    visibility: hidden;
+}
+
+.texto5 {
+    width: 38%;
+    height: 38%;
+    font-family: "Dax-Regular";
+    font-size: 5vh;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 59%;
+    left: 0%;
+    z-index: 3;
+}
+
+.unico {
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    position: absolute;
+}
+.siguienteButon3 {
+    background-image: url(../img/pantalla4/botonsiguiente.png);
+    width: 22%;
+    height: 17%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 4;
+    cursor: pointer;
+    visibility: hidden;
+    cursor: hand;
+}
+.respuestaCorrecta1
+{
+    background-image: url(../img/pantalla4/respuetacorrecta.png);
+    width: 30%;
+    height: 12%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    z-index: 20;
+    visibility: hidden;
+}

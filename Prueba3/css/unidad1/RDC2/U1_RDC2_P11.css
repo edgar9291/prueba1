@@ -1,0 +1,90 @@
+.U1_P11_RDC2_DialogImage
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_DialogActivities.png");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    position: absolute;
+    top: 87%;
+    left: -11%;
+    width: 20%;
+    height: 50%;
+}
+
+.U1_RDC2_P11_Activities
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Fondo.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.U1_P11_RDC2_Personaje1
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Personaje1.png");
+    position: absolute;
+    top: 31%;
+    left: 4%;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.U1_P11_RDC2_ButtonAudio{
+    top: 29%;
+    left: 46%;
+}
+
+
+.U1_P11_RDC2_TextAudioActivities p{
+    padding-top: 10%;
+}
+
+
+.U1_P11_RDC2_ButtonActivity1{
+    background-color: #388423;
+    border: 1vh solid white;
+    border-radius: 2vh;
+    position: absolute;
+    top:45%;
+    left: 42%;
+    width: 45%;
+    height: 36%;
+    color: white;
+    font-size: 2.8vh;
+    font-family: "Myriad Pro";
+}
+
+
+
+
+.U1_P11_RDC2_TextAudioActivities{
+    background-color: white;
+    border: 1vh solid #388423;
+    border-radius: 2vh;
+    position: absolute;
+    top: 9%;
+    left: 32%;
+    width: 33%;
+    height: 23%;
+    color: black;
+    font-size: 2.5vh;
+    font-family: "Myriad Pro";  
+}
+
+
+
+
+
+
+
+.click-effect:hover{
+    margin-top: -.3% !important;
+}
+.click-effect:active{
+    margin-top: .3% !important;
+}

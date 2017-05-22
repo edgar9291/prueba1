@@ -1,0 +1,72 @@
+.dropnav 
+{    
+	height: 7%;
+    width: 37%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 63%;
+    margin-top: 18%;
+} /* Changes the height and bg color of the main menu */
+.dropnav-flecha 
+{    
+	position: absolute;
+    margin-left: 91%;
+    margin-top: 2%;
+    height: 82%;
+    width: 7%;
+    background-image: url('../../img/Flecha.png');
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    background-position: 82% 26%;
+    z-index: 1;
+} 
+.dropnav ul
+{
+	height:100%; 
+	width: 100%;
+	margin:0%;
+	padding:0%;
+}
+
+.dropnav ul li
+{
+	display:inline; 
+	float:left; 
+	list-style:none; 
+	position:relative; 
+	height:100%; 
+	width: 100%;
+	background-image: url('../../img/dropdesign.png');
+    background-size:     80% 70%;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background-color: #388423;
+    color:white;
+    font-family: "Myriad Pro";
+    font-size: 2.3vh;
+	} /* only edit the last 2 items - sets the width of the main menu */
+.dropnav li p:hover
+{color:#900; }/* Changes the hover color of items on the main menu */
+
+.dropnav li ul
+{margin-top: 6.73%; padding:0px; display:none; position:absolute; left:0px; z-index: 99; top:25px;} /* Only edit the last 2 items - set the top margin and background color of the submenus */
+
+.dropnav li:hover ul
+{display:block; width:100%;height: 100%} /* sets the width of the submenus */
+
+.dropnav li li
+{list-style:none; display:list-item;} /* DO NOT EDIT */
+.dropnav li li p:hover
+{color:#900;} /* Changes the hover color of items in the submenu */
+
+.dropnav li li:last-of-type
+{    
+	border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    } /* DO NOT EDIT */
+    .dropnav li li:first-of-type
+{    
+	border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    } /* DO NOT EDIT */
+

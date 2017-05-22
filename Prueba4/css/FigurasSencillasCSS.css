@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Occidental";
+	src: url("font/OCCIDENT.TTF");
+}
+@font-face {
+	font-family: "Nexa Light";
+	src: url("font/Nexa%20Light.otf");
+}
+@font-face {
+	font-family: "Dax-Regular";
+	src: url("font/ufonts.com_dax-regular.ttf");
+}
+#principal{
+	    position:fixed;
+		width:1070px;
+		height:720px;
+        top:0px;
+		bottom:0;
+
+}
+.base1{
+	background-image:url(../img/pantalla3/fondopantalla3.jpg);
+	background-repeat:no-repeat;
+	background-position:center;	background-size:100% 100%;
+	position:absolute ;
+    width:100%;
+
+	height:100%;
+	top:0;
+	bottom:0;
+	margin:0 auto;
+	left: 50%;
+	z-index: -1;
+}
+
+
+
+#encabezado{
+	background-image:url(../img/pantalla3/encabezado.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 15%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:-45%;
+	z-index: 1;
+}
+#iniciar{
+	background-image:url(../img/pantalla3/botoninicio.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:18%;
+	height:13%;
+	position:absolute;
+	top:10%;
+	left: 5%;
+	z-index: 1;
+}
+#siguiente1{
+	background-image: url(../img/pantalla4/botonsiguiente.png);
+	width: 22%;
+	height: 17%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 85%;
+	left: 77%;
+	z-index: 2;
+	cursor: pointer;
+	cursor: hand;
+	visibility: hidden;
+}
+#figura1{
+	background-image:url(../img/pantalla3/figura1.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:20%;
+	height:35%;
+	position:absolute;
+	left:43%;
+	top:20%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+	
+}
+#figura2{
+	background-image:url(../img/pantalla3/figura2.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:20%;
+	height:35%;
+	position:absolute;
+	left:43%;
+	top:62%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+}
+#figura3{
+	background-image:url(../img/pantalla3/Figura3.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:13%;
+	height:40%;
+	position:absolute;
+	left:68%;
+	top:12%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+	
+}
+#figura4{
+	background-image:url(../img/pantalla3/figura4.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:12%;
+	height:40%;
+	position:absolute;
+	left:68%;
+	top:56%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+}
+#figura5{
+	background-image:url(../img/pantalla3/figura5.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:13%;
+	height:42%;
+	position:absolute;
+	left:85%;
+	top:12%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+}
+#figura6{
+	background-image:url(../img/pantalla3/figura6.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:14%;
+	height:40%;
+	position:absolute;
+	left:85%;
+	top:57%;
+	z-index: 1;
+	cursor:pointer;
+	cursor:hand;
+	pointer-events: none;
+}
+
+
+.texto
+{
+	width: 38%;
+	height: 38%;
+	font-family:"Dax-Regular";
+	font-size:2.4vh;
+	font-style:normal;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	position: absolute;
+	top: 38%;
+	left: 3%;
+	z-index: 2;		
+}
+
+#respuesta1
+{
+	background-image:url(../img/pantalla3/respuesta1.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:42%;
+	top:20%;
+	z-index: 4;
+	visibility:hidden;
+}
+#respuesta2
+{
+	background-image:url(../img/pantalla3/respuesta2.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:48%;
+	height:64%;
+	position:absolute;
+	left:42%;
+	top:20%;
+	z-index: 4;
+	visibility:hidden;
+}
+#respuesta3
+{
+	background-image:url(../img/pantalla3/respuesta3.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:48%;
+	height:64%;
+	position:absolute;
+	left:42%;
+	top:20%;
+	z-index: 4;
+	visibility:hidden;
+}
+#respuesta4
+{
+	background-image:url(../img/pantalla3/respuesta4.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:43%;
+	height:70%;
+	position:absolute;
+	left:42%;
+	top:20%;
+	z-index: 4;
+	visibility:hidden;
+}
+
+#cerrar1
+{
+	background-image:url(../img/pantalla3/close.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:5%;
+	height:5%;
+	position:absolute;
+	left:80%;
+	top:25%;
+	z-index: 4;
+	visibility:hidden;
+}
+#intenta1
+{
+	background-image: url(../img/pantalla4/IntentaloDeNuez.png);
+	width: 30%;
+	height: 10%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 9%;
+	left: 66.8%;
+	z-index: 1;
+	visibility: hidden;
+}
+#intenta2
+{
+	background-image: url(../img/pantalla4/respuetacorrecta.png);
+	width: 30%;
+	height: 12%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 9%;
+	left: 66.8%;
+	z-index: 11;
+	visibility: hidden;
+}
+.respuestaCorrecta7
+{
+	background-image: url(../img/pantalla4/muybien.png);
+	width: 30%;
+	height: 12%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	top: 5%;
+	left: 66%;
+	z-index: 20;
+	visibility: hidden;
+}
+
+
+
+
+ 
+
+
+
+

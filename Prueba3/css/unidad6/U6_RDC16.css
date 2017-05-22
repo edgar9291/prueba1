@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+/*General*/
+
+body {
+	margin:0px;
+	font-size: 2.5vh;
+}
+.U6_RDC16_RDC18CSS{
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	font-family: 'MyriadPro-Regular' !important;
+	}
+.U6_RDC16_button{
+	position: absolute !important;
+	cursor: pointer;
+	width: 10%;
+	z-index: 100;
+	}
+.U6_RDC16_button:active {
+	transform: translateY(4px);
+	}
+.U6_RDC16_button:hover {
+  	margin-top: -2px;
+	}
+
+.U6_RDC16_Fondo{
+	position:absolute;
+	width: 100%;
+	z-index: -100;
+	}
+.U6_RDC16_positionButtonHorn{
+	top: 40%;
+	left: 83%;
+	}
+.U6_RDC16_positionButtonHome{
+	top: 3%;
+	left: 88%;
+	}
+.U6_RDC16_P0_positionButtonHorn{
+	top: 37%;
+	left: 73%;
+	}
+.U6_RDC16_positionButtonBack{
+	top: 90%;
+	left: 45%;
+	}
+.U6_RDC16_positionButtonAhead{
+	top: 90%;
+	left: 55%;
+	}
+	/*P0*/
+.U6_RDC16_P0_positionButtonAct1{
+	top: 55%;
+	left: 50%;
+	}
+.U6_RDC16_P0_positionButtonAct2{
+	top: 55%;
+	left: 40%;
+	}
+.U6_RDC16_P0_titlePosition{
+	position: absolute;
+    top: 2% !important;
+    left: 5%;
+    color: #FFF;
+    font-size: 4vh;
+    font-family: 'MyriadPro-Regular';
+    z-index: 2;
+	}
+.U6_RDC16_P0_InstructionPosition{
+	position:absolute;
+	width: 20%;
+	top: 18%;
+	left: 30%;
+	}
+.U6_RDC16_P0_buttonTextACT1{
+	position:absolute;
+	top:5%;
+	left: 10%;
+	color:#FFF;
+	font-size:2.5vh;
+	font-family: 'MyriadPro-Regular';
+	width:80%;
+	height:80%;
+	}
+.U6_RDC16_P0_buttonTextACT1{
+	padding-top: 10%;
+}
+.U6_RDC16_P0_buttonTextACT2{
+	position:absolute;
+	top: 5%;
+	left: 20%;
+	color:#FFF;
+	font-size:2.5vh;
+	font-family: 'MyriadPro-Regular';
+	width:75%;
+	height:100%;
+	}
+.U6_RDC16_P0_instructionText{
+	position:absolute;
+	top: 11%;
+	left: 25%;
+	width:200%;
+	height:100%;
+	font-size:3vh;
+	}
+.U6_RDC16_buttonImage{
+	width: 100%;
+	}
+.U6_RDC16_P0_activityImage{
+	width: 100%;
+	}
+.U6_RDC16_P0_instrucionImage{
+	width: 250%;
+	}
+/*ACT 1 P1*/
+.U6_RDC16_ACT1_P1_titlePosition{
+	position: absolute;
+    top: 2% !important;
+    left: 28%;
+    color: #FFF;
+    font-size: 3vh;
+	font-family: 'MyriadPro-Regular';
+	}
+.U6_RDC16_ACT1_P1_instructionPosition{
+	position:absolute;
+	width: 30%;
+	top: 16%;
+    left: 30%;
+	}
+.U6_RDC16_ACT1_P3_instructionPosition{
+	position:absolute;
+	width: 30%;
+	top: 16%;
+	left: 30%;
+	}
+.U6_RDC16_ACT1_P1_instructionText{
+	position: absolute;
+    top: 13%;
+    left: 25%;
+    width: 260%;
+    height: 100%;
+    font-size: 2.8vh;
+	}
+	/*act 1 p2*/
+.U6_RDC16_ACT1_P2_video{
+    margin-top: 13%;
+    margin-left: 1%;
+    width: 98%;
+	}
+.U6_RDC16_ACT1_P2_notepad{
+	position:absolute;
+	top: 3%;
+	left: 77%;
+	}
+.U6_RDC16_positionCheckButton{
+	position:absolute;
+	left: 65%;
+	top:30%;
+}
+.U6_RDC16_ACT1_P10_questionContainer{
+	position: absolute;
+    width: 40%;
+    top: 20%;
+    left: 35%;
+    border: solid;
+    border-width: .5em;
+    border-radius: 8px;
+    border-color: #A40311;
+    background-color: #FCC;
+    padding: 1%;
+	}
+.U6_RDC16_ACT1_P11_questionContainer{
+	position: absolute;
+    width: 49%;
+    top: 55%;
+    left: 40%;
+    border: solid;
+    border-radius: 8px;
+    border-color: #A40311;
+    background-color: #FCC;
+    border-width: .5em;
+    padding: 1%;
+	}
+.U6_RDC16_positionVideo{
+	top: 8%;
+	left: 15%;
+	}
+.U6_RDC16_positionNotePad{
+	top: 9%;
+	left: 5%;
+	}
+.U6_RDC16_ACT1_imagenCarpeta{
+	background-repeat:no-repeat; 
+	background-size:contain; 
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	z-index:200;
+	font-size:2.5vh;
+	color:#000;
+	font-family:"Comic Sans MS", cursive;
+	}
+.U6_RDC16_ACT1_carpetaCorrecta{
+	background-image:url(../../img/unidad6/carpeta.png);
+    width: 25%;
+    height: 25%;
+    top: 40%;
+    left: 62%;
+	}
+.U6_RDC16_ACT1_P4_carpeta1{
+	background-image:url(../../img/unidad6/marcosala.png); 
+	width: 25%;
+    height: 25%;
+    top: 28%;
+    left: 5%;
+	}
+.U6_RDC16_ACT1_P4_carpeta2{
+	background-image:url(../../img/unidad6/marcosala.png); 
+	width: 25%;
+    height: 25%;
+    top: 28%;
+    left: 28%;
+	}
+.U6_RDC16_ACT1_P4_carpeta3{
+	background-image:url(../../img/unidad6/marcosala.png); 
+    width: 25%;
+    height: 25%;
+    top: 28%;
+    left: 52%;
+	}
+.U6_RDC16_ACT1_P4_carpeta4{
+	background-image:url(../../img/unidad6/marcosala.png); 
+	width: 25%;
+    height: 25%;
+    top: 28%;
+    left: 73%;
+	}
+.U6_RDC16_ACT2_P2_opera{
+	position:absolute; width:8%; height:10%; top:68%; left:30%; background-image:url(../../img/unidad6/opera.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_wiki{
+	position:absolute; 
+	width:8%; height:10%;
+ 	top:68%; left:39%; 
+	background-image:url(../../img/unidad6/wiki.png); 
+	background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_fire{position:absolute; width:7%; height:10%; top:68%; left:59%; background-image:url(../../img/unidad6/fire1.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_twitter{position:absolute; width:8%; height:10%; top:68%; left:67%; background-image:url(../../img/unidad6/twitter.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_fecebook{position:absolute; width:8%; height:10%; top:77%; left:56%; background-image:url(../../img/unidad6/facebook.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_crome{position:absolute; width:8%; height:10%; top:76.5%; left:65%; background-image:url(../../img/unidad6/crome.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_explorer{position:absolute; width:7%; height:10%; top:77%; left:35%; background-image:url(../../img/unidad6/explorer.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_outlook{position:absolute; width:8%; height:10%; top:76%; left:45%; background-image:url(../../img/unidad6/outlook.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_gmail{position:absolute; width:8%; height:10%; top:68%; left:49%; background-image:url(../../img/unidad6/gmail.png); background-repeat:no-repeat;}
+
+.U6_RDC16_ACT2_P2_google{position:absolute; width:6%; height:10%; top:77%; left:26%; background-image:url(../../img/unidad6/google.png); background-repeat:no-repeat;}
+.U6_RDC16_ACT1_textDivCSS{width: 27%;height: 39%;left: 71%;top: 22%;position: absolute; z-index:700% !important;}
+.U6_RDC16_ACT2_textDivCSS{width: 27%;height: 8%;left: 16%;top: 22%;position: absolute; z-index:700% !important;}
+	.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 80%;
+        height: 80%;
+        padding: 16px;
+        border: 16px solid red;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+	
+
+    .U6_RDC16_ACT1_P2_txtpop{
+        background-image:url(../../img/unidad6/popup.png); 
+        position: absolute;
+        font-size: 3.5vh;
+        left: 3%;
+        top: 10%;
+        z-index: 4;
+        border: solid;
+        display: none;
+        border-radius: 2vh 2vh 2vh 2vh;
+      
+        border-width: 1.5vh;
+        border-color: brown;
+        color: #000;
+        width: 90%;
+        height: 78%;
+        
+    }
+	
+	.U6_RDC16_SubTitutlo{
+		position: absolute;
+		width: 61%;
+		height: 20%;
+		z-index: 2;
+		font-family: 'MyriadPro-Regular';
+		font-size: 3vh;
+		left: 31%;
+		top: 1vh;
+		color: white;
+	}
+	
+.U6_RDC16_Preguntas{
+	position: absolute;
+    top: 20%;
+    width: 80%;
+    font-size: 3vh !important;
+    background-color: #BD0202;
+    border-radius: 40px;
+    left: 8%;
+    font-family: 'MyriadPro-Regular';
+    color: white;
+	text-align:center;
+}
+#U6_RDC16_ACT1_P3_instruction_id{
+	left: 14%;
+}
+.U6_RDC16_Cuadros{
+	position: absolute;
+    top: 27%;
+    margin-left: 26%;
+    width: 38%;
+    font-size: 1.6vh;
+    font-family: 'MyriadPro-Regular';
+}
+#U6_RDC16_ACT1_P8_correcto_id img{
+	width: 87% !important;
+}
+#U6_RDC16_ACT1_P8_correcto_id p{
+	width: 74%;
+}
+#U6_RDC16_ACT1_P9_correcto_id img{
+	width: 81% !important;
+}
+#U6_RDC16_ACT1_P9_incorrecto_id p{
+	left: 5%;
+}
+
+#U6_RDC16_ACT1_P9_incorrecto_id img{
+	width: 81% !important;
+}
+#U6_RDC16_ACT1_P10_correcto_id img{
+	width: 79% !important;
+}
+#U6_RDC16_ACT1_P7_correcto_id{
+	width: 61%;
+    left: 5%;
+}
+#U6_RDC16_ACT1_P9_incorrecto_id p.U6_RDC16_Respuestas{
+	left: 11%;
+	width: 62;
+}
+.U6_RDC16_Respuestas{
+	position: absolute;
+    top: 30%;
+    left: 7%;
+    font-size: 2.6vh;
+    width: 58%;
+	font-family: 'MyriadPro-Regular';
+}

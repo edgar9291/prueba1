@@ -1,0 +1,2124 @@
+/*#####################################################################
+
+
+				Clases a utilizar 
+
+
+
+######################################################################*/
+/*
+html{
+	padding: 0%;
+}
+
+body {
+	top: 0%;
+	left: 0%;
+	overflow-y:hidden;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+*/
+
+.U4_RDC10_img {
+	width: 100%;
+	height: 100%;
+}
+
+.U4_RDC10_btn:hover {
+	margin-top: -2px !important;
+}
+
+.U4_RDC10_ACT1_P2_cursivas {
+	position: relative;
+    top: 0%;
+    left: 0%;
+    font-size: 2vh;
+	color: black;
+}
+
+
+#U4_RDC10_FatherContainer_id {
+	position: relative;
+	z-index: -20;
+}
+
+.U4_RDC10_Banner{
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+
+.U4_RDC10_NombreUnidad{
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}
+
+.U4_RDC10_LetterNameUnidad {
+	color: white;
+	font-size: 5vh;
+	font-family: "comfortaa";
+	margin-top: -3.5%;
+}
+
+.U4_RDC10_cursor {
+	cursor: pointer;
+}
+
+.U4_RDC10_P0_LetrasActividad {
+	font-size: 3vh;
+	color: white;
+	font-family: MyriadPro-Regular;
+}
+
+.U4_RDC10_LettersTitle {
+	font-size: 3vh;
+	color: white;
+	margin-top: 1%;
+	font-family: "comfortaa";
+}
+
+.U4_ACT1_P4_LetterRetro{
+	font-size: 2.5vh;
+	color: white;
+}
+
+.U4_RDC10_LettersMirror {
+
+	font-size: 3vh;
+	-webkit-margin-before: .6em;
+}
+
+.U4_RDC10_ACT1_P2_LettersInfo {
+	font-family: "MyriadPro-Regular";
+	font-size: 2vh;
+	color: black;
+}
+
+.U4_RDC10_ACT1_P3_LetersQuestions {
+    font-family: "MyriadPro-Regular";
+	font-size: 2.2vh;
+	color: black;
+}
+
+.U4_RDC10_ACT1_P4_LetterDroppable{
+	margin-top: 0%;
+	font-size: 2vh;
+	color: white;
+}
+
+.U4_RDC10_ACT1_P4_LettersDraggables {
+	line-height: 0px;
+	font-size: 2.5vh;
+	color: white;	
+}
+
+.U4_RDC10_Sombra {
+	position: absolute;
+	width: 29%;
+	height: 7%;
+	top: 2%;
+	left: 1%;
+	background-image: url('../../img/unidad4/unidadSombra.png');
+	background-size: 100% 100%;
+}
+
+.U4_RDC10_ACT1_P2_zoom {
+	display:inline-block;
+	position: relative;
+}
+
+.U4_RDC10_ACT1_P2_zoom {
+	content:'';
+	display:block; 
+	width:33px; 
+	height:33px; 
+	position:absolute; 
+	top:0;
+	right:0;
+}
+
+
+.U4_RDC10_ACT1_P2_zoom img {
+	display: block;
+}
+
+.U4_RDC10_ACT1_P2_zoom img::selection { background-color: transparent; }
+
+
+/*****************************/
+
+
+#U4_RDC10_FatherContainer_id {
+	top:0%;
+	left: 0%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC10_P0 {
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+}
+
+#U4_RDC10_ACT1_P1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT1_P2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT1_P3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT1_P4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+
+#U4_RDC10_ACT1_P5 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT2_P1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT2_P2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT2_P3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+#U4_RDC10_ACT2_P4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/unidad4/fondo_General.png');
+	background-size: 100% 100%;
+}
+
+/*#####################################################################
+
+
+			Pantalla 0
+
+
+
+######################################################################*/
+
+
+#U4_RDC10_P0_Title_id {
+	left: 35%;
+	top: 2%;
+	height: 6%;
+	width: 53%; 
+	position: absolute;	
+	color:white;
+	text-align: center;
+}
+
+#U4_RDC10_P0_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_P0_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 49.5%;
+	top: 31%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_P0_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;		
+}
+
+#U4_RDC10_P0_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_P0_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_P0_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 37%;
+	top: 10%;
+	height: 23%;
+	width: 28%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_P0_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 30%;
+	left: 64%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+#U4_RDC10_P0_btnActivity1_id {
+	background-color: #662f61;
+	left: 6%;
+	top: 29%;
+	height: 20%;
+	width: 26%; 
+	position: absolute;
+	text-align: center;
+	border-style: solid;
+	border-width:.5em;
+	border-color:white;
+	border-radius: 1em; 
+}
+
+#U4_RDC10_P0_btnActivity2_id {
+	background-color: #662f61;
+	border-radius: 1em;
+	left: 6%;
+	top: 55%;
+	height: 19%;
+	width: 25%; 
+	position: absolute;
+	text-align: center;
+	border-style: solid;
+	border-width:.5em;
+	border-color:white;
+}
+
+
+/*#####################################################################
+
+
+					ACT1 _ P1
+
+
+
+######################################################################*/
+
+
+#U4_RDC10_ACT1_P1_Title_id {
+	left: 36%;
+	top: 0%;
+	height: 6%;
+	width: 55%; 
+	position: absolute;	
+	color:white;	
+}
+#U4_RDC10_ACT1_P2_Title_P_id{
+	font-size: 2.6vh;
+}
+#U4_RDC10_ACT1_P1_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT1_P1_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 36%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT1_P1_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT1_P1_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT1_P1_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT1_P1_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 29%;
+	top: 10%;
+	height: 28%;
+	width: 32%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P1_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 36%;
+	left: 60%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+
+/*#####################################################################
+
+
+					ACT1 _ P2
+
+
+######################################################################*/
+
+
+#U4_RDC10_ACT1_P2_Title_id {
+	left: 8%;
+	top: 11%;
+	height: 10%;
+	width: 84%; 
+	position: absolute;	
+	background-color: #662f61;
+	border-radius: 1em;
+	text-align: center;
+	border-width: .5em;
+}
+
+#U4_RDC10_ACT1_P2_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT1_P2_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;		
+}
+
+#U4_RDC10_ACT1_P2_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+
+
+#U4_RDC10_ACT1_P2_ImgvanGogh_id {
+	left: 12%;
+	top: 26%;
+	height: 48%;
+	width: 32%;	
+	position: absolute;
+	z-index: 3;
+}
+
+
+#U4_RDC10_ACT1_P2_ImgFridaKahlo_id {
+	left: 57%;
+	top: 26%;
+	height: 48%;
+	width: 32%;	
+	position: absolute;
+	z-index: 3;
+}
+
+
+#U4_RDC10_ACT1_P2_txtvanGogh_id {
+	left: 11%;
+	top: 74%;
+	height: 7%;
+	width: 33%;	
+	position: absolute;	
+	z-index: 2;
+	text-align: right;
+}
+
+#U4_RDC10_ACT1_P2_txtFridaKahlo_id {
+	left: 56%;
+	top: 74%;
+	height: 7%;
+	width: 33%;	
+	position: absolute;	
+	z-index: 2;
+	text-align: right;
+}
+
+
+#U4_RDC10_ACT1_P2_ContainerWhite1_id {
+	left: 10%;
+	top: 23%;
+	height: 60%;
+	width: 35.5%;	
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+}
+
+#U4_RDC10_ACT1_P2_ContainerWhite2_id {
+	left: 55%;
+	top: 23%;
+	height: 60%;
+	width: 35.5%;	
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+}
+
+/*#####################################################################
+
+
+					ACT1 _ P3
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT1_P3_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT1_P3_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 38%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT1_P3_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT1_P3_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT1_P3_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT1_P3_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 26%;
+	top: 10%;
+	height: 29%;
+	width: 40%; 
+	position: absolute;
+	text-align: center;
+}
+.U4_RDC10_ACT1_P4_drg{
+	font-family: "MyriadPro-Regular";
+}
+
+#U4_RDC10_ACT1_P3_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 36%;
+	left: 64%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+/*#####################################################################
+
+
+					ACT1 _ P4
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT1_P4_Title_id {
+	left: 14%;
+	top: 10%;
+	height: 9%;
+	width: 76%; 
+	background-color: #662f61;
+	border-radius: 1em;
+	text-align: center;
+	position: absolute;	
+	border-width: .5em;
+}
+
+#U4_RDC10_ACT1_P4_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT1_P4_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;	
+}
+
+#U4_RDC10_ACT1_P4_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+
+
+#U4_RDC10_ACT1_P4_ImgvanGogh_id {
+	background-image: url('../../img/unidad4/sc1/imgVincent.png');
+	background-size: 100% 100%;
+	left: 7%;
+	top: 28%;
+	height: 34%;
+	width: 20%;	
+	position: absolute;
+	z-index: 2;
+}
+
+
+#U4_RDC10_ACT1_P4_ImgFridaKahlo_id {
+	background-image: url('../../img/unidad4/sc1/imgFrida.png');
+	background-size: 100% 100%;
+	left: 53%;
+	top: 28%;
+	height: 34%;
+	width: 19%;	
+	position: absolute;
+	z-index: 2;
+}
+
+#U4_RDC10_ACT1_P4_boxRetroalimen {
+	left: 14%;
+	top: 71%;
+	height: 9%;
+	width: 75%; 
+	background-color: #662f61;
+	border-style: solid;
+	border-color: white;
+	border-radius: 1em;
+	text-align: center;
+	position: absolute;	
+}
+
+
+#U4_RDC10_ACT1_P4_BoxvanGoghDrop_id {
+	left: 29%;
+	top: 28%;
+	height: 34.5%;
+	width: 20.5%;
+	position: absolute;
+	background-color: #662f61;
+	border-style: solid;
+	border-color:white;
+}
+
+#U4_RDC10_ACT1_P4_BoxFridaKahloDrop_id {
+	left: 74%;
+	top: 28%;
+	height: 34.5%;
+	width: 21.5%;
+	background-color: #662f61;
+	border-style: solid;
+	border-color:white;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT1_P4_BoxLettersDrag {
+	left: 3%;
+	top: 66%;
+	height: 19%;
+	width: 93%;
+	background-color: #662f61;
+	border-style: solid;
+	border-color: white;
+	border-radius: 1em;	
+	position: absolute;	
+
+}
+
+#U4_RDC10_ACT1_P4_ContainerWhite1_id {
+	left: 6%;
+	top: 27%;
+	height: 36%;
+	width: 22%;
+	background-color: white;	
+	position: absolute;
+	z-index: 1;
+}
+
+#U4_RDC10_ACT1_P4_ContainerWhite2_id {
+	left: 52%;
+	top: 27%;
+	height: 36%;
+	width: 21%;
+	background-color: white;	
+	position: absolute;	
+	z-index: 1;
+}
+
+#U4_RDC10_ACT1_P4_L1_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 14%;
+	left: 1%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L2_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 14%;
+	left: 26%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L3_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 14%;
+	left: 52%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L4_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 14%;
+	left: 77%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L5_id {
+	position: absolute;
+	width: 25%;
+	height: 28%;
+	top: 53%;
+	left: 1%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L6_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 53%;
+	left: 27%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L7_id {
+	position: absolute;
+	width: 20%;
+	height: 28%;
+	top: 53%;
+	left: 52%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L8_id {
+	position: absolute;
+	width: 23%;
+	height: 28%;
+	top: 53%;
+	left: 77%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+
+/*#####################################################################
+
+
+			ACT1 - P5 
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT1_P5_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT1_P5_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 40%;
+	top: 36%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT1_P5_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT1_P5_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT1_P5_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT1_P5_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 23%;
+	top: 10%;
+	height: 28%;
+	width: 38%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P5_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 36%;
+	left: 60%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+
+
+
+
+/*#####################################################################
+
+
+				ACT2 _ P1
+
+
+######################################################################*/
+
+#U4_RDC10_ACT2_P1_Title_id {
+	left: 37%;
+	top: 0%;
+	height: 7%;
+	width: 55%; 
+	position: absolute;	
+	color:white;		
+}
+
+#U4_RDC10_ACT2_P1_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT2_P1_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 45%;
+	top: 32%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT2_P1_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT2_P1_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT2_P1_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT2_P1_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 27%;
+	top: 10%;
+	height: 23%;
+	width: 39%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_ACT2_P1_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 29%;
+	left: 64%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+
+
+/*#####################################################################
+
+
+				ACT 2 P2
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT2_P2_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT2_P2_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 37%;
+    top: 55%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT2_P2_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT2_P2_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT2_P2_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT2_P2_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 16%;
+    top: 9%;
+    height: 48%;
+    width: 47%;
+	position: absolute;
+	text-align: center;
+	overflow-y:auto; 
+}
+
+#U4_RDC10_ACT2_P2_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 54%;
+	left: 62%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+/*#####################################################################
+
+
+				ACT2 - P3
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT2_P3_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT2_P3_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 41.5%;
+	top: 31%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT2_P3_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT2_P3_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT2_P3_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT2_P3_InfoMirror_id {
+	font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 24%;
+	top: 10%;
+	height: 22%;
+	width: 39%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_ACT2_P3_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 30%;
+	left: 62%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+#U4_RDC10_ACT2_P3_Questions_id {
+	left: 3%;
+	top: 56%;
+	height: 22%;
+	width: 45%; 
+	position: absolute;
+	text-align: center;
+	background-color: white;
+	border-color:#662f61;;
+	border-radius: 1em;
+	border-style: solid;
+	border-width: .5em;
+}
+
+
+/*#####################################################################
+
+
+				ACT2 -P4
+
+
+
+######################################################################*/
+
+#U4_RDC10_ACT2_P4_btnHome_id {
+	background-image: url("../../img/unidad4/btnHome.png");
+	background-size: 100% 100%;
+	left: 91%;
+	top: 4%;
+	height: 8%;
+	width: 6%; 
+	position: absolute;
+} 
+
+#U4_RDC10_ACT2_P4_btnBocina_id {
+	background-image: url('../../img/unidad4/btnBocina.png');
+	background-size: 100% 100%;
+	left: 41.5%;
+	top: 35%;
+	height: 7%;
+	width: 5%;
+	position: absolute;	
+	z-index: 2;
+}
+
+#U4_RDC10_ACT2_P4_btnNext_id {
+	background-image: url('../../img/unidad4/btnNext.png');
+	background-size: 100% 100%;
+	left: 52%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;
+	position: absolute;			
+}
+
+#U4_RDC10_ACT2_P4_btnBack_id {
+	background-image: url('../../img/unidad4/btnBack.png');
+	background-size: 100% 100%;
+	left: 44%;
+	top: 92%;
+	height: 6%;
+	width: 4.5%;	
+	position: absolute;
+}
+
+#U4_RDC10_ACT2_P4_Dr_Jekyll_id {
+	background-image: url('../../img/unidad4/Dr_Jekyll.png');
+	background-size: 100% 100%;
+	left: 65%;
+	top: 17%;
+	height: 107%;
+	width: 31%; 
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT2_P4_InfoMirror_id {
+    font-family: "MyriadPro-Regular";
+	background-color: white;
+	border-style: solid;
+	border-width:.5em;
+	border-color:#662f61;
+	border-radius: 1em;
+	left: 23%;
+	top: 10%;
+	height: 26%;
+	width: 41%; 
+	position: absolute;
+	text-align: center;
+}
+
+#U4_RDC10_ACT2_P4_tilde_id {
+	position: absolute;
+	width: 9%;
+	height: 9%;
+	top: 33%;
+	left: 63%;
+	background-image: url('../../img/unidad4/tilde.png');
+	background-size: 100% 100%;
+
+}
+
+#U4_RDC10_ACT2_P4_Questions_id {
+	left: 24%;
+	top: 62%;
+	height: 15%;
+	width: 49%; 
+	position: absolute;
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+	border-color:#662f61;;
+	border-radius: 1em;
+	border-width: .5em;
+}
+
+
+
+
+
+/****************************************  Pop up Vincent texto  ************************************************/
+
+#U4_RDC10_ACT1_P2_PopWhiteVincent_id {
+	left: 4%;
+	top: 13%;
+	height: 51%;
+	width: 27%;	
+	background-color: white;
+	z-index: 1;
+	position: absolute;	
+}
+
+.U4_RDC10_ACT1_P2_shadowtxt_Vincent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 0%;
+}
+ 
+.U4_RDC10_ACT1_P2_innertxt_Vincent {
+    position: absolute;
+    background-color: white;
+    border-radius:1em;
+    border-style: solid;
+    border-color: #662f61; 
+    width: 57%;
+    height: 78%;
+    top: 12%;
+    left: 35%;
+    /*overflow: scroll;*/
+    z-index: 101;
+    
+}
+ 
+.U4_RDC10_ACT1_P2_txt_iconVincent {
+    position: absolute;
+    width: 25%;
+    height: 42%;
+    top: 15%;
+    left: 5%;
+    z-index: 102;
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtVincent {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    width: 84%;
+    height: 73%;
+    font-family: "MyriadPro-Regular";
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtVincent h3{
+    margin-top:0%;
+    text-align: center;
+    font-size: 4vh;
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtVincent div{
+    height: 85%;
+    text-align: center;
+    overflow-y: auto;
+    font-size: 3vh;
+    width: 95%;
+    margin-left: 0%;
+}
+
+#U4_RDC10_ACT1_P2_txtvanGogh_otherZoom_id {
+	left: 5%;
+	top: 58%;
+	height: 6%;
+	width: 26%;	
+	position: absolute;
+	text-align: center;	
+	z-index: 103;
+}
+
+#U4_RDC10_ACT1_P2_containerErrorVincent1_id {
+	position: absolute;
+	width: 6%;
+	height: 8%;
+	top: 13%;
+	left: 85%;
+	z-index: 200;
+	
+}
+
+#U4_RDC10_ACT1_P2_barraVincent_id {
+	position: absolute;
+	width: 1%;
+	height: 51%;
+	top: 30%;
+	left: 87%;
+	background-image: url('../../img/unidad4/barra_scroll.png');
+	background-size: 100% 100%;
+	z-index: 300;
+}
+
+#U4_RDC10_ACT1_P2_scrollVincent_id {
+	overflow-y: auto;
+	position: absolute;
+	width: 1%;
+	height: 5%;
+	top: 30%;
+	left: 87%;
+	background-image: url('../../img/unidad4/desplaza_scroll.png');
+	background-size: 100% 100%;	
+	z-index: 300;
+}
+
+/****************************************  Pop up Frida texto  ************************************************/
+
+#U4_RDC10_ACT1_P2_PopWhiteFrida_id {
+	left: 4%;
+	top: 13%;
+	height: 51%;
+	width: 27%;	
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+}
+
+.U4_RDC10_ACT1_P2_shadowtxt_Frida {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 0%;
+}
+ 
+.U4_RDC10_ACT1_P2_innertxt_Frida {
+    position: absolute;
+    background-color: white;
+    border-radius:1em;
+    border-style: solid;
+    border-color: #662f61; 
+    width: 57%;
+    height: 78%;
+    top: 12%;
+    left: 35%;
+    /*overflow: scroll;*/
+    z-index: 101;
+    
+}
+ 
+.U4_RDC10_ACT1_P2_txt_iconFrida {
+    position: absolute;
+    width: 25%;
+    height: 42%;
+    top: 15%;
+    left: 5%;
+    z-index: 102;
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtFrida {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    width: 84%;
+    height: 73%;
+    font-family: "MyriadPro-Regular";
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtFrida h3{
+    margin-top:0%;
+    text-align: center;
+    font-size: 4vh;
+}
+ 
+.U4_RDC10_ACT1_P2_txt_txtFrida div{
+    height: 85%;
+    text-align: center;
+    overflow-y: auto;
+    font-size: 3vh;
+    width: 95%;
+    margin-left: 0%;
+}
+
+#U4_RDC10_ACT1_P2_txtFridaKahlo_otherZoom_id {
+	left: 5%;
+	top: 58%;
+	height: 6%;
+	width: 26%;	
+	position: absolute;
+	text-align: center;	
+	z-index: 103;
+}
+
+#U4_RDC10_ACT1_P2_containerErrorFrida1_id {
+	position: absolute;
+	width: 6%;
+	height: 8%;
+	top: 13%;
+	left: 85%;
+	z-index: 200;
+}
+
+#U4_RDC10_ACT1_P2_barraFrida_id {
+	position: absolute;
+	width: 1%;
+	height: 51%;
+	top: 30%;
+	left: 87%;
+	background-image: url('../../img/unidad4/barra_scroll.png');
+	background-size: 100% 100%;
+	z-index: 300;
+}
+
+#U4_RDC10_ACT1_P2_scrollFrida_id {
+	overflow-y: auto;
+	position: absolute;
+	width: 1%;
+	height: 5%;
+	top: 30%;
+	left: 87%;
+	background-image: url('../../img/unidad4/desplaza_scroll.png');
+	background-size: 100% 100%;	
+	z-index: 300;
+}
+
+/*****************************   Zoom Frida   *********************************/
+
+.U4_RDC10_ACT1_P2_shadowimg_Frida {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    z-index: 100;
+}
+ 
+.U4_RDC10_ACT1_P2_innerimg_Frida {
+    position: absolute;
+    width: 39%;
+    height: 64%;
+    top: 14%;
+    left: 30%;
+    z-index: 999;
+    display: block;
+    
+}
+ 
+#U4_RDC10_ACT1_P2_containerFridaZoom_id {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+#U4_RDC10_ACT1_P2_containerErrorFrida2_id {
+	position: absolute;
+	height: 8%;
+	width: 10%; 
+	top: 1%;
+	left: 88%;
+	z-index: 5;
+}
+
+#U4_RDC10_ACt1_P2_popWhiteFrida_id {
+	left: 28%;
+	top: 12%;
+	height: 76%;
+	width: 43%;	
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+}
+
+#U4_RDC10_ACT1_P2_txtFridaKahlo_pieBio_id {
+	left: 31%;
+	top: 79%;
+	height: 9%;
+	width: 37%;	
+	position: absolute;
+	text-align: center;	
+	z-index: 103;	
+}
+
+/*****************************   Zoom Vincent   *********************************/
+
+.U4_RDC10_ACT1_P2_shadowimg_Vincent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    z-index: 100;
+}
+ 
+.U4_RDC10_ACT1_P2_innerimg_Vincent {
+    position: absolute;
+    width: 39%;
+    height: 64%;
+    top: 14%;
+    left: 30%;
+    z-index: 999;
+    display: block;
+    
+}
+ 
+#U4_RDC10_ACT1_P2_containerVincentZoom_id {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+
+#U4_RDC10_ACT1_P2_containerErrorVincent2_id {
+	position: absolute;
+	height: 8%;
+	width: 10%; 
+	top: 1%;
+	left: 88%;
+	z-index: 5;
+}
+
+#U4_RDC10_ACt1_P2_popWhiteVincent_id {
+	left: 28%;
+	top: 12%;
+	height: 76%;
+	width: 43%;	
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+}
+
+
+#U4_RDC10_ACT1_P2_txtvanGogh_pieBio_id {
+	left: 31%;
+	top: 79%;
+	height: 9%;
+	width: 37%;	
+	position: absolute;
+	text-align: center;	
+	z-index: 103;	
+}
+
+
+/*****************************************************************
+
+					Banners
+
+*****************************************************************/
+
+.U4_RDC10_ACT1_P1_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT1_P1_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}				
+
+
+.U4_RDC10_ACT1_P2_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT1_P2_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+.U4_RDC10_ACT1_P3_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT1_P3_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+
+
+.U4_RDC10_ACT1_P4_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT1_P4_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+
+
+.U4_RDC10_ACT1_P5_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT1_P5_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+
+.U4_RDC10_ACT2_P1_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT2_P1_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+
+.U4_RDC10_ACT2_P2_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT2_P2_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+.U4_RDC10_ACT2_P3_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT2_P3_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+.U4_RDC10_ACT2_P4_Banner {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	background-color: #662f61;
+}
+				
+.U4_RDC10_ACT2_P4_NombreUnidad {
+	position: absolute;
+	width: 35%;
+	height: 7%;
+	top: 3%;
+	left: 2%;
+}	
+
+
+/*****************************************************************
+
+					Divs muestrables
+
+*****************************************************************/
+
+
+#U4_RDC10_ACT1_P4_L1_id_After1 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 3%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L2_id_After1 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 15%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L3_id_After1 {
+	position: absolute;
+	width: 79%;
+	height: 10%;
+	top: 27%;
+	left: 12%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L4_id_After1 {
+	position: absolute;
+	width: 73%;
+	height: 10%;
+	top: 39%;
+	left: 15%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L5_id_After1 {
+	position: absolute;
+	width: 88%;
+	height: 10%;
+	top: 51%;
+	left: 7%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+
+#U4_RDC10_ACT1_P4_L6_id_After1 {
+	position: absolute;
+	width: 56%;
+	height: 10%;
+	top: 63%;
+	left: 23%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L7_id_After1 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 75%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+
+#U4_RDC10_ACT1_P4_L8_id_After1 {
+	position: absolute;
+	width: 80%;
+	height: 10%;
+	top: 87%;
+	left: 11%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+/**********************************************************/
+
+#U4_RDC10_ACT1_P4_L1_id_After2 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 3%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L2_id_After2 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 15%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L3_id_After2 {
+	position: absolute;
+	width: 79%;
+	height: 10%;
+	top: 27%;
+	left: 12%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L4_id_After2 {
+	position: absolute;
+	width: 73%;
+	height: 10%;
+	top: 39%;
+	left: 15%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_ACT1_P4_L5_id_After2 {
+	position: absolute;
+	width: 88%;
+	height: 10%;
+	top: 51%;
+	left: 7%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+
+#U4_RDC10_ACT1_P4_L6_id_After2 {
+	position: absolute;
+	width: 56%;
+	height: 10%;
+	top: 63%;
+	left: 23%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#U4_RDC10_ACT1_P4_L7_id_After2 {
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 75%;
+	left: 17%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+
+#U4_RDC10_ACT1_P4_L8_id_After2 {
+	position: absolute;
+	width: 80%;
+	height: 10%;
+	top: 87%;
+	left: 11%;
+	background-color:#351634;
+	border-radius: 1em;
+	text-align: center;
+}
+
+
+#U4_RDC10_P4_mark_id {
+	background-image: url('../../img/unidad4/check.png');
+	background-size: 100% 100%;
+	width: 5%;
+	height: 6%;
+	position: absolute;
+	top: 68%;
+	left: 86%;
+}
+.U4_RDC10_ACT1_P4_LettersDraggables{
+	    margin-top: 10%;
+	    font-family: "comfortaa";
+}
+#U4_RDC10_ACT2_P3_Questions_id p {
+	    position: absolute;
+    top: 8%;
+    font-size:2.5vh;
+}
+#U4_RDC10_ACT2_P3_Questions_id{
+    height: 27%;
+}
+#U4_RDC10_ACT2_P4_Questions_id p{
+	    position: absolute;
+    top: 13%;
+    left: 6%;
+    font-size: 2.5vh;
+}

@@ -1,0 +1,1272 @@
+/*<!-- ------------------------- GENERALES -------------------------- -->*/
+/*body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+*/
+.U4_RDC11_backBanner {
+	position: absolute;
+	width: 100%;
+	height: 8.5%;
+	top: 0%;
+	left: 0%;
+	background-color: #662f61;
+	z-index: 0;
+}
+
+.U4_RDC11_banner{
+	width: 98%;
+	height: 9.5%;
+	position: absolute;
+	font-family: "comfortaa";
+	color: white;
+	margin-top: 2%;
+	text-align: center;
+	left: 10%;
+	z-index: 1;
+}
+
+.U4_RDC11_NameUnity {
+	width: 35%;
+	height: 5%;
+	top: 1%;
+	left: 2%;
+	position: absolute;
+	color: white;
+	font-size: 5vh;
+	z-index: 1;
+	font-family: "comfortaa";
+}
+
+.U4_RDC11_doctor{
+	background: url("../../img/unidad4/drjekyll.png") no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 34%;
+	height: 83%;
+	top: 17%;
+	left: 63%;
+}
+
+.U4_RDC11_buttons{
+	width: 4.5%;
+	height: 6%;
+	cursor: pointer;
+	position: absolute;
+}
+
+.hov:hover {
+	margin-top: -2px !important;
+}
+
+/*<!-- ------------------------- PANTALLA 0 -------------------------- -->*/
+
+#U4_RDC11_P0{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_P0_header_id{
+		font-size: 3vh;	
+}
+
+.U4_RDC11_Tilde {
+	background-image: url("../../img/unidad4/tilde.png");
+	background-size: 100% 100%;
+	width: 8%;
+	height: 8%;
+	top: 33%;
+	left: 61%;
+	position: absolute;
+	z-index: 0;
+}
+
+
+#U4_RDC11_P0_mirror-container_id{
+	background-color: white;
+	 border-style: solid;
+	 border-color: #662f61;
+	 border-radius: 1em;
+	position: absolute;
+	width: 25%;
+    height: 23%;
+    top: 12%;
+	left: 37%;
+	border-width: .5em;
+	z-index: 1;
+}
+
+#U4_RDC11_P0_txt_id{
+	top: 7%;
+	left: 17%;
+	width: 70%;
+	height: 79%;
+	position: absolute;
+	text-align: center;
+	font-size: 2.5vh;
+	font-family: "MyriadPro-Regular";
+	/*display: none;*/
+	color: black;
+}
+
+.U4_RDC11_P0_activities{
+	width: 26%;
+	height: 21%;
+	cursor: pointer;
+	position: absolute;
+}
+
+#U4_RDC11_P0_activity1_id{
+	background-color: #662f61;
+	border-color: white;
+	border-style: solid;
+	border-width: .5em;
+	border-radius: 1em;
+	top: 29%;
+	left: 6%;
+}
+
+#U4_RDC11_P0_activity2_id{
+	background-color: #662f61;
+	border-color: white;
+	border-style: solid;
+	border-width: .5em;
+	border-radius: 1em;
+	top: 54%;
+	left: 6%;
+}
+
+.U4_RDC11_P0_txtask{
+	width: 98%;
+	height: 61%;
+	position: absolute;
+	text-align: center;
+	font-size: 2.7vh;
+
+}
+
+#U4_RDC11_P0_task1txt_id{
+	top:12%;
+    font-family: "MyriadPro-Regular";
+    color: white;
+    margin-top: 3.3%;
+    font-size: 3.4vh;
+}
+#U4_RDC11_P0_task2txt_id{
+	top:19%;
+    font-family: "MyriadPro-Regular";
+    color: white;
+    margin-top: 3.3%;
+    font-size: 3.4vh;
+}
+
+#U4_RDC11_P0_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_P0_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	width: 5%;
+	height: 6.3%;
+	top: 33.5%;
+    left: 48%;
+	z-index: 2
+}
+
+/*<!-- ------------------------- PANTALLA 1 ACTIVIDAD 1 -------------------------- -->*/
+
+#U4_RDC11_ACT1_P1{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT1_P1_header_id{
+		font-size: 2.5vh;	
+}
+
+#U4_RDC11_ACT1_P1_mirror-container_id{
+	background-color: white;
+	 border-style: solid;
+	 border-color: #662f61;
+	 border-radius: 1em;
+	position: absolute;
+	width: 30%;
+    height: 20%;
+    top: 15%;
+    left: 32%;
+	border-width:.5em;
+	z-index: 1;
+}
+
+#U4_RDC11_ACT1_P1_txt_id{
+	top: 6%;
+	left: 11.5%;
+	width: 80%;
+	height: 79%;
+	position: absolute;
+	text-align: center;
+	font-size: 2.3vh;
+	font-family: "MyriadPro-Regular";
+	display: none;
+}
+
+#U4_RDC11_ACT1_P1_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	top: 35%;
+	left: 45.5%;
+	z-index: 2;
+}
+
+#U4_RDC11_ACT1_P1_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT1_P1_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT1_P1_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/*<!-- ------------------------- ACTIVITY 1 SCREEN 2 -------------------------- -->*/
+
+#U4_RDC11_ACT1_P2{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT1_P3{
+	display: none;
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#delimiter{
+	background: url("../../img/unidad4/delimiter.png");
+	background-size: 100% 100%;
+	position: absolute;
+	width: 1%;
+	height: 79%;
+	top: 8%;
+	left: 49.5%;
+	z-index: 5;
+}
+
+/******************************* DROPDOWN ***********************************/
+
+.dropdown, .dropdown2, .dropdown3, .dropdown4, .dropdown5, .dropdown6 ,.dropdown7, .dropdown8, .dropdown9, .dropdown10, .dropdown11 {
+    position: absolute;
+    display: inline-block;
+    border: solid;
+    width: 22.8%;
+    height: 8%;
+    position: absolute;
+    background-color: #652F61;
+    border-width: .2em;
+    border-radius: .5em;
+    border-color: #512351;
+    left: 3.7%;
+}
+
+#U4_RDC11_ACT1_P2_hair_id{top: 21%;}
+#U4_RDC11_ACT1_P2_clothes_id{top: 31.8%;}
+#U4_RDC11_ACT1_P2_eyes_id{top: 43%}
+#U4_RDC11_ACT1_P2_acc_id{top: 54.5%}
+#U4_RDC11_ACT1_P2_sociological_id{top: 10%}
+#U4_RDC11_ACT1_P2_beard_id{top: 65.7%}
+
+.U4_ACT1_P2_span{
+	position: absolute;
+    top: 33%;
+    left: 17%;
+    font-family: "MyriadPro-Regular";
+    font-size: 2.8vh;
+    color: white;
+}
+
+.dropdown1-content, .dropdown2-content, .dropdown3-content, .dropdown4-content, .dropdown5-content, .dropdown6-content, 
+.dropdown7-content, .dropdown8-content, .dropdown9-content, .dropdown10-content, .dropdown11-content {
+    display: none;
+    background-color: rgba(98,47,94,0.6);
+    top: 106%;
+    left: 0%;
+    width: 90%;
+    position: absolute;
+    padding: 5% 5%;  
+    z-index: 2;
+}
+
+.dropdown1-content {height: 410%;}
+.dropdown6-content {height: 262%;}
+.dropdown2-content, .dropdown7-content {height: 325%;}
+.dropdown3-content, .dropdown8-content {height: 325%;}
+.dropdown4-content, .dropdown9-content {height: 325%;}
+.dropdown5-content, .dropdown10-content {height: 579%;}
+.dropdown11-content {height: 279%;}
+
+.contentmini, .contentmini2, .contentmini3, .contentmini4, .contentmini5, .contentmini6,
+.contentmini7, .contentmini8, .contentmini9, .contentmini10, .contentmini11{
+	background-color: white;
+	position: absolute;
+	height: 95%;
+	width: 90%;
+	top: 0%;
+	left: 5%;
+}
+
+.rdc11_arrow{
+	width: 12%;
+	height: 45%;
+	top: 28%;
+	left: 84%;
+	position: absolute;
+}
+
+.down{display: block; z-index: 1; cursor: pointer;}
+.nodown{display: none;}
+.up{display: none; z-index: 1; cursor: pointer;}
+/*<!-- ------------------------- ACTIVITY 1 SCREEN 2 -------------------------- -->*/
+
+
+#U4_RDC11_ACT1_P2_player-container_id{
+	background: url("../../img/unidad4/personBox.png") no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 55%;
+	height: 59%;
+	top: 5%;
+	left: 37%;
+}
+
+.U4_RDC11_ACT1_P2_side, .U4_RDC11_ACT1_P2_side_copy{
+	position: absolute;
+	width: 40%;
+	height: 81%;
+	top: 6%;
+	left: 8%;
+	overflow: hidden;
+}
+#U4_RDC11_ACT1_P2_side_Lid, #U4_RDC11_ACT1_P2_side_Lcopy{
+	left: 10%;
+}
+
+#U4_RDC11_ACT1_P2_side_Rid, #U4_RDC11_ACT1_P2_side_Rcopy{
+	left: 50%;
+}
+
+.U4_RDC11_OptionLeft, .U4_RDC11_OptionLeft1, .U4_RDC11_OptionLeft1f{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: none;
+}
+.U4_RDC11_FaceLeft, .U4_RDC11_FaceLeftcopy{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: block;
+}
+
+.hairL, .hairR{z-index: 4;}
+.accL, .accR{z-index: 3;}
+.cloL, .cloR, .eyeL, .eyeR{z-index: 2;}
+
+.U4_RDC11_OptionRight, .U4_RDC11_OptionRight1, .U4_RDC11_OptionRight1f{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    position: absolute;
+    display: none;
+}
+.U4_RDC11_FaceRight, .U4_RDC11_FaceRightcopy{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    position: absolute;
+    display: block;
+}
+
+#U4_RDC11_ACT1_P2_hairstyle1_LidW, #U4_RDC11_ACT1_P2_acc1_LidW, #U4_RDC11_ACT1_P2_clothes1_LidW, #U4_RDC11_ACT1_P2_eyes1_LidW{
+	display: block;
+}
+
+#U4_RDC11_ACT1_P2_hairstyle1_RidW, #U4_RDC11_ACT1_P2_acc1_RidW, #U4_RDC11_ACT1_P2_clothes1_RidW, #U4_RDC11_ACT1_P2_eyes1_RidW{
+	display: block;
+}
+
+#U4_RDC11_ACT1_P2_hairstyle1_LidM, #U4_RDC11_ACT1_P2_acc1_LidM, #U4_RDC11_ACT1_P2_clothes1_LidM, #U4_RDC11_ACT1_P2_eyes1_LidM, #U4_RDC11_ACT1_P2_beard1_LidM{
+	display: block;
+}
+
+#U4_RDC11_ACT1_P2_hairstyle1_RidM, #U4_RDC11_ACT1_P2_acc1_RidM, #U4_RDC11_ACT1_P2_clothes1_RidM, #U4_RDC11_ACT1_P2_eyes1_RidM, #U4_RDC11_ACT1_P2_beard1_RidM{
+	display: block;
+}
+
+#identity1, #identity2{
+	background-color: rgba(98,47,94,0.6);
+    top: 87%;
+    left: 8.5%;
+    width: 29.5%;
+    height: 37%;
+    position: absolute;
+    padding: 5% 5%;
+    overflow: hidden;
+}
+
+#identity2{left: 49%;}
+
+#identity1-container, #identity2-container{
+	background-color: white;
+	position: absolute;
+	height: 86%;
+	width: 90%;
+	top: 10%;
+	left: 5%;
+	overflow-y: scroll;
+}
+
+.U4_RDC11_ACT1_P2_optionsL,.U4_RDC11_ACT1_P2_optionsR{
+	display: none;
+	position: relative;
+	width: 	59%;
+	height: 8%;
+	left: 20%;
+	background-color: #652F61;
+    border-width: .2em;
+    border-radius: .5em;
+    border-color: #512351;
+}
+
+.wordsselected{
+	margin-top: 3%;
+    text-align: center;
+    font-family: "MyriadPro-Regular";
+    font-size: 1.8vh;
+    color: white;
+}
+.idname{
+	margin-top: 1%;
+    text-align: center;
+    font-family: "MyriadPro-Regular";
+    font-size: 1.8vh;
+    color: white;
+}
+
+#id1select, #id2select{
+	position: absolute;
+	width: 	59%;
+	height: 7%;
+	left: 20%;
+	top: 2%;
+	background-color: #905497;
+    border-width: .2em;
+    border-radius: .5em;
+    border-color: #512351;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/*<!-- ------------------------- MINIATURAS -------------------------- -->*/
+/******* HAIR ******/
+.U4_RDC11_ACT1_P2_option{
+	position: absolute;
+	width: 	31%;
+	height: 25%;
+	cursor: pointer;
+}
+
+.minih{z-index: 1;}
+
+.hair1{
+	top: 5%;
+	left: 17%;
+}
+.hair2{
+	top: 5%;
+	left: 56%;
+}
+.hair3{
+	top: 36%;
+	left: 17%;
+}
+.hair4{
+	top: 36%;
+	left: 56%;
+}
+.hair5{
+	top: 66%;
+	left: 17%;
+}
+.hair6{
+	top: 66%;
+	left: 56%;
+}
+
+.hair1M{
+	top: 5%;
+	left: 17%;
+	width: 31%;
+	height: 35%;
+}
+.hair2M{
+	top: 5%;
+	left: 56%;
+	width: 31%;
+	height: 35%;
+}
+.hair3M{
+	top: 51%;
+	left: 17%;
+	width: 31%;
+	height: 35%;
+}
+.hair4M{
+	top: 51%;
+	left: 56%;
+	width: 31%;
+	height: 35%;
+}
+
+/******* CLOTHES ******/
+
+.U4_RDC11_ACT1_P2_optionc{
+	position: absolute;
+	width: 	54%;
+	height: 16%;
+	left: 24%;
+	cursor: pointer;
+}
+
+.minic{z-index: 1;}
+
+.clo1{top: 5%;}
+.clo2{top: 28%;}
+.clo3{top: 51%;}
+.clo4{top: 74%;}
+
+/******* EYES ******/
+
+.U4_RDC11_ACT1_P2_optione{
+	position: absolute;
+	width: 	63%;
+	height: 14%;
+	left: 18%;
+	cursor: pointer;
+}
+.minie{z-index: 1;}
+
+.eye1{top: 8%;}
+.eye2{top: 32%;}
+.eye3{top: 56%;}
+.eye4{top: 79%;}
+
+/******* ACCESSORIES ******/
+.minia{z-index: 1;}
+
+.U4_RDC11_ACT1_P2_optiona{
+	cursor: pointer;
+}
+
+.acc1{
+	position: absolute;
+	width: 58%;
+	height: 16%;
+	left: 21%;
+	top: 8%;
+}
+.acc2{
+	position: absolute;
+	width: 	60%;
+	height: 28%;
+	left: 21%;
+	top: 39%;
+}
+.acc3{
+	position: absolute;
+	width: 	22%;
+	height: 22%;
+	left: 38%;
+	top: 73%;
+}
+
+/******* SOCIOLOGICAL ******/
+#spansoc{left: 10%;
+	position: absolute;
+    top: 33%;
+    font-family: "MyriadPro-Regular";
+    font-size: 2.8vh;
+    color: white;}
+
+.U4_RDC11_ACT1_P2_options{
+	position: absolute;
+	width: 	59%;
+	height: 7%;
+	left: 20%;
+	background-color: #652F61;
+    border-width: .2em;
+    border-radius: .5em;
+    border-color: #512351;
+    cursor: pointer;
+}
+.words{
+	margin-top: 3%;
+    text-align: center;
+    font-family: "MyriadPro-Regular";
+    font-size: 2.3vh;
+    color: white;
+}
+
+.minis{z-index: 1;}
+
+.soc1{top: 3%;}
+.soc2{top: 11%;}
+.soc3{top: 20%;}
+.soc4{top: 29.5%;}
+.soc5{top: 38%;}
+.soc6{top: 47%;}
+.soc7{top: 56%;}
+.soc8{top: 64%;}
+.soc9{top: 73%;}
+.soc10{top: 81.9%;}
+.soc11{top: 91%;}
+
+/******* BEARD ******/
+
+.U4_RDC11_ACT1_P2_optionb{
+	cursor: pointer;
+	position: absolute;
+	left: 36%;
+}
+
+.minib{z-index: 1;}
+
+.beard1{width: 31%; height: 10%; top: 10%;}
+.beard2{width: 29%; height: 25%; top: 31%;}
+.beard3{width: 29%; height: 25%; top: 58%;}
+
+/*<!-- ------------------------- BOTONES -------------------------- -->*/
+#U4_RDC11_ACT1_P2_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT1_P2_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 43.6%;
+}
+
+#U4_RDC11_ACT1_P2_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 51.7%;
+}
+
+#U4_RDC11_ACT1_P2_text_id{
+	position: absolute;
+	width: 	72%;
+	height: 11%;
+	left: 14%;
+	top: 15%;
+	background-color: #652F61;
+    border-width: .2em;
+    border-radius: 1em;
+    border-color: #512351;
+    cursor: pointer;
+}
+
+#U4_RDC11_ACT1_P2_txt_id{
+	margin-top: 3%;
+    text-align: center;
+    font-family: "MyriadPro-Regular";
+    font-size: 2.4vh;
+    color: white;
+}
+
+.U4_RDC11_ACT1_P2_select-container{
+	background-color: rgba(72, 72, 72, 0.6);
+	width: 45%;
+	height: 45%;
+	top: 36%;
+	position: absolute;
+}
+
+#U4_RDC11_ACT1_P2_selectfemale_id{left: 3%;}
+#U4_RDC11_ACT1_P2_selectmale_id{left: 51%;}
+
+.U4_RDC11_ACT1_P2_playersex{
+	width: 58%;
+	height: 92%;
+	top: 7%;
+	left: 23%;
+	position: absolute;
+	cursor: pointer;
+}
+
+#U4_RDC11_ACT1_P2_female_id{
+	background: url("../../img/unidad4/selectionW.png");
+	background-size: 100% 100%;
+}
+
+#U4_RDC11_ACT1_P2_male_id{
+	background: url("../../img/unidad4/selectionM.png");
+	background-size: 100% 100%;
+}
+
+#U4_RDC11_ACT1_P3_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT1_P3_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 43.6%;
+}
+
+#U4_RDC11_ACT1_P3_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 51.7%;
+}
+/*<!-- ------------------------- ACTIVITY 2 SCREEN 1 -------------------------- -->*/
+
+#U4_RDC11_ACT2_P1{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT2_P1_header_id{
+		font-size: 3vh;	
+}
+
+#U4_RDC11_ACT2_P1_mirror-container_id{
+	background-color: white;
+	 border-style: solid;
+	 border-color: #662f61;
+	 border-radius: 1em;
+	position: absolute;
+	width: 25%;
+	height: 20%;
+	top: 15%;
+	left: 37%;
+	border-width: .5em;
+	z-index: 1;
+}
+
+#U4_RDC11_ACT2_P1_txt_id{
+	top: 6%;
+	left: 10.5%;
+	width: 85%;
+	height: 79%;
+	position: absolute;
+	text-align: center;
+	font-size: 2vh;
+	font-family: "MyriadPro-Regular";
+	display: none;
+}
+
+#U4_RDC11_ACT2_P1_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	top: 34%;
+	left: 49%;
+	z-index: 2;
+}
+
+#U4_RDC11_ACT2_P1_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT2_P1_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT2_P1_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/*<!-- ------------------------- ACTIVITY 2 SCREEN 2 -------------------------- -->*/
+
+#U4_RDC11_ACT2_P2{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT2_P2_info{
+	position: absolute;
+    width: 84%;
+    height: 26%;
+    top: 51%;
+    left: 7%;
+    text-align: left;
+    font-size: 2.8vh;
+    color: black;
+    font-family: "MyriadPro-Regular";
+    background-color: white;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .5em;
+    border-color: #662f61;
+}
+#U4_RDC11_ACT2_P2_info ul{
+	margin-top: 1%;
+}
+
+#U4_RDC11_ACT2_P2_opacityBack_id {
+	position: absolute;
+	width: 36%;
+	height: 40%;
+	top: 10%;
+	left: 32%;
+	background-color: rgba(98, 47, 94, 0.5);
+}
+
+#U4_RDC11_ACT2_P2_start_id{
+    background-color: #662f61;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .3em;
+    border-color: white; 
+	position: absolute;
+	width: 13%;
+	height: 4%;
+	top: 76%;
+	left: 42%;
+	text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family: "MyriadPro-Regular";
+    cursor: pointer;
+}
+
+#U4_RDC11_ACT2_P2_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	top: 79%;
+	left: 91%;
+	z-index: 2;
+}
+
+#U4_RDC11_ACT2_P2_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT2_P2_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT2_P2_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/*<!-- ------------------------- ACTIVITY 2 SCREEN 3 -------------------------- -->*/
+
+#U4_RDC11_ACT2_P3{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT2_P3_text-container_id{
+	position: absolute;
+	width: 47%;
+	height:53%;
+	top: 9%;
+	left: 27%;
+	/*! border: solid; */
+}
+
+#U4_RDC11_ACT2_P3_save_id{
+    background-color: #662f61;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .3em;
+    border-color: white; 
+	position: absolute;
+	width: 13%;
+	height: 4%;
+	top: 76%;
+	left: 42%;
+	text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family: "MyriadPro-Regular";
+    cursor: pointer;
+}
+
+#U4_RDC11_ACT2_P3_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT2_P3_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT2_P3_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/*<!-- ------------------------- ACTIVITY 2 SCREEN 4 -------------------------- -->*/
+
+#U4_RDC11_ACT2_P4{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT2_P4_txt_id{
+	top: 13%;
+	left: 7.5%;
+	width: 88%;
+	height: 45%;
+	position: absolute;
+	text-align: center;
+	font-size: 2.5vh;
+	font-family: "MyriadPro-Regular";
+}
+
+#U4_RDC11_ACT2_P4_mirror-container_id{
+	background-color: white;
+	 border-style: solid;
+	 border-color: #662f61;
+	 border-radius: 1em;
+	position: absolute;
+	width: 25%;
+	height: 20%;
+	top: 15%;
+	left: 37%;
+	border-width: .5em;
+	z-index: 1;
+}
+
+#U4_RDC11_ACT2_P4_feedback_id{
+	background-color: white;
+    border-style: solid;
+    border-color: #662f61;
+    border-radius: 1em;
+    position: absolute;
+    border-width: .5em;
+    width: 36%;
+    height: 37%;
+    top: 38%;
+    left: 1%;
+}
+
+#U4_RDC11_ACT2_P4_txt2_id{
+	top: 3%;
+    left: 6.5%;
+    width: 88%;
+    height: 53%;
+    position: absolute;
+    text-align: justify;
+    font-size: 2.5vh;
+    font-family: "MyriadPro-Regular";
+}
+
+#U4_RDC11_ACT2_P3_rewrite_id{
+    background-color: #662f61;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .3em;
+    border-color: white; 
+	position: absolute;
+	width: 23%;
+	height: 5%;
+	top: 77%;
+	left: 38%;
+	text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family: "MyriadPro-Regular";
+    cursor: pointer;
+    line-height: 180%;
+}
+
+#U4_RDC11_ACT2_P4_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	top: 34%;
+	left: 49%;
+	z-index: 2;
+}
+
+#U4_RDC11_ACT2_P4_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT2_P4_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT2_P4_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/*<!-- ------------------------- ACTIVITY 2 SCREEN 5 -------------------------- -->*/
+
+#U4_RDC11_ACT2_P5{
+	background-image: url( "../../img/unidad4/background.png" );
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#U4_RDC11_ACT2_P5_txt_id{
+	top: 7%;
+	left: 17%;
+	width: 70%;
+	height: 79%;
+	position: absolute;
+	text-align: center;
+	font-size: 2.1vh;
+	font-family: "MyriadPro-Regular";
+	
+	color: black;
+}
+
+#U4_RDC11_ACT2_P5_mirror-container_id{
+	background-color: white;
+	 border-style: solid;
+	 border-color: #662f61;
+	 border-radius: 1em;
+	position: absolute;
+	width: 44%;
+    height: 20%;
+    top: 15%;
+    left: 18%;
+	border-width: .5em;
+	z-index: 1;
+}
+
+#U4_RDC11_ACT2_P5_feedback_id{
+	background-color: white;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #662f61;
+    border-width: .5em;
+    position: absolute;
+    width: 36%;
+    height: 22%;
+    top: 44%;
+    left: 2%;
+}
+
+#U4_RDC11_ACT2_P5_txt2_id{
+	top: 10%;
+    left: 6.5%;
+    width: 89%;
+    height: 23%;
+    position: absolute;
+    text-align: justify;
+    font-size: 2.5vh;
+    font-family: "MyriadPro-Regular";
+}
+
+#U4_RDC11_ACT2_P5_speaker_id{
+	background: url("../../img/unidad4/speaker.png") no-repeat;
+	background-size: 100% 100%;
+	top: 34%;
+	left: 38%;
+	z-index: 2;
+}
+
+#U4_RDC11_ACT2_P5_home_id{
+	background: url("../../img/unidad4/home.png") no-repeat;
+	background-size: 100% 100%;
+	top: 3%;
+	left: 90%;
+}
+
+#U4_RDC11_ACT2_P5_return_id{
+	background: url("../../img/unidad4/return.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 44%;
+}
+
+#U4_RDC11_ACT2_P5_next_id{
+	background: url("../../img/unidad4/next.png") no-repeat;
+	background-size: 100% 100%;
+	top: 92%;
+	left: 52%;
+}
+
+/* Popup*/
+
+.U4_RDC11_ACT1_character {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    z-index: 100;
+}
+
+#U4_RDC11_ACT1_P3_opacityBack_id {
+	position: absolute;
+	width: 50%;
+	height: 70%;
+	top: 15%;
+	left: 25%;
+	background-color: rgba(98, 47, 94, 0.5);
+}
+
+#U4_RDC11_ACT1_P2_side_Lcopyf{
+	left: 0%;
+}
+
+#U4_RDC11_ACT1_P2_side_Rcopyf{
+	left: 50%;
+}
+
+.U4_RDC11_FaceLeftcopyf{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: block;
+}
+
+.U4_RDC11_FaceRightcopyf{
+	width: 200%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    position: absolute;
+    display: block;
+}
+
+.U4_RDC11_ACT1_P2_side_copyf{
+	position: absolute;
+	width: 50%;
+	height: 81%;
+	top: 6%;
+	left: 8%;
+	overflow: hidden;
+}
+
+#U4_RDC11_ACT1_P3_ready_id{
+    background-color: #662f61;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .3em;
+    border-color: white; 
+	position: absolute;
+	width: 13%;
+	height: 4%;
+	top: 83%;
+	left: 24%;
+	text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family: "Buxton Sketch";
+    cursor: pointer;
+}
+
+#U4_RDC11_ACT1_P3_containerError_character_id {
+	position: absolute;
+	height: 8%;
+	width: 10%; 
+	top: -3%;
+	left: 95%;
+	z-index: 5;
+}

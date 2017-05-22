@@ -1,0 +1,124 @@
+.U1_P10_RDC2_DialogImage
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_DialogActivities.png");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    position: absolute;
+    top: 85%;
+    left: -12%;
+    width: 22%;
+    height: 52%;
+}
+
+.U1_RDC2_ACT_2_P10_Activities
+{
+    background-image: url("../../../img/unidad1/RDC2/U1_RDC2_Fondo.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.U1_P10_RDC2_soltar{
+    z-index: 1;
+    max-width: 100%;
+    min-width: 100%;
+}
+.U1_P10_RDC2_img{
+    background-size: cover;
+}
+
+.U1_P10_RDC2_TextAudioActivities{
+    background-color: white;
+    border: 1vh solid #388423;
+    border-radius: 2vh;
+    position: absolute;
+    top: 49%;
+    left: 30%;
+    width: 39%;
+    height: 29%;
+    color: black;
+    font-size: 2.8vh;
+    font-family: "Myriad Pro";  
+}
+.U1_P10_RDC2_TextAudioActivities P{
+    padding: 4% 10% 0% 10%; /*top, right, bottom, left*/
+}
+.U1_P10_RDC2_ACT_2_Text1{
+    background-color: #388423;
+    position: absolute;
+    top: 0%;
+    left: 00%;
+    width: 100%;
+    height: 7%;
+    color: white;
+    font-size: 2.5vh;
+    font-family: "Comfortaa";       
+    text-align: center;
+}
+
+
+.U1_P1_RDC2_TextH{
+    background-color: #388423;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 25%;
+    height: 7%;
+    color: white;
+    font-size: 4.5vh;
+    font-family: "Comfortaa";       
+    text-align: left;
+    z-index: 1;
+}
+
+
+
+/*----------- Anexos Hkn*/
+.U1_P10_RDC2_ACT_2_ActivityHeader{
+    background-color: #388423;
+    border: 1vh solid white;
+    border-radius: 2vh;
+    position: absolute;
+    top:10%;
+    left: 22%;
+    width: 55%;
+    height: 12%;
+    color: white;
+    font-size: 2.7vh;
+    font-family: "Myriad Pro";
+}
+
+.U1_P10_RDC2_ACT_2_Activitydg1{
+    background-color: #FFDEAD;
+    border: 1vh solid white;
+    border-radius: 2vh;
+    position: absolute;
+    top:85%;
+    left: 7.3%;
+    width: 42%;
+    height: 10%;
+    color: black;
+    font-size: 2.7vh;
+    font-family: "Myriad Pro";
+}
+
+.1{}
+.2{}
+.3{}
+
+.azul{  background-image: url("../../../img/unidad1/RDC2/azul.png");}
+.verde{ background-image: url("../../../img/unidad1/RDC2/verde.png");}
+.rojo{  background-image: url("../../../img/unidad1/RDC2/rojo.png");}
+
+/*#esperaimg/unidad1/RDC2s{
+    border: 1px solid #ccc;
+    float: center;
+    width: 70%;
+    height: 100%;
+  }
+*/
+

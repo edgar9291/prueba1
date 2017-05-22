@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $("#idEnterDivRoma").mouseenter(function(){
+        $("#idEnterDivRomaSelected").css("visibility","visible");
+    });
+    $("#idEnterDivGrecia").mouseenter(function(){
+        $("#idEnterDivGreciaSelected").css("visibility","visible");
+    });
+    $("#idEnterDivMediterraneo").mouseenter(function(){
+        $("#idEnterDivMediterraneoSelected").css("visibility","visible");
+    });
+    $("#idEnterDivRoma").mouseout(function(){
+        $("#idEnterDivRomaSelected").css("visibility","hidden");
+    });
+    $("#idEnterDivGrecia").mouseout(function(){
+        $("#idEnterDivGreciaSelected").css("visibility","hidden");
+    });
+    $("#idEnterDivMediterraneo").mouseout(function(){
+        $("#idEnterDivMediterraneoSelected").css("visibility","hidden");
+    });
+
+});

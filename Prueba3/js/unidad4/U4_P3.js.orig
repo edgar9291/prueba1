@@ -1,0 +1,537 @@
+var x=0;
+var v1='video/unidad4/brujas.mp4';
+var v2='video/unidad4/pituca.mp4';
+var valop=0;
+var U12_S1_audio= new Audio();
+U12_S1_audio.src="audio/unidad4/sc3/instruccionesp1.mp3";
+var U12_S2_audio= new Audio();
+U12_S2_audio.src="audio/unidad4/sc3/instruccionesp2.mp3";
+var U12_S3_audio= new Audio();
+U12_S3_audio.src="audio/unidad4/sc3/instruccionesp3.mp3";
+var U12_S4_audio= new Audio();
+U12_S4_audio.src="audio/unidad4/sc3/instruccionesp7.mp3";
+var U12_S5_audio= new Audio();
+U12_S5_audio.src="audio/unidad4/sc3/instruccionesp11.mp3";
+var U12_S6_audio= new Audio();
+U12_S6_audio.src="audio/unidad4/sc3/instruccionesp14.mp3";
+
+function initRdc12( ){
+	var d1;
+	//new Utils( ).attachResize( $("#U4_RDC12_ContenedorPrincipal_id"), 1024, 765 );
+	//$("#U4_RDC12_P0").show();
+	//$("#U4_RDC12_P1").hide();
+	//$("#U4_RDC12_P2").hide();
+	//$("#U4_RDC12_ACT1_P1").hide();
+	//$("#U4_RDC12_ACT1_P2").hide();
+	//$("#U4_RDC12_ACT1_P3").hide();
+	//$("#U4_RDC12_ACT1_P4").hide();
+	//$("#U4_RDC12_ACT1_P5").hide();
+	//$("#U4_RDC12_ACT1_P6").hide();
+	//$("#U4_RDC12_ACT1_P7").hide();
+	//$("#U4_RDC12_ACT1_P8").hide();
+	//$("#U4_RDC12_ACT2_P1").hide();
+	//$("#U4_RDC12_ACT2_P2").hide();
+	//$("#U4_RDC12_ACT2_P3").hide();
+	//$("#U4_RDC12_ACT2_P4").hide();
+	//$("#U4_RDC12_ACT2_P5").hide();
+
+	
+	
+	$("#U4_RDC12_P2_FondoPop_id").hide();
+	$("#U4_RDC12_P2_PlayerPop_id").hide();
+	
+	startP1( );
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////TEXTEDITOR
+
+	new EditTextQuestion( {
+		parentDiv: "U4_RDC12_ACT1_P6_Respuestas_id",
+		saveButtonId: "U4_RDC12_ACT1_P6_Comprobar_id",
+		writeDocx: false,
+		afterSubmit: function( text ){
+			$( "#U4_RDC12_ACT1_P8_PanelPop_id" ).html( text );
+		}
+	} );
+	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////DragQuestios
+	boxDragQuestion( {
+		droppableDiv: "U4_RDC12_ACT1_P2_Respuestas_id",
+		draggablesDiv: "U4_RDC12_ACT1_P2_Opciones_id",
+		correctFeedback: "U4_RDC12_ACT1_P2_RetCorr_id",
+		wrongFeedback: "U4_RDC12_ACT1_P2_RetInco_id",
+		correctPosition: 3,
+		waitCorrectButton: true,
+		checkButtonId: "U4_RDC12_ACT1_P2_Comprobar_id",
+		resetButtonId: "reset",
+		onPassActivity: function( isCorrect ){
+			console.debug( "Me ha pasado " + isCorrect );
+			if(isCorrect==false||isCorrect==true){
+				console.debug("terminada");
+				$("#U4_RDC12_ACT1_P2_Siguiente_id").show();
+			}
+			$( "#options" ).find( "div" ).css( "cursor", "default" );
+		},
+		onEnter: function( ){
+			$( "#correctBox" ).css( "background-color", "blue" );
+		},
+		onLeave: function( ){
+			$( "#correctBox" ).css( "background-color", "" );
+		}
+	} );
+		
+
+	multipleChoiceQuestion("U4_RDC12_ACT1_P3_Opciones_id", 
+		"U4_RDC12_ACT1_P3_Comprobar_id", 
+		2, 
+		"U4_RDC12_ACT1_P3_RetCorr_id", 
+		"U4_RDC12_ACT1_P3_RetInco_id", 
+		received,
+		"U4_RDC12_ACT1_P3_Siguiente_id" );
+		
+
+	boxDragQuestion( {
+		droppableDiv: "U4_RDC12_ACT1_P4_Respuestas_id",
+		draggablesDiv: "U4_RDC12_ACT1_P4_Opciones_id",
+		correctFeedback: "U4_RDC12_ACT1_P4_RetCorr_id",
+		wrongFeedback: "U4_RDC12_ACT1_P4_RetInco_id",
+		correctPosition: 1,
+		waitCorrectButton: true,
+		checkButtonId: "U4_RDC12_ACT1_P4_Comprobar_id",
+		resetButtonId: "reset",
+		onPassActivity: function( isCorrect ){
+			console.debug( "Me ha pasado " + isCorrect );
+			if(isCorrect==false||isCorrect==true){console.debug("terminada");$("#U4_RDC12_ACT1_P4_Siguiente_id").show();}
+			$( "#options" ).find( "div" ).css( "cursor", "default" );
+		},
+		onEnter: function( ){
+			$( "#correctBox" ).css( "background-color", "blue" );
+		},
+		onLeave: function( ){
+			$( "#correctBox" ).css( "background-color", "" );
+		}
+	} );
+
+
+	 
+	multipleChoiceQuestion("U4_RDC12_ACT1_P5_Opciones_id", 
+						"U4_RDC12_ACT1_P5_Comprobar_id", 1, 
+						"U4_RDC12_ACT1_P5_RetCorr_id", 
+						"U4_RDC12_ACT1_P5_RetInco_id", 
+						received,"U4_RDC12_ACT1_P5_Siguiente_id");
+
+}//end documentReady( )
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA1
+function startP1( ){
+	$( "#home_id" ).show( );
+	$("#U4_RDC12_P0_Bocina_id").click(function() {
+		valop=0;
+		
+		if(!U12_S1_audio.paused){
+			U12_S1_audio.pause();
+		}
+		else{
+			U12_S1_audio.play();
+		}					
+	});
+
+	U12_S1_audio.addEventListener("ended",function(){
+		U12_S1_audio.currentTime=0;
+	});
+	$("#U4_RDC12_P0_Opcion1_id").click(function() {
+		startP2( );
+		resetP1( );
+		JQUERY4U.CambVent($("#U4_RDC12_P1"),$("#U4_RDC12_P0"),U12_S1_audio);	
+	});
+	$("#U4_RDC12_P0_Opcion2_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P1"),$("#U4_RDC12_P0"),U12_S1_audio);	
+	});
+}
+
+function resetP1( ){
+	
+}
+	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA2
+function startP2( ){
+	$( "#forward_id" ).show( );
+	$( "#back_id" ).show( );
+	$("#U4_RDC12_P1_Bocina_id").click(function() {
+		$("#U4_P3_TextEspejo2_id").show();
+		
+		if(!U12_S2_audio.paused){
+			U12_S2_audio.pause();
+		}
+		else{
+			U12_S2_audio.play();
+		}		
+	});
+
+	U12_S2_audio.addEventListener("ended",function(){
+		U12_S2_audio.currentTime=0;
+	});
+
+	$("#U4_RDC12_P1_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_P0"),$("#U4_RDC12_P1"),U12_S2_audio);		
+	});
+			
+	$("#U4_RDC12_P1_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_P2"),$("#U4_RDC12_P1"),U12_S2_audio);
+	});
+	
+	nav_current = "U4_RDC12_P1";
+	for( var i = 0; i < nav_current.length; i++ ){
+		console.debug( i + ": " + nav_current.charAt( i ) );
+	}
+	console.debug( nav_current.charAt( 10 ) );
+	fun = goNextRDC12_P2;
+	fun2 = goBackRDC12_P2;
+}
+
+function resetP2( ){
+	
+}
+
+function goNextRDC12_P2( ){
+	resetP2( );
+	startP3( );
+}
+
+function goBackRDC12_P2( ){
+	resetP2( );
+	startP4( );
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA2 Videos
+function startP2V( ){
+	$("#U4_RDC12_P2_VImg1_id").click(function() {
+		$("#U4_RDC12_P2_VideoPop_id").attr('src',v1);
+		$("#U4_RDC12_P2_FondoPop_id").show();
+		$("#U4_RDC12_P2_PlayerPop_id").show( {
+			effect: "scale",
+			duration: 300
+		} );
+	});
+
+	$("#U4_RDC12_P2_VImg2_id").click(function() {
+		$("#U4_RDC12_P2_VideoPop_id").attr('src',v2);
+		$("#U4_RDC12_P2_FondoPop_id").show();
+		$("#U4_RDC12_P2_PlayerPop_id").show( {
+			effect: "scale",
+			duration: 300
+		} );
+	});
+
+	$("#U4_RDC12_P2_FondoPop_id").click(function() {
+		$("#U4_RDC12_ACT1_P8_PanelPop_id").hide( {
+			effect: "scale",
+			duration: 300
+		} );
+		$("#U4_RDC12_P2_PlayerPop_id").hide( {
+			effect: "scale",
+			duration: 300
+		} );
+		$("#U4_RDC12_P2_FondoPop_id").hide();		
+	});
+
+	$("#U4_RDC12_P2_Siguiente_id").click(function() {
+		if(x>=2){
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P1"),$("#U4_RDC12_P2"),U12_S3_audio);
+			
+		}	
+	});
+	$("#U4_RDC12_P2_Anterior_id").click(function() {		
+			JQUERY4U.CambVent($("#U4_RDC12_P1"),$("#U4_RDC12_P2"),U12_S3_audio);		
+	});
+}
+
+function resetP2V( ){
+	
+}
+	
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA3
+function startP3( ){
+	$("#U4_RDC12_ACT1_P1_Bocina_id").click(function() {
+		$("#U4_P3_TextEspejo3_id").show();
+		
+		$("#U4_RDC12_ACT1_P1_Siguiente_id").css("cursor", "default");
+		$("#U4_RDC12_ACT1_P1_Anterior_id").css("cursor", "default");
+		if(!U12_S3_audio.paused){
+			U12_S3_audio.pause();
+		}
+		else{
+			U12_S3_audio.play();
+		}		
+	});
+
+	U12_S3_audio.addEventListener("ended",function(){
+		$("#U4_RDC12_ACT1_P1_Siguiente_id").css("cursor", "pointer");
+		$("#U4_RDC12_ACT1_P1_Anterior_id").css("cursor", "pointer");
+		
+		U12_S3_audio.currentTime=0;
+	});
+	$("#U4_RDC12_ACT1_P1_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_P2"),$("#U4_RDC12_ACT1_P1"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P1_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P2"),$("#U4_RDC12_ACT1_P1"),U12_S3_audio);	
+	});
+
+}
+
+function resetP3( ){
+	
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA4
+function startP4( ){
+	$("#U4_RDC12_ACT1_P2_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P1"),$("#U4_RDC12_ACT1_P2"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P2_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P3"),$("#U4_RDC12_ACT1_P2"),U12_S3_audio);				
+	});
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA5
+function startP5( ){
+	$("#U4_RDC12_ACT1_P3_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P2"),$("#U4_RDC12_ACT1_P3"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P3_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P4"),$("#U4_RDC12_ACT1_P3"),U12_S3_audio);				
+	});
+}
+
+function resetP5( ){
+	
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA6
+function startP6( ){
+	$("#U4_RDC12_ACT1_P4_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P3"),$("#U4_RDC12_ACT1_P4"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P4_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P5"),$("#U4_RDC12_ACT1_P4"),U12_S3_audio);				
+	});
+}
+function resetP6( ){
+	
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA7
+function startP7( ){
+	$("#U4_RDC12_ACT1_P5_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P4"),$("#U4_RDC12_ACT1_P5"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P5_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P6"),$("#U4_RDC12_ACT1_P5"),U12_S3_audio);				
+	});
+}
+function resetP7( ){
+	
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA8
+function startP8( ){
+	$("#U4_RDC12_ACT1_P6_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P5"),$("#U4_RDC12_ACT1_P6"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P6_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P7"),$("#U4_RDC12_ACT1_P6"),U12_S3_audio);				
+	});
+
+	$("#U4_RDC12_ACT1_P6_Comprobar_id").click(function() {
+		
+		$("#U4_RDC12_ACT1_P6_Siguiente_id").show();	
+
+	});
+}
+
+function resetP8( ){
+	
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA9
+function startP9( ){
+	$("#U4_RDC12_ACT1_P7_Bocina_id").click(function() {
+		valop=0;
+		
+		if(!U12_S4_audio.paused){
+			U12_S4_audio.pause();
+		}
+		else{
+			U12_S4_audio.play();
+		}					
+	});
+
+	U12_S4_audio.addEventListener("ended",function(){
+		
+		U12_S4_audio.currentTime=0;
+	});
+
+	$("#U4_RDC12_ACT1_P7_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P6"),$("#U4_RDC12_ACT1_P7"),U12_S4_audio);		
+
+	});
+
+	$("#U4_RDC12_ACT1_P7_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT1_P8"),$("#U4_RDC12_ACT1_P7"),U12_S4_audio);				
+	});
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANATALLA10
+function startP10( ){
+	$("#U4_RDC12_ACT1_P8_Anterior_id").click(function() {
+		
+		JQUERY4U.CambVent($("#U4_RDC12_ACT1_P7"),$("#U4_RDC12_ACT1_P8"),U12_S3_audio);		
+
+	});
+			
+	$("#U4_RDC12_ACT1_P8_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_P0"),$("#U4_RDC12_ACT1_P8"),U12_S3_audio);				
+	});	
+}
+
+function resetP10( ){
+	
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA11
+function startP11( ){
+	$("#U4_RDC12_ACT2_P1_Bocina_id").click(function() {
+
+		if(!U12_S5_audio.paused){
+			U12_S5_audio.pause();
+		}
+		else{
+			U12_S5_audio.play();
+		}		
+	});
+
+	U12_S5_audio.addEventListener("ended",function(){
+		U12_S5_audio.currentTime=0;
+	});
+
+	$("#U4_RDC12_ACT2_P1_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_P0"),$("#U4_RDC12_ACT2_P1"),U12_S5_audio);		
+	});
+			
+	$("#U4_RDC12_ACT2_P1_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P2"),$("#U4_RDC12_ACT2_P1"),U12_S5_audio);
+	});
+}
+
+function resetP11( ){
+	
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA12
+function startP12( ){
+
+	$("#U4_RDC12_ACT2_P2_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P1"),$("#U4_RDC12_ACT2_P2"),U12_S5_audio);		
+	});
+			
+	$("#U4_RDC12_ACT2_P2_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P3"),$("#U4_RDC12_ACT2_P2"),U12_S5_audio);
+	});
+}
+function resetP12( ){
+	
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA13
+
+function startP13( ){
+	$("#U4_RDC12_ACT2_P3_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P2"),$("#U4_RDC12_ACT2_P3"),U12_S5_audio);		
+	});
+			
+	$("#U4_RDC12_ACT2_P3_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P4"),$("#U4_RDC12_ACT2_P3"),U12_S5_audio);
+	});
+}
+
+function resetP13( ){
+	
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA14
+function startP14( ){
+
+	$("#U4_RDC12_ACT2_P4_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P3"),$("#U4_RDC12_ACT2_P4"),U12_S5_audio);		
+	});
+			
+	$("#U4_RDC12_ACT2_P4_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P5"),$("#U4_RDC12_ACT2_P4"),U12_S5_audio);
+	});
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PANTALLA15
+function startP15( ){
+	$("#U4_RDC12_ACT1_P15_Bocina_id").click(function() {
+		valop=0;
+		
+		if(!U12_S6_audio.paused){
+			U12_S6_audio.pause();
+		}
+		else{
+			U12_S6_audio.play();
+		}					
+	});
+
+	U12_S6_audio.addEventListener("ended",function(){
+		
+		U12_S6_audio.currentTime=0;
+	});
+
+
+	$("#U4_RDC12_ACT2_P5_Anterior_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_ACT2_P4"),$("#U4_RDC12_ACT2_P5"),U12_S6_audio);		
+	});
+			
+	$("#U4_RDC12_ACT2_P5_Siguiente_id").click(function() {
+			JQUERY4U.CambVent($("#U4_RDC12_P0"),$("#U4_RDC12_ACT2_P5"),U12_S6_audio);
+	});
+
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////Funciones externas
+
+JQUERY4U = {
+	VEnd: function() {
+		x++;	
+		if(x>=2){
+			$("#U4_P3_Siguiente2_1_id").css("cursor", "pointer");
+			$("#U4_P3_Anterior2_1_id").css("cursor", "pointer");
+		}	
+	},
+
+	CambVent: function(muestra,oculta,sonido) {
+		muestra.show();
+		oculta.hide();
+		sonido.pause();
+		sonido.currentTime=0;
+	},
+	Pop:function(){
+		$("#U4_RDC12_P2_FondoPop_id").show();
+		$("#U4_RDC12_ACT1_P8_PanelPop_id").show( {
+			effect: "scale",
+			duration: 300
+		} );
+	}
+	
+};
+
+
+

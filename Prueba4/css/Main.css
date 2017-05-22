@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+.ClickGeometria {|
+    position: absolute;
+    background-image: url(../img/principal/botongeometria.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 20%;
+    left: 8%;
+    width: 35%;
+    height: 20%;
+    z-index: 0;
+    bottom: 0;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    pointer-events: none;
+    position: absolute;
+}
+
+.iniciarGeometria {
+    position: absolute;
+    background-image: url(../img/principal/botongeometria.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 10%;
+    left: -40%;
+    width: 15%;
+    height: 9%;
+    z-index: 0;
+    bottom: 0;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.ClickPosiciones {
+    position: absolute;
+    background-image: url(../img/principal/botonposiciones.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 40%;
+    left: 50%;
+    width: 35%;
+    height: 20%;
+    z-index: 0;
+    bottom: 0;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    pointer-events: none;
+}
+
+.click-effect:hover {
+    margin-top: -.3% !important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.click-effect:active {
+    margin-top: .3% !important;
+}
+.frameMainPosiciones2 {
+    background-image: url(../img/pantalla5/Pantalla_fondo5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 9.5%;
+    left: 0px;
+    z-index: 0;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.frameMainPosiciones1 {
+    background-image: url(../img/Pantalla_fondo4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 9.5%;
+    left: 0px;
+    z-index: 0;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.frameTransparent {
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 3;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    right: 10%;
+    margin: 0 auto;
+    opacity: .65;
+    text-align: center;
+}
+.frameMainGeometria {
+    background-image: url(../img/pantalla3/fondopantalla3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 9.5%;
+    left: 0px;
+    z-index: 0;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.frameMainGeometria1 {
+    background-image: url(../img/pantalla2/fondo_figuras.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 9.5%;
+    left: 0px;
+    z-index: 0;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.frameMainIndex {
+    background-image: url(../img/principal/Pantalla_fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    position: absolute;
+    top: 13%;
+    left: 0px;
+    z-index: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frameMain {
+    background-image: url(../img/pantalla4/Banner_posiciones.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0px;
+    width: 1070px;
+    height: 720px;
+    z-index: 1;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+#principal {
+    position: fixed;
+    width: 1070px;
+    height: 720px;
+    top: 0px;
+    bottom: 0;
+
+}
+
+#base1 {
+    background-image: url(../img/Pantalla_fondo4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    left: 50%;
+    z-index: -1;
+}
+
+#encabezado {
+    background-image: url(../img/pantalla4/Banner_posiciones.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 15%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -45%;
+    z-index: 1;
+}
+
+#sueltame {
+    width: 20%;
+    height: 25%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    z-index: 1;
+}
+
+#sueltame2 {
+    width: 20%;
+    height: 25%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    z-index: 1;
+}
+
+#sueltame3 {
+    width: 20%;
+    height: 90%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+}
+
+#sueltame4 {
+    width: 20%;
+    height: 25%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    z-index: 1;
+}
+
+#pelota {
+    background-image: url(../img/pantalla4/pelota.png);
+    width: 15vh;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+    pointer-events: none;
+}
+
+#perro {
+    background-image: url(../img/pantalla4/perro.png);
+    cursor: pointer;
+    cursor: hand;
+    width: 26vh;
+    height: 26vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#faro {
+    background-image: url(../img/pantalla4/faro.png);
+    width: 12vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+    pointer-events: none;
+}
+
+#roca {
+    background-image: url(../img/pantalla4/rocas.png);
+    width: 25vh;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 63%;
+    left: 70%;
+    right: 52px;
+    z-index: 2;
+    cursor: pointer;
+    cursor: hand;
+    pointer-events: none;
+}
+
+#muybien {
+    background-image: url(../img/pantalla4/muybien.png);
+    width: 32%;
+    height: 12%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    z-index: 2;
+}
+
+.siguienteButon {
+    background-image: url(../img/pantalla4/botonsiguiente.png);
+    width: 22%;
+    height: 17%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    z-index: 4;
+    cursor: pointer;
+    visibility: hidden;
+    cursor: hand;
+}
+
+#siguiente {
+    background-image: url(../img/pantalla4/botonsiguiente.png);
+    width: 22%;
+    height: 17%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 77%;
+    z-index: 2;
+    cursor: pointer;
+    visibility: hidden;
+    cursor: hand;
+}
+
+#muybien3 {
+    background-image: url(../img/pantalla4/muybien.png);
+    width: 150%;
+    height: 14%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 189%;
+    z-index: 2;
+}
+
+#muybien4 {
+    background-image: url(../img/pantalla4/muybien.png);
+    width: 150%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: -130%;
+    left: 0%;
+    z-index: 2;
+}
+
+#intenta {
+    background-image: url(../img/pantalla4/IntentaloDeNuez.png);
+    width: 30%;
+    height: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 66.8%;
+    z-index: 1;
+}
+
+.pregunta {
+    width: 120%;
+    height: 50%;
+    font-family: "Dax-Regular";
+    font-size: 4vh;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 94%;
+    left: -10%;
+    z-index: 2;
+}
+
+#pie {
+    background-image: url(../img/pantalla4/bannerabajo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    top: 92%;
+    z-index: 1;
+}
+@font-face {
+    font-family: "Occidental";
+    src: url("font/OCCIDENT.TTF");
+}
+@font-face {
+    font-family: "Nexa Light";
+    src: url("font/Nexa%20Light.otf");
+}
+@font-face {
+    font-family: "Dax-Regular";
+    src: url("font/ufonts.com_dax-regular.ttf");
+}
+.respuestaCorrecta2
+{
+    background-image: url(../img/pantalla4/muybien.png);
+    width: 30%;
+    height: 12%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    z-index: 20;
+    visibility: hidden;
+}

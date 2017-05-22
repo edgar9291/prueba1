@@ -1,0 +1,1479 @@
+@charset "utf-8";
+@font-face
+{
+   font-family: "Comfortaa-Bold";
+   src:url("../../Font/Comfortaa-Bold.ttf") format("truetype");
+}
+@font-face
+{
+ font-family: "MyriadPro-Semibold";
+   src: url("../../Font/MyriadPro-Semibold.otf") format("opentype");
+}
+@font-face
+{
+    font-family: "MyriadPro-Regular";
+   src: url("../../Font/MyriadPro-Regular.otf") format("opentype");
+}
+#body{
+	margin:0px;
+	overflow-y:hidden
+	}
+
+#U2_RDC6_ACT1_id {
+	position: relative;
+	width:1067px;
+	height:800px;
+}
+
+#U2_RDC6_ACT2_id{
+	position: relative;
+	width:1067px;
+	height:800px;
+}
+
+/*fondos*/
+.U2_RDC6_ACT2_P2_Background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display:none;
+	left: 0%; 
+
+}
+
+/*fondos*/
+.U2_RDC6_ACT1_P0_BACKGROUND_Fondo {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	display:none;
+	
+}
+
+.U2_RDC6_ACT1_P1_BACKGROUND_Fondo {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	display:none;
+	
+}
+.U2_RDC6_ACT1_P2_BACKGROUND_Fondo {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	display:none;
+	
+}
+  
+
+/*botones*/	
+
+.button {
+	cursor: pointer;
+	width: 5%;
+	z-index: 7;
+	position: absolute;
+}
+
+.button.click-effect:hover {
+	margin-top: -1px !important;
+}
+.button.click-effect:active {
+	margin-top: 1px !important;
+}
+	.U2_RDC6_ACT1_P0_Arrow{
+	left: 67%;
+	top: 88%;
+	display:none;
+	}
+	.U2_RDC6_ACT1_P1_Arrow2{
+	left: 51%;
+	top: 88%;
+	display:none;
+	}
+	.U2_RDC6_ACT1_P1_Arrowizq2{
+	left: 44%;
+	top: 88%;
+	display:none;
+	}
+	.U2_RDC6_ACT1_P2_Arrow2{
+	left: 51%;
+	top: 88%;
+	display:none;
+	}
+	.U2_RDC6_ACT1_P2_Arrow3{
+	left: 93%;
+	width:5%;
+	top: 33%;
+	display:none;
+	}
+	
+	.U2_RDC6_ACT1_P2_Arrowizq2{
+	left: 44%;
+	top: 88%;
+	display:none;
+	}
+	
+	.U2_RDC6_ACT1_P2_Arrowizq3{
+	left: 4%;
+	width:5%;
+	top: 33%;
+	display:none;
+	}
+	.U2_RDC6_ACT1_P0_Home{
+	left: 90%;
+	top: 12%;
+	display:none;
+	
+	}	
+	.U2_RDC6_ACT1_P0_Speaker {
+	left: 55%;
+	top: 59%;
+	width:15%;
+	display:none;
+}
+
+	.U2_RDC6_ACT1_P1_Speaker {
+	left: 42%;
+	top: 59%;
+	width:15%;
+	display:none;
+}
+	.notamus {
+	left: 90%;
+	top: 20%;
+	display:none;
+}
+
+
+	
+
+
+/*divs que corresponden a las posiciones donde aparecera la imagen p3*/
+
+	.U2_RDC6_ACT1_P0_CharacterPrincipito{
+	position: absolute;
+	width: 27%;
+	
+	z-index: 5;
+	left: 0%;
+	top: 33%;
+	display:none; 
+	cursor: pointer;	
+}
+.U2_RDC6_ACT1_P1_CharacterPrincipito{
+	position: absolute;
+	width: 27%;
+
+	z-index: 5;
+	left: 0%;
+	top: 33%;
+	display:none; 
+	cursor: pointer;	
+}
+
+	.U2_RDC6_ACT1_P0_PopUp{
+	position: absolute;
+	width: 45%;
+	z-index: 5;
+	left: 25%;
+	top: 10%;
+	display:none; 
+	cursor: pointer;
+	
+	}
+.U2_RDC6_ACT1_P1_PopUp{
+	position: absolute;
+	width: 45%;
+	z-index: 5;
+	left: 25%;
+	top: 10%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_PopUp{
+	position: absolute;
+	width: 81%;
+	z-index: 5;
+	left: 5%;
+	top: 17%;
+	display:none; 
+	cursor: pointer;
+	}
+	.U2_RDC6_ACT1_P0_Pop2{
+	position: absolute;
+	width: 37%;
+	
+	z-index: 5;
+	left: 57%;
+	top: 59%;
+	display:none; 
+	cursor: pointer;
+	}
+
+
+	
+.U2_RDC6_ACT1_P0_Pop1{
+	position: absolute;
+	width: 37%;
+
+	z-index: 5;
+	left: 42%;
+	top: 43%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P1_Pop1
+	{
+	position: absolute;
+	width: 32%;
+	
+	z-index: 5;
+	left: 35%;
+	top: 38%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Pop1
+	{
+	position: absolute;
+	width: 77%;
+	
+	z-index: 5;
+	left: 6%;
+	top: 12%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Option1{
+	position: absolute;
+	width: 64%;
+	
+	z-index: 6;
+	left: 14%;
+	top: 82%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Option2{
+	position: absolute;
+	width: 64%;
+	
+	z-index: 6;
+	left: 14%;
+	top: 82%;
+	display:none; 
+	cursor: pointer;	
+}
+.U2_RDC6_ACT1_P2_Option3{
+	position: absolute;
+	width: 64%;
+	
+	z-index: 6;
+	left: 14%;
+	top: 82%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Option4{
+	position: absolute;
+	width: 64%;
+	
+	z-index: 6;
+	left: 14%;
+	top: 82%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Option5{
+	position: absolute;
+	width: 64%;
+	
+	z-index: 6;
+	left: 14%;
+	top: 82%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Box{
+	position: absolute;
+	width: 78%;
+	
+	z-index: 5;
+	left: 6%;
+	top: 79%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Error{
+	position: absolute;
+	width: 78%;
+	
+	z-index: 8;
+	left: 6%;
+	top: 43%;
+	display:none; 
+	cursor: pointer;		
+}
+.U2_RDC6_ACT1_P2_Correct{
+	position: absolute;
+	width: 78%;
+	
+	z-index: 8;
+	left: 6%;
+	top: 43%;
+	display:none; 
+	cursor: pointer;		
+}
+.oculta{
+	
+	
+	
+}
+.visto{
+	
+	
+}
+
+.U2_RDC6_ACT1_P2_Button{
+	position: absolute;
+	width: 32%;
+	
+	z-index: 7;
+	left: 27%;
+	top: 83%;
+	display:none; 
+	cursor: pointer;		
+}
+
+.U2_RDC6_ACT1_P0_Title_Fondo1{
+	position: absolute;
+	width: 100%;
+	font-family:"Comfortaa-Bold";
+	font-size:5vh;
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 2%;
+	top: 2%;
+	display:none; 
+	cursor: pointer;
+	}
+
+	.U2_RDC6_ACT1_P1_Title_Fondo1{
+	position: absolute;
+	width: 100%;
+	font-family:"Comfortaa-Bold";
+	font-size:5vh;
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 2%;
+	top: 2%;
+	display:none; 
+	cursor: pointer;
+	}
+	.U2_RDC6_ACT1_P1_SubTitle_Fondo1{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Regular";
+	font-size:3vh;
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 27%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P0_Dialogo{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 29%;
+	top: 9%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo{
+	position: absolute;
+	width: 86%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 6%;
+	top: 4%;
+	display:none; 
+	cursor: pointer;
+	}
+
+.U2_RDC6_ACT1_P2_Cuadro{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Regular";
+	font-size:3vh;
+	font-weight:bold;
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 26%;
+	top: -1%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Cuadro2{
+	position: absolute;
+	width: 64%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 13%;
+	top: 25%;
+	display:none; 
+	cursor: pointer;
+	}
+
+.U2_RDC6_ACT1_P2_Cuadro3{
+	position: absolute;
+	width: 64%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 13%;
+	top: 35%;
+	display:none; 
+	cursor: pointer;
+	}
+
+.U2_RDC6_ACT1_P2_Cuadro4{
+	position: absolute;
+	width: 64%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 13%;
+	top: 46%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Cuadro5{
+	position: absolute;
+	width: 64%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 13%;
+	top: 56%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Cuadro6{
+	position: absolute;
+	width: 64%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	align-content:center;
+	z-index: 5;
+	left: 13%;
+	top: 66%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P0_ButtonText{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Semibold";
+	font-size:2.7vh;
+	
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 4%;
+	top: -7%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_ButtonText{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	font-weight:bold;
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 3%;
+	top: -33%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P0_ButtonText2{
+	position: absolute;
+	width: 100%;
+	font-family:"MyriadPro-Semibold";
+	font-size:2.7vh;
+	
+	color:white;
+	align-content:center;
+	z-index: 5;
+	left: 7%;
+	top: -17%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P1_Dialogo{
+	position: absolute;
+	width: 96%;
+
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	z-index: 5;
+	left: 28%;
+	top: 8%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	z-index: 5;
+	left: 6%;
+	top: 4%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo2{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	color: white;
+	z-index: 5;
+	left: 1%;
+	top: -4%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo3{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.0vh;
+	color: white;
+	z-index: 5;
+	left: 1%;
+	top: -4%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo4{
+	position: absolute;
+	width: 96%;
+
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	color: white;
+	z-index: 5;
+	left: 1%;
+	top: -4%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo5{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	color: white;
+	z-index: 5;
+	left: 1%;
+	top: -13%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo6{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.5vh;
+	color: white;
+	z-index: 5;
+	left: 1%;
+	top: -4%;
+	display:none; 
+	cursor: pointer;
+	}
+.U2_RDC6_ACT1_P2_Dialogo7{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Semibold";
+	font-size:2.8vh;
+	color: white;
+	z-index: 5;
+	left: 31%;
+	top: -40%;
+	display:none; 
+	cursor: pointer;
+	}
+
+.U2_RDC6_ACT1_P2_Dialogo8{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.8vh;
+	
+	z-index: 5;
+	left: 4%;
+	top: 23%;
+	display:none; 
+	cursor: pointer;
+	}
+
+.U2_RDC6_ACT1_P2_Dialogo9{
+	position: absolute;
+	width: 96%;
+	
+	font-family:"MyriadPro-Regular";
+	font-size:2.8vh;
+	
+	z-index: 5;
+	left: 4%;
+	top: 23%;
+	display:none; 
+	cursor: pointer;
+	}
+	
+.U2_RDC6_ACT2_P2_Arrow{
+	left: 51%;
+	top: 91%;
+	width: 4.7%;
+	display:none;
+	}
+	.U2_RDC6_ACT2_P3_ArrowLeft{
+	left: 41%;
+	top: 91%;
+	display:none;
+	}
+	.U2_RDC6_ACT2_P3_Home{
+	left: 88%;
+	top: 4%;
+	width:7%;
+	display:none;
+	}	
+	.U2_RDC6_ACT2_P2_Horn {
+	left: 50%;
+	top: 35%;
+	display:none;
+}
+
+			.div1{
+				position: absolute;
+				top: 48%;
+				width: 38%;
+				height: 50%;
+				z-index:8;
+				left: 33%;
+			}
+			
+			button{
+				position: absolute;
+				top: 90%;
+				z-index:11;
+			}
+		
+			
+			#textDiv{
+				left: 15%;
+			}
+			
+			#textDiv2{
+				z-index: 13;
+				position: absolute;
+				top: 41%;
+				left: 21%;
+				width: 58%;
+				height: 23%;
+			}
+			
+			#save{
+				left: 30%;
+			}
+			
+			#save2{
+				left: 70%;
+			}
+			
+			#U2_RDC6_ACT2_P4_save1_id{
+				left: 78%;
+				z-index:15;
+				width: 20%;
+				display: none;
+				position: absolute;
+				top:75%;
+				font-size:1.7vh;
+			}
+			#U2_RDC6_ACT2_P4_Cuestion_id{
+				left: 29%;
+				z-index:15;
+				width: 41%;
+				display: none;
+				position: absolute;
+				top:55%;
+			}
+			
+		
+
+
+
+/*divs que corresponden a las posiciones donde aparecera la imagen p3*/
+	#U2_RDC6_ACT2_P0_Pantalla_id{
+		margin:0px;
+		overflow-y:hidden
+	}
+	#U2_RDC6_ACT2_P1_Pantalla_id{
+		margin:0px;
+		overflow-y:hidden
+	}
+	#U2_RDC6_ACT2_P2_Pantalla_id{
+		margin:0px;
+		overflow-y:hidden
+	}
+	#U2_RDC6_ACT2_P3_Pantalla_id{
+		margin:0px;
+		overflow-y:hidden	
+	}
+	#U2_RDC6_ACT2_P4_Pantalla_id{
+		margin:0px;
+		overflow-y:hidden	
+	}
+	
+	#U2_RDC6_ACT2_P2_Arbol_id{
+	position: absolute;
+	width: 27%;
+	height: 9%;
+	z-index: 7;
+	left: 63%;
+	top: 21%;
+	display:none; 
+	cursor: pointer;	
+	}
+	
+	#U2_RDC6_ACT2_P2_Arbol1_id{
+	position: absolute;
+	width: 25%;
+	height: 9%;
+	z-index: 6;
+	left: 38%;
+	top: 16%;
+	display:none; 
+	cursor: pointer;	
+	}
+	#U2_RDC6_ACT2_P2_Arbol2_id{
+	position: absolute;
+	width: 27%;
+	height: 9%;
+	z-index: 6;
+	left: 8%;
+	top: 21%;
+	display:none; 
+	cursor: pointer;	
+	}
+	.U2_RDC6_ACT2_P0_Principito_id{
+	position: absolute;
+	width: 30%;
+	height: 9%;
+	z-index: 6;
+	left: 6%;
+	top: 28%;
+	display:none; 
+	cursor: pointer;
+	}
+	#U2_RDC6_ACT2_P0_PopUpDialogo_id{
+	position: absolute;
+	width: 32%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 9%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_PopUpDialogo_id{
+	position: absolute;
+	width: 32%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 9%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P6_PopUpDialogo_id{
+	position: absolute;
+	width: 63%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 16%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P7_PopUpDialogo_id{
+	position: absolute;
+	width: 30%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 11%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P8_PopUpDialogo_id{
+	position: absolute;
+	width: 30%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 9%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P8_PopUpDialogo_id{
+	position: absolute;
+	width: 30%;
+	height: 31%;
+	z-index: 5;
+	left: 35%;
+	top: 9%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P7_PopUpDialogo1_id{
+	position: absolute;
+	width: 49%;
+	height: 31%;
+	z-index: 5;
+	left: 49%;
+	top: 43%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P8_PopUpDialogo1_id{
+	position: absolute;
+	width: 49%;
+	height: 31%;
+	z-index: 5;
+	left: 49%;
+	top: 43%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P1_PopUpDialogo2_id{
+	position: absolute;
+	width: 89%;
+	height: 50%;
+	z-index: 5;
+	left: 5%;
+	top: 13%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P2_PopUpDialogo3_id{
+	position: absolute;
+	width: 89%;
+	height: 50%;
+	z-index: 5;
+	left: 5%;
+	top: 13%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P3_PopUpDialogo4_id{
+	position: absolute;
+	width: 46%;
+	height: 50%;
+	z-index: 5;
+	left: 0%;
+	top: 14%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P3_PopUpDialogo4_id{
+	position: absolute;
+	width: 46%;
+	height: 50%;
+	z-index: 5;
+	left: 0%;
+	top: 14%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	.U2_RDC6_ACT2_P3_PopUpCuadro{
+	position: absolute;
+	width: 98%;
+	height: 70%;
+	z-index: 5;
+	left: 2%;
+	top: 13%;
+	display:none; 
+	cursor: pointer;
+	}
+	
+	#U2_RDC6_ACT2_P0_Pop1_id{
+	position: absolute;
+	width: 31%;
+	height: 16%;
+	z-index: 5;
+	left: 65%;
+	top: 38%;
+	display:none; 
+	cursor: pointer;
+	}
+	#U2_RDC6_ACT2_P0_Pop2_id
+	{
+	position: absolute;
+	width: 31%;
+	height: 18%;
+	z-index: 5;
+	left: 65%;
+	top: 65%;
+	display:none; 
+	cursor: pointer;		
+}
+	#U2_RDC6_ACT2_P0_Dialogo1_id{
+	position: absolute;
+	width: 74%;
+	height: 73%;
+	z-index: 5;
+	left: 20%;
+	top: 13%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo1_id{
+	position: absolute;
+	width: 74%;
+	height: 73%;
+	z-index: 5;
+	left: 20%;
+	top: 13%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P1_Dialogo2_id{
+	position: absolute;
+	width: 83%;
+	height: 41%;
+	z-index: 5;
+	left: 10%;
+	top: 7%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P2_Dialogo3_id{
+	position: absolute;
+	width: 88%;
+	height: 37%;
+	z-index: 5;
+	left: 6%;
+	top: 98%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo4_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 7%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo5_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 4%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo6_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 6%;
+	top: 1%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo7_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 4%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo8_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 4%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo9_id{
+	position: absolute;
+	width: 89%;
+	height: 65%;
+	z-index:11;
+	left: 6%;
+	top: -5%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo10_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 6%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo11_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 6%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P5_Dialogo12_id{
+	position: absolute;
+	width: 90%;
+	height: 65%;
+	z-index:11;
+	left: 6%;
+	top: 3%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P6_Dialogo1_id{
+	position: absolute;
+	width: 88%;
+	height: 32%;
+	z-index:11;
+	left:8%;
+	top: 6%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P7_Dialogo1_id{
+	position: absolute;
+	width: 75%;
+	height: 32%;
+	z-index:11;
+	left:21%;
+	top: 6%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P8_Dialogo1_id{
+	position: absolute;
+	width: 75%;
+	height: 32%;
+	z-index:11;
+	left:21%;
+	top: 6%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P7_Dialogo2_id{
+	position: absolute;
+	width: 83%;
+	height: 65%;
+	z-index:11;
+	left: 8%;
+	top: 4%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P8_Dialogo2_id{
+	position: absolute;
+	width: 83%;
+	height: 65%;
+	z-index:11;
+	left: 8%;
+	top: 4%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;
+	}
+	#U2_RDC6_ACT2_P4_Instrucciones1_id{
+	position: absolute;
+	width: 60%;
+	height: 21%;
+	z-index:11;
+	left: 20%;
+	top: 21%;
+	display:none; 
+	cursor: pointer;
+	font-size:1.7vh;	
+	}
+	#U2_RDC6_ACT2_P2_Exit_id{
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	z-index: 8;
+	left: 86%;
+	top: 16%;
+	display:none;
+	cursor: pointer;
+	
+}
+	#U2_RDC6_ACT2_P2_PopUpReve_id{
+	position: absolute;
+	width: 33%;
+	height: 10%;
+	z-index: 8;
+	left: 13%;
+	top: 67%;
+	display:none;
+	cursor: pointer;
+	
+}
+	#U2_RDC6_ACT2_P2_contenedor_id{
+	position: absolute;
+	width: 41%;
+	height: 10%;
+	z-index: 7;
+	left: 5%;
+	top: 14%;
+	display:none;
+	cursor: pointer;
+	
+}
+
+	#U2_RDC6_ACT2_P2_contenedortexto_id{
+	position: absolute;
+	width: 41%;
+	height: 62%;
+	z-index: 11;
+	left: 53%;
+	top: 23%;
+	display:none;
+	cursor: pointer;
+	font-size:1.7vh;
+	
+}
+	#U2_RDC6_ACT2_P2_contenedortexto1_id{
+	position: absolute;
+	width: 41%;
+	height: 62%;
+	z-index: 11;
+	left: 53%;
+	top: 23%;
+	display:none;
+	cursor: pointer;
+	font-size:1.7vh;
+	
+}
+	#U2_RDC6_ACT2_P2_contenedortexto2_id{
+	position: absolute;
+	width: 41%;
+	height: 62%;
+	z-index: 11;
+	left: 53%;
+	top: 23%;
+	display:none;
+	cursor: pointer;
+	font-size:1.7vh;
+	
+}
+	#U2_RDC6_ACT2_P2_contenedortexto3_id{
+	position: absolute;
+	width: 41%;
+	height: 62%;
+	z-index: 11;
+	left: 53%;
+	top: 23%;
+	display:none;
+	cursor: pointer;
+	font-size:1.7vh;	
+}
+	.U2_RDC6_ACT2_P2_PopUpReveText{
+	position:absolute;
+	width:20%;
+	height:15%;
+	z-index:11;
+	left:23%;
+	top:81%;
+	display:none;
+	cursor:pointer;
+	transform: rotate(6deg);
+
+}
+		#correctBox{
+			width: 40%;
+			height: 9%;
+			position: absolute;
+			top: 64%;
+			left: 29%;
+			display:none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#options{
+			position: absolute;
+			top: 32%;
+			left: 18%;
+			width: 64%;
+			display:none;
+			z-index:11;
+			height:31%;
+		}
+		
+		#options div{
+
+			cursor: pointer;
+			display:none;
+			z-index:11;
+			
+		}
+		#U2_RDC6_ACT2_P3_wrongFeedback_id{
+			position: absolute;
+			width:32%;
+			top: 80%;
+			left:33%;
+			display: none;
+			z-index:10;
+			font-size:1.7vh;
+		
+		}
+		#U2_RDC6_ACT2_P3_wrongFeedback1{
+			position: absolute;
+			width:32%;
+			top: 80%;
+			left:33%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		
+		}
+		#U2_RDC6_ACT2_P3_correctFeedback_id{
+			top: 79%;
+			position: absolute;
+			left: 32%;
+			width: 35%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_correctFeedback1_id{
+			top: 77%;
+			position: absolute;
+			left: 32%;
+			width: 35%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Opcion1{
+			top: 50%;
+			position: absolute;
+			left: 8%;
+			height: 10%;
+			width: 62%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Opcion2{
+
+			top: 37%;
+			position: absolute;
+			left: 8%;
+			width: 59%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Opcion3{
+
+			top: 64%;
+			position: absolute;
+			left: 8%;
+			width: 59%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Opcion4{
+
+			top: 78%;
+			position: absolute;
+			left: 8%;
+			width: 66%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Opcion5{
+	
+			top: 60%;
+			position: absolute;
+			left: 31%;
+			width: 11%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#check{
+			top: 85%;
+			position: absolute;
+			left: 75%;
+			width: 18%;
+			height: 8%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#reset
+		{
+			border: solid;
+			color: green;
+			top: 70%;
+			position: absolute;
+			left: 21%;
+			width: 11%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#Pregunta
+		{
+			top: 7%;
+			position: absolute;
+			left: 7%;
+			width: 74%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_CuadroMal
+		{
+			top: 21%;
+			position: absolute;
+			left: 16%;
+			width: 28%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_CuadroMal1
+		{
+			top: 47%;
+			position: absolute;
+			left: 16%;
+			width: 28%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_CuadroMal2
+		{
+			top: 47%;
+			position: absolute;
+			left: 59%;
+			width: 28%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_CuadroMal4
+		{
+			top: 21%;
+			position: absolute;
+			left: 59%;
+			width: 28%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+		#U2_RDC6_ACT2_P3_CuadroBien
+		{
+			top: 21%;
+			position: absolute;
+			left: 59%;
+			width: 30%;
+			display: none;
+			z-index:11;
+			font-size:1.7vh;
+		}
+
+
+	
+
+	

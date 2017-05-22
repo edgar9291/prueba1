@@ -1,0 +1,1635 @@
+p
+{
+    margin: 0;
+}
+/* PANTALLA 1 */
+.U1_RDC3_P1 
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_P1_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_P1 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_P1 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+.U1_RDC3_P1_intro
+{
+    position: absolute;
+    width: 29%;
+    height: 25%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 110%;
+    /* background-color: red; */
+}
+/*globo texto*/
+.U1_RDC3_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+/*BOTONES imagenes*/
+.U1_RDC3_btn
+{
+    position:absolute;
+    width: 25%;
+    height: 18%;
+    text-align: center;
+    line-height: 130%;
+}
+    .U1_RDC3_btn_1
+    {
+        top: 40%;
+        left: 56%;
+        /* background-color: blue; */
+    }
+        .img_btn
+        {
+            width: 100%;
+            height: 100%;
+        }
+    .U1_RDC3_btn p
+    {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        font-size: 3vh;
+        color: white;
+    }
+    .U1_RDC3_btn_2
+    {
+        top: 60%;
+        left: 56%;
+        /* background-color: red; */
+    }
+
+
+
+/* RDC1 act1 p1 */
+/*Container fondo y titulo*/
+.U1_RDC3_ACT1_P1
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P1_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P1_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P1 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P1 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_ACT1_P1_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+/*globo texto*/
+.U1_RDC3_ACT1_P1_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+.U1_RDC3_ACT1_P1_text
+{
+    position: absolute;
+    width: 28%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    font-size: 2.7vh;
+    /* background-color: red; */
+}
+
+
+
+/* RDC3 act1 p2 */
+/*Container fondo y titulo*/
+.U1_RDC3_ACT1_P2
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P2_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P2_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P2 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P2 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P2_text-container
+{
+    position: absolute;
+    width: 90%;
+    height: 70vh;
+    top: 15%;
+    left: 3%;
+    opacity: 1;
+    font-size: 3.5vh;
+    border: 2.5vh solid #875C29;
+    background-color: white;
+    overflow-y: scroll;
+    z-index: 0;
+    /* background-color: blue; */
+}
+.U1_RDC3_ACT1_P2_titRelato
+{
+    text-align: center;
+    font-size: 5.3vh;
+    font-weight: bold;
+}
+.U1_RDC3_ACT1_P2_subRelato
+{
+    text-align: right;
+    font-size: 3.5vh;
+}
+.U1_RDC3_ACT1_P2_textRelato
+{
+    /* edicion texto relato */
+}
+.U1_RDC3_ACT1_P2_biblio
+{
+    text-align: right;
+    font-size: 2.7vh;
+}
+.U1_RDC3_ACT1_P2_word
+{
+    color: #29abe2;
+    text-decoration: underline;
+}
+
+
+/* popUps act1p2 */
+.U1_RDC3_ACT1_P2_popUp
+{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 70%;
+    height: 55%;
+    font-size: 3vh;
+    /* background-color: red; */
+    text-align: center;
+    /* display: none; */
+}
+.U1_RDC3_ACT1_PUimg-container
+{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 45%;
+    left: 0%;
+/*     background-color: blue;
+ */
+}
+.U1_RDC3_ACT1_PUimg
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_PUdesc
+{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    /* background-color: yellow; */
+}
+    .U1_RDC3_ACT1_PUdescimg
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .U1_RDC3_ACT1_PUtitle
+    {
+        position: absolute;
+        font-size: 3.5vh;
+        top: 3%;
+        left: 50%;
+        font-weight: bold;
+    }
+    .U1_RDC3_ACT1_PUtext
+    {
+        position: absolute;
+        width: 64%;
+        left: 27%;
+        top: 10%;
+    }
+        .remarcado
+        {
+            font-weight: bold;
+        }
+
+/* .U1_RDC1_P2
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 3vh;
+} */
+
+
+/* pantalla 3 actividad 1 */
+
+.U1_RDC3_ACT1_P3
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+/*globo texto*/
+.U1_RDC3_ACT1_P3_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+.U1_RDC3_ACT1_P3_text
+{
+    position: absolute;
+    width: 28%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    font-size: 3.2vh;
+    /* background-color: red; */
+}
+
+/* PREGUNTAS PREGUNTAS */
+
+
+/* acti1 p3 pregunta1 */  
+.U1_RDC3_ACT1_P3_q1
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_q1_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_q1_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3_q1 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3_q1 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_q1_instruc
+{
+    position: absolute;
+    font-size: 3vh;
+    width: 80%;
+    height: 10%;
+    top: 13%;
+    left: 8%;
+    color: white;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q1_instrucImag
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q1_instrucTex
+{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 8%;
+}
+
+/* contenedor de pregunta y resp opmul */
+.U1_RDC3_ACT1_P3_q1_P
+{
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    width: 80%;
+    height: 67%;
+    /* background-color: blue; */
+}
+.U1_RDC3_ACT1_P3_q1_preg
+{
+    position: absolute;
+    text-align: center;
+    font-size: 3vh;
+    top: 4%;
+    left: 0%;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q1_R
+{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    top: 15%;
+    left: 0%;
+    font-size: 3vh;
+    line-height: 5vh;
+    /* background-color: red; */
+}
+    .U1_RDC3_ACT1_P3_q1_R1
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q1_R2
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 55%;
+    }
+    .U1_RDC3_ACT1_P3_q1_R3
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q1_R4
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 55%;
+    }
+        .U1_RDC3_ACT1_P3_q1_R_img
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .U1_RDC3_ACT1_P3_q1_R_txt
+        {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            color: white;
+        }
+.U1_RDC3_ACT1_P3_q1_comprobar
+{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 79%;
+    left: 46%;
+    text-align: center;
+    color: white;
+}
+    .U1_RDC3_ACT1_P3_q1_comprobarTxt
+    {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: 3vh;
+        color: white;
+    }
+    
+.U1_RDC3_ACT1_P3_q1_retropapa
+{
+    position: absolute;
+    width: 108%;
+    height: 129%;
+    top: -30%;
+    left: -8%;
+}
+.U1_RDC3_ACT1_P3_q1_retro
+{
+    position: absolute;
+    width: 65%;
+    height: 20%;
+    top: 63%;
+    left: 20%;
+}
+    .U1_RDC3_ACT1_P3_q1_paloma
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+    .U1_RDC3_ACT1_P3_q1_ret
+    {
+        width: 87%;
+        position: absolute;
+        left: 3%;
+        top: 13%;
+        font-size: 2.5vh;
+    }
+    .U1_RDC3_ACT1_P3_q1_tache
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+
+
+/* pantalla3 pregunta2 */
+.U1_RDC3_ACT1_P3_q2
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_q2_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_q2_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3_q2 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3_q2 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_q2_Act
+{
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    top: 25%;
+    left: 10%;
+    font-size: 5vh;
+}
+.U1_RDC3_ACT1_P3_q2_retro
+{
+    position: absolute;
+    width: 35%;
+    height: 25%;
+    top: 50%;
+    left: 40%;
+    font-size: 3vh;
+    /* background-color: red; */
+    
+}
+.U1_RDC3_ACT1_P3_q2_img
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q2_ret
+{
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+}
+.U1_RDC3_ACT1_P3_q2_icono
+{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+
+
+
+/* PANTALLA 3 PREGUNTA 3 */
+.U1_RDC3_ACT1_P3_q3
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_q3_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_q3_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3_q3 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3_q3 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_q3_instruc
+{
+    position: absolute;
+    font-size: 3vh;
+    width: 80%;
+    height: 10%;
+    top: 13%;
+    left: 8%;
+    color: white;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q3_instrucImag
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q3_instrucTex
+{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 14%;
+}
+
+/* contenedor de pregunta y resp opmul */
+.U1_RDC3_ACT1_P3_q3_P
+{
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    width: 80%;
+    height: 67%;
+    /* background-color: blue;
+    opacity: .5; */
+}
+.U1_RDC3_ACT1_P3_q3_preg
+{
+    position: absolute;
+    text-align: center;
+    font-size: 3vh;
+    top: 4%;
+    left: 0%;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q3_R
+{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 3%;
+    left: 0%;
+    font-size: 3vh;
+    line-height: 5vh;
+    /* background-color: red; */
+}
+    .U1_RDC3_ACT1_P3_q3_R1
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q3_R2
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 55%;
+    }
+    .U1_RDC3_ACT1_P3_q3_R3
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q3_R4
+    {
+        cursor: pointer; 
+        cursor: hand;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 55%;
+    }
+        .U1_RDC3_ACT1_P3_q3_R_img
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .U1_RDC3_ACT1_P3_q3_R_txt
+        {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            color: white;
+        }
+.U1_RDC3_ACT1_P3_q3_comprobar
+{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 86%;
+    left: 45%;
+    text-align: center;
+    color: white;
+}
+    .U1_RDC3_ACT1_P3_q3_comprobarTxt
+    {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: 3vh;
+        color: white;
+    }
+    .U1_RDC3_ACT1_P3_q3_retropapa
+{
+    position: absolute;
+    width: 109%;
+    height: 137%;
+    top: -31.5%;
+    left: -10%;
+}
+.U1_RDC3_ACT1_P3_q3_retro
+{
+    position: absolute;
+    width: 65%;
+    top: 67.5%;
+    left: 29%;
+}
+    .U1_RDC3_ACT1_P3_q3_paloma
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+    .U1_RDC3_ACT1_P3_q3_ret
+    {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        font-size: 3vh;
+    }
+    .U1_RDC3_ACT1_P3_q3_tache
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+
+
+
+/*  PREGUNTA 4 D&D */
+.U1_RDC3_ACT1_P3_q4
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_q4_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_q4_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3_q4 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3_q4 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_q4_instruc
+{
+    position: absolute;
+    font-size: 3vh;
+    width: 80%;
+    height: 10%;
+    top: 13%;
+    left: 8%;
+    color: white;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q4_instrucImag
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q4_instrucTex
+{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 25%;
+    font-size: 4.5vh;
+}
+.U1_RDC3_ACT1_P3_q4_drop
+{
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 25%;
+    left: 35%;
+    /* background-color: blue; */
+}
+.U1_RDC3_ACT1_P3_q4_img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q4_txt
+{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    color: white;
+    font-size: 3.1vh;
+}
+.txtArr
+{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.U1_RDC3_ACT1_P3_q4_options-container
+{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 40%;
+    top: 47%;
+    left: 10%;
+    /* background-color: red; */
+}
+.U1_RDC3_ACT1_P3_q4_options
+{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    /* background-color: yellow; */
+}
+    .op1
+    {
+        left: 5%;
+    }
+    .op2
+    {
+        left: 55%;
+    }
+    .op3
+    {
+        top: 50%;
+        left: 5%;
+    }
+    .op4
+    {
+        top: 50%;
+        left: 55%;
+    }
+.U1_RDC3_ACT1_P3_q4_retro
+{
+    position: absolute;
+    width: 53%;
+    top: 63%;
+    left: 20%;
+    /* background-color: red; */
+    
+}
+    .U1_RDC3_ACT1_P3_q4_paloma
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+    .U1_RDC3_ACT1_P3_q4_ret
+    {
+        position: absolute;
+        width: 93%;
+        left: 3%;
+        top: 10%;
+        font-size: 3vh;
+    }
+    .U1_RDC3_ACT1_P3_q4_tache
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+
+
+/* PREGUNTA 5 SELECCION MULTIPLE */
+.U1_RDC3_ACT1_P3_q5
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P3_q5_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P3_q5_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P3_q5 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P3_q5 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT1_P3_q5_instruc
+{
+    position: absolute;
+    font-size: 3vh;
+    width: 80%;
+    height: 10%;
+    top: 13%;
+    left: 8%;
+    color: white;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q5_instrucImag
+{
+    width: 100%;
+    height: 100%;
+}
+.U1_RDC3_ACT1_P3_q5_instrucTex
+{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 25%;
+    font-size: 3.8vh;
+}
+
+/* contenedor de pregunta y resp opmul */
+.U1_RDC3_ACT1_P3_q5_P
+{
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    width: 80%;
+    height: 67%;
+    /* background-color: blue;
+    opacity: .5; */
+}
+.U1_RDC3_ACT1_P3_q5_preg
+{
+    position: absolute;
+    text-align: center;
+    font-size: 3vh;
+    top: 4%;
+    left: 0%;
+    /* background-color: yellow; */
+}
+.U1_RDC3_ACT1_P3_q5_R
+{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 3%;
+    left: 0%;
+    font-size: 3vh;
+    line-height: 5vh;
+    /* background-color: red; */
+}
+    .U1_RDC3_ACT1_P3_q5_R1
+    {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q5_R2
+    {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 5%;
+        left: 55%;
+    }
+    .U1_RDC3_ACT1_P3_q5_R3
+    {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 5%;
+    }
+    .U1_RDC3_ACT1_P3_q5_R4
+    {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 55%;
+        left: 55%;
+    }
+        .U1_RDC3_ACT1_P3_q5_R_img
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .U1_RDC3_ACT1_P3_q5_R_txt
+        {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            font-size: 3vh;
+            color: white;
+        }
+.U1_RDC3_ACT1_P3_q5_comprobar
+{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 92%;
+    left: 67%;
+    text-align: center;
+    color: white;
+}
+    .U1_RDC3_ACT1_P3_q5_comprobarTxt
+    {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: 3vh;
+        color: white;
+    }
+    .U1_RDC3_ACT1_P3_q5_retropapa
+{
+    position: absolute;
+    height: 139%;
+    width: 114%;
+    top: -30.5%;
+    left: -11%;
+}
+.U1_RDC3_ACT1_P3_q5_retro
+{
+    position: absolute;
+    width: 57%;
+    top: 66.5%;
+    left: 20%;
+}
+    .U1_RDC3_ACT1_P3_q5_paloma
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+    .U1_RDC3_ACT1_P3_q5_ret
+    {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        font-size: 2.8vh;
+    }
+    .U1_RDC3_ACT1_P3_q5_tache
+    {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+    }
+
+
+
+/* PANTALLA4 */
+.U1_RDC3_ACT1_P4
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P4_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P4_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P4 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P4 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_ACT1_P4_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+/*globo texto*/
+.U1_RDC3_ACT1_P4_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+.U1_RDC3_ACT1_P4_intro
+{
+    position: absolute;
+    width: 29%;
+    height: 25%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    font-size: 4vh;
+    /* background-color: red; */
+}
+
+
+
+
+
+
+/* PANTALLA 5 */
+
+.U1_RDC3_ACT1_P5
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT1_P5_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT1_P5_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT1_P5 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT1_P5 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_ACT1_P5_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+.U1_RDC3_ACT1_P5_revFin
+{
+    position: absolute;
+    width: 59%;
+    top: 22%;
+    left: 40%;
+    /* background-color: red; */
+}
+
+
+
+
+/* ACTIVIDAD 2 PANTALLA 1 */
+
+.U1_RDC3_ACT2_P1
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT2_P1_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT2_P1_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT2_P1 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT2_P1 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_ACT2_P1_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+/*globo texto*/
+.U1_RDC3_ACT2_P1_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+.U1_RDC3_ACT2_P1_text
+{
+    position: absolute;
+    width: 28%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    font-size: 3.2vh;
+    /* background-color: red; */
+}
+
+
+
+/* ACTIVIDAD2 PANTALLA 2 */
+.U1_RDC3_ACT2_P2
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT2_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT2_P2_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT2_P2 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT2_P2 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+.U1_RDC3_ACT2_P2_asociacion-container
+{
+    position: absolute;
+    width: 90%;
+    height: 78%;
+    top: 12%;
+    left: 5%;
+    /* background-color: blue; */
+}
+    .U1_RDC3_ACT2_P2_instruc
+    {
+        position: absolute;
+        font-size: 3vh;
+        width: 96%;
+        height: 15%;
+        top: 0%;
+        left: 2%;
+        color: white;
+        font-size: 3.5vh;
+        /* background-color: yellow; */
+    }
+        .U1_RDC3_ACT2_P2_instrucImag
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .U1_RDC3_ACT2_P2_instrucTex
+        {
+            position: absolute;
+            width: 100%;
+            top: 15%;
+            left: 2%;
+        }
+.U1_RDC3_ACT2_P2_descr
+{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 17%;
+    /* background-color: red; */
+}
+    .U1_RDC3_ACT2_P2_descgeneral
+    {
+        position: absolute;
+        width: 22%;
+        height: 90%;
+        top: 5%;
+        border: 1vh solid #875C29;
+        background-color: white;
+        font-size: 3vh;
+        /* background-color: blue; */
+    }
+    .U1_RDC3_ACT2_P2_descr_1
+    {
+        left: 0%;
+    }
+    .U1_RDC3_ACT2_P2_descr_2
+    {
+        left: 25%;
+    }
+    .U1_RDC3_ACT2_P2_descr_3
+    {
+        left: 50%;
+    }
+    .U1_RDC3_ACT2_P2_descr_4
+    {
+        left: 75%;
+    }
+.U1_RDC3_ACT2_P2_fragme
+{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 58%;
+    /* background-color: yellow; */
+}
+    .U1_RDC3_ACT2_P2_fragmegral
+    {
+        position: absolute;
+        width: 22%;
+        height: 90%;
+        top: 5%;
+        border: 1vh solid #875C29;
+        background-color: white;
+        overflow-y: scroll;
+        font-size: 2.5vh;
+        /* background-color: blue; */
+    }
+    .U1_RDC3_ACT2_P2_fragme_1
+    {
+        left: 0%;
+    }
+    .U1_RDC3_ACT2_P2_fragme_2
+    {
+        left: 25%;
+    }
+    .U1_RDC3_ACT2_P2_fragme_3
+    {
+        left: 50%;
+    }
+    .U1_RDC3_ACT2_P2_fragme_4
+    {
+        left: 75%;
+    }
+
+
+
+
+/* ACTIVIDAD2 P3 */
+.U1_RDC3_ACT2_P3
+{
+    position: relative;
+    height: 100vh;   
+}
+.U1_RDC3_ACT2_imgFondo
+{
+    width: 100%;
+}
+.U1_RDC3_ACT2_P3_title
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: "comfortaa";
+}
+.U1_RDC3_ACT2_P3 h1
+{
+    position:absolute;
+    font-size: 4vh;
+    top: 2%;
+    left: 0%;
+}
+.U1_RDC3_ACT2_P3 h2
+{
+    position:absolute;
+    font-size: 3.5vh;
+    top: 2%;
+    left: 25%;
+}
+/*personaje*/
+.U1_RDC3_ACT2_P3_imgPersonaje
+{
+    position:absolute;
+    width: 32%;
+    height: 75%;
+    top: 25%;
+    left: 2%;
+}
+.U1_RDC3_ACT2_P3_intro
+{
+    position: absolute;
+    width: 29%;
+    height: 25%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    font-size: 3.1vh;
+    /* background-color: red; */
+}
+/*globo texto*/
+.U1_RDC3_ACT2_P3_imgGlobo 
+{
+    position:absolute; 
+    width: 40%;
+    top: 13%;
+    left: 30%;
+}
+/*BOTONES imagenes*/
+.U1_RDC3_ACT2_P3_coment
+{
+    position:absolute;
+    width: 45%;
+    height: 50%;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 3.5vh;
+    color: white;
+}
+    .ACT2_P3_comentImg
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .U1_RDC3_ACT2_P3_txtcoment
+    {
+        position: absolute;
+        width: 95%;
+        top: 8%;
+        left: 0%;
+    }
+    .U1_RDC3_ACT2_P3_txtcoment ul
+    {
+        margin: 0;
+    }

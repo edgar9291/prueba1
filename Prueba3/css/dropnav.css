@@ -1,0 +1,118 @@
+/**/
+.U1_RDC1_ACT1_P8_dropnav1 
+{
+	top: -103%;
+	left: 75%;
+	height: 31%;
+	width: 9%;
+	position: absolute;
+	margin-top: 10%;
+	z-index: 1;
+} /* Changes the height and bg color of the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav1 ul
+{
+	height:100%; 
+	width: 100%;
+	margin:0%;
+	padding:0%;
+}
+
+.U1_RDC1_ACT1_P8_dropnav1 ul li
+{
+     
+        
+	display:inline; 
+	float:left; 
+	list-style:none; 
+	position:relative; 
+	height:100%; 
+	width: 100%;
+	background-image: url('recuadro-3.png');
+    background-size:     100% 70%;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    font-family: "Myriad Pro";
+    font-size: 2.3vh;
+    background-color:blue;
+	} /* only edit the last 2 items - sets the width of the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav1 li p
+{color:#FFF; text-decoration:none;} /* Changes the link color of items on the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav1 li p:hover
+{color:#900; text-decoration:none;}/* Changes the hover color of items on the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav1 li ul
+{margin-top: 5%; padding:0px; display:none; position:absolute; left:0px; z-index: 99; top:25px;} /* Only edit the last 2 items - set the top margin and background color of the submenus */
+
+.U1_RDC1_ACT1_P8_dropnav1 li:hover ul
+{display:block; width:100%;height: 100%} /* sets the width of the submenus */
+
+.U1_RDC1_ACT1_P8_dropnav1 li li
+{list-style:none; display:list-item;} /* DO NOT EDIT */
+
+.U1_RDC1_ACT1_P8_dropnav1 li li p
+{color:#000; text-decoration:none;} /* Changes the link color of items in the submenu */
+
+.U1_RDC1_ACT1_P8_dropnav1 li li p:hover
+{color:#900; text-decoration:none;} /* Changes the hover color of items in the submenu */
+
+
+
+.U1_RDC1_ACT1_P8_dropnav2 
+{
+	height: 39%;
+	width: 29%;
+	position: absolute;
+	margin-top: 10%;
+	z-index: 1;
+	top: -46%;
+	left: 13%;
+} /* Changes the height and bg color of the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav2 ul
+{
+	height:100%; 
+	width: 100%;
+	margin:0%;
+	padding:0%;
+}
+
+.U1_RDC1_ACT1_P8_dropnav2 ul li
+{
+	display:inline; 
+	float:left; 
+	list-style:none; 
+	position:relative; 
+	height:100%; 
+	width: 100%;
+	background-image: url('recuadro-3.png');
+    background-size:     100% 70%;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    font-family: "Myriad Pro";
+    font-size: 2.3vh;
+    background-color:blue;
+	} /* only edit the last 2 items - sets the width of the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav2 li p
+{color:#FFF; text-decoration:none;} /* Changes the link color of items on the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav2 li p:hover
+{color:#900; text-decoration:none;}/* Changes the hover color of items on the main menu */
+
+.U1_RDC1_ACT1_P8_dropnav2 li ul
+{margin-top: 5%; padding:0px; display:none; position:absolute; left:0px; z-index: 99; top:25px;} /* Only edit the last 2 items - set the top margin and background color of the submenus */
+
+.U1_RDC1_ACT1_P8_dropnav2 li:hover ul
+{display:block; width:100%;height: 100%} /* sets the width of the submenus */
+
+.U1_RDC1_ACT1_P8_dropnav2 li li
+{list-style:none; display:list-item;} /* DO NOT EDIT */
+
+.U1_RDC1_ACT1_P8_dropnav2 li li p
+{color:#000; text-decoration:none;} /* Changes the link color of items in the submenu */
+
+.U1_RDC1_ACT1_P8_dropnav2 li li p:hover
+{color:#900; text-decoration:none;} /* Changes the hover color of items in the submenu */
